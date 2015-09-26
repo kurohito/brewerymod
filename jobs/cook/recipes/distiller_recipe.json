@@ -1,0 +1,31 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "Distiller Recipe",
+   "description": "Used to create delicious fortified wines and juices.",
+   "flavor": " *hic* ",
+   "portrait": "/brewerymod/jobs/cook/distiller/distiller.png",
+   "work_effect": "work",
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+	  
+	  {
+         "uri": "stonehearth:refined:copper_ingot",
+         "count": 3
+      },
+	  
+	  {
+         "uri": "brewerymod:decoration:empty_barrel",
+         "count": 1
+      },
+	  
+   ],
+   "produces": [
+      {
+         "item": "brewerymod:cook:distiller"
+      }
+   ]
+}

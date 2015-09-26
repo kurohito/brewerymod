@@ -1,0 +1,43 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "category" : "Cook's Ingredients",
+         "stacks": 1,
+         "max_stacks": 1
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cocoa_powder.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Cocoa Powder",
+         "description": "An ingredient for cooking",
+         "icon": "file(cocoa_powder.png)"
+      },
+      "stonehearth:material": {
+         "tags": "resource cocoa_powder"
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   },
+   "stonehearth:net_worth": {
+      "value_in_gold": 30,
+      "rarity": "common",
+      "shop_info": {
+         "buyable": true,
+         "sellable": true,
+         "shopkeeper_level": 1,
+         "shopkeeper_type": "caravan"
+      }
+   }
+}

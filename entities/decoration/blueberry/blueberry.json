@@ -1,0 +1,18 @@
+{
+   "type" : "entity",
+   "mixins" : "file(blueberry_ghost.json)",
+
+   "components" : {
+      "stonehearth:entity_forms" : {
+         "iconic_form" : "file(blueberry_iconic.json)",
+         "ghost_form" : "file(blueberry_ghost.json)",
+         "placeable_on_ground" : true
+      },      
+      "stonehearth:material" : {
+         "tags" :  "blueberry plant"
+      },     
+      "mob" : {
+         "model_origin" : { "x": 0, "y": 0, "z": 0 }
+      }
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "name": "A Beaker of Frost Berry Wine",
+         "description": "Cold and refreshing!"
+      },      
+      "stonehearth:material": {
+         "tags": "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(frost_berry_wine_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 240
+         },
+         "default": {
+            "satisfaction": 200
+         },
+         
+         "buff_uri" : "brewerymod:buff:sweet_food"
+      }
+   }   
+}

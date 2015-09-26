@@ -1,0 +1,86 @@
+{
+   "type": "entity", 
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(garlic_crop_4.qb)"
+            ]
+         },
+         "garlic_1": {
+            "models": [
+               "file(garlic_crop_1.qb)"
+            ]
+         },
+         "garlic_2": {
+            "models": [
+               "file(garlic_crop_2.qb)"
+            ]
+         },
+         "garlic_3": {
+            "models": [
+               "file(garlic_crop_3.qb)"
+            ]
+         },
+         "garlic_4": {
+            "models": [
+               "file(garlic_crop_4.qb)"
+            ]
+         }, 
+         "garlic_12": {
+            "models": [
+               "file(garlic_crop_12.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Garlic", 
+         "description": "Garlic, used in cooking.",
+         "icon" : "file(icon.png)"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:crop" : {
+         "resource_pairings" : {
+            "garlic_4": "brewerymod:cooking:garlic",
+            "garlic_12": ""
+         },
+         "harvest_threshhold" : "garlic_4",
+         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      }, 
+      "stonehearth:growing" : {
+         "growth_period" : "6h",
+         "growth_stages" : [
+            {
+               "model_name" : "garlic_1",
+               "name": "Garlic Bulb", 
+               "description": "Freshly planted Garlic bulb."
+            },
+            {
+               "model_name" : "garlic_2",
+               "name": "Garlic Sprout", 
+               "description": "Not useable yet!"
+            },
+            {
+               "model_name" : "garlic_3",
+               "name": "Baby Garlic Shoots", 
+               "description": "Small."
+            },
+            {
+               "model_name" : "garlic_4",
+               "name": "Ripe Garlic", 
+               "description": "Pretty purple flowers mean its time to harvest!"
+            }, {}, {}, {}, {}, {}, {}, {},
+            {
+               "model_name" : "garlic_12",
+               "name": "Rotten Garlic", 
+               "description": "Moldy and disgusting."
+            }
+         ]
+      },
+      "stonehearth:material" : {
+         "tags" :  "crop garlic"
+      }
+   }
+}

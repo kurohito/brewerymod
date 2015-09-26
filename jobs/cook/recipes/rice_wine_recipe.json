@@ -1,0 +1,27 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 1,
+   "recipe_name" : "Rice Wine",
+   "description" : "A Tasty Rice Wine.",
+   "flavor"      : "A wine made from fermented rice and water.",
+   "portrait"    : "/brewerymod/entities/food/rice_wine/rice_wine/rice_wine.png",
+   "workshop": "brewerymod:cook:distiller",
+   "level_requirement" : 2,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:water_bucket",
+         "count" : 1
+      },
+      {
+         "uri" : "brewerymod:cooking:rice",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item" : "brewerymod:cooking:rice_wine"
+      }
+  ]
+}

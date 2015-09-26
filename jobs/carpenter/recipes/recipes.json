@@ -1,0 +1,13 @@
+{
+   "craftable_recipes": {   
+      "signage_decoration": {
+         "ordinal": 7,
+         "name": "Specialist Items",
+         "recipes": {
+            "empty_barrel": {
+               "recipe": "file(empty_barrel_recipe.json)"
+            }
+         }
+      }
+   }
+}

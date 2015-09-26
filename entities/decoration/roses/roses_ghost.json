@@ -1,0 +1,24 @@
+{
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "name": "Roses",
+         "description": "Bright, beautiful red roses.",
+         "icon" : "file(roses.png)"
+      },
+      "render_info" : {
+         "scale" : 0.2
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(roses.qb)"
+            ]
+         }
+      },
+      "mob" : {
+         "model_origin" : { "x": 0, "y": 0, "z": 0 }
+      }
+   }
+}
+ 

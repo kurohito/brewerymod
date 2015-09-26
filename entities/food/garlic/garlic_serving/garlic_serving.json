@@ -1,0 +1,34 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "name": "Garlic",
+         "description": "Strong and bitter on its own. Used in cooking.",
+         "icon": "file(garlic_serving.png)"
+      },      
+      "item" : {
+         "category" : "food"
+      },
+      "stonehearth:material" : {
+         "tags" : "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(garlic_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data" : {
+      "stonehearth:food" : {
+         "stonehearth:sitting_on_chair" : {
+            "satisfaction" : 5
+         },
+         "default" : {
+            "satisfaction" : 2
+         }
+      }
+   }   
+}

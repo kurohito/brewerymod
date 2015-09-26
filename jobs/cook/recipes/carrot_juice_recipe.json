@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 1,
+   "recipe_name" : "Carrot Juice",
+   "description" : "Delicious Nutritious Carrot Juice.",
+   "flavor"      : "A Refreshing drink made from mushed up carrots and water.",
+   "portrait"    : "/brewerymod/entities/food/carrot_juice/carrot_juice/carrot_juice.png",
+   "level_requirement" : 0,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:water_bucket",
+         "count" : 1
+      },
+      {
+         "uri" : "stonehearth:food:carrot:carrot_basket",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item" : "brewerymod:cooking:carrot_juice"
+      }
+  ]
+}

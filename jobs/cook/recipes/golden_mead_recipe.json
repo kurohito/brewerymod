@@ -1,0 +1,35 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 1,
+   "recipe_name" : "Golden Mead",
+   "description" : "An Exquisite Mead.",
+   "flavor"      : "A Delightful mead made from fermented yeast, water and honey flecked with real gold.",
+   "portrait"    : "/brewerymod/entities/food/golden_mead/golden_mead/golden_mead.png",
+   "workshop": "brewerymod:cook:distiller",
+   "level_requirement" : 4,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:water_bucket",
+         "count" : 1
+      },
+      {
+         "uri" : "cookmod:cooking:honey_vat",
+         "count" : 1
+      },
+      {
+         "uri" : "brewerymod:cooking:yeast",
+         "count" : 1
+      },
+	  {
+         "uri" : "stonehearth:refined:gold_ingot",
+         "count" : 1
+      }
+   ],
+   "produces": [
+      {
+         "item" : "brewerymod:cooking:golden_mead"
+      }
+   ]
+}

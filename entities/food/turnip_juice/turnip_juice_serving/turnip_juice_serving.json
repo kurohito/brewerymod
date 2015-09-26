@@ -1,0 +1,30 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "name": "A Beaker of Turnip Juice",
+         "description": "Kinda gross but does the job!"
+      },      
+      "stonehearth:material" : {
+         "tags" : "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(turnip_juice_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data" : {
+      "stonehearth:food" : {
+         "stonehearth:sitting_on_chair" : {
+            "satisfaction" : 40
+         },
+         "default" : {
+            "satisfaction" : 20
+         }
+      }
+   }   
+}

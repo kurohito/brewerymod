@@ -1,0 +1,18 @@
+{
+   "type" : "entity",
+   "mixins" : "file(strawberry_ghost.json)",
+
+   "components" : {
+      "stonehearth:entity_forms" : {
+         "iconic_form" : "file(strawberry_iconic.json)",
+         "ghost_form" : "file(strawberry_ghost.json)",
+         "placeable_on_ground" : true
+      },      
+      "stonehearth:material" : {
+         "tags" :  "strawberry plant"
+      },     
+      "mob" : {
+         "model_origin" : { "x": 0, "y": 0, "z": 0 }
+      }
+   }
+}

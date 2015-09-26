@@ -1,0 +1,16 @@
+{
+   "formatting" : {
+      "resources" : {
+       "resource yeast" : {
+            "name" : "yeast",
+            "icon" : "/brewerymod/entities/food/yeast/yeast/yeast.png",
+            "stacks" : 1
+         },
+			"resource mushroom" : {
+            "name" : "honey",
+            "icon" : "/brewerymod/entities/food/mushroom/mushroom/mushroom.png",
+            "stacks" : 1
+         }        		 
+      }
+   }
+}

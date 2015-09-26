@@ -1,0 +1,49 @@
+{
+	"mixins": "stonehearth:mixins:item_properties",
+		"type": "entity",
+		"components": {
+			"item": {
+         	"category" : "Tasty Beverage",
+				"stacks" : 8,
+				"max_stacks" : 8
+			},
+			"model_variants": {
+				"default": {
+				"models": [
+				"file(veggie_delight_smoothie.qb)"
+				]
+			}
+		},
+		"unit_info": {
+			"name": "Veggie Delight Smoothie",
+			"description": "Super Healthy Smoothie!",
+			"icon" : "file(veggie_delight_smoothie.png)"
+		},
+		"stonehearth:material" : {
+			"tags" :  "resource food_container veggie_delight_smoothie"
+		},
+		"mob" : {
+			"model_origin" : { "x": 0, "y": 0, "z": 0.05 }
+			},
+      "render_info" : {
+         "scale" : 0.045
+      	}
+		},
+		"entity_data" : {
+			"stonehearth:food_container" : {
+			"effect": "fiddle",
+			"food": "brewerymod:cooking:veggie_delight_smoothie_serving",
+			"stacks_per_serving": 1
+		},
+		"stonehearth:net_worth" : {
+			"value_in_gold" : 3,
+			"rarity" : "common",
+			"shop_info" : {
+			"buyable" : true,   
+			"sellable" : true,
+			"shopkeeper_level" : 1,
+			"shopkeeper_type" : "caravan"
+			}
+		}
+	}
+}

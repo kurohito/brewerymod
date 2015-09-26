@@ -1,0 +1,27 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 1,
+   "recipe_name" : "Vodka",
+   "description" : "A Strong Smooth Vodka.",
+   "flavor"      : "A flavorless drink made from fermented potatoes and water.",
+   "portrait"    : "/brewerymod/entities/food/vodka/vodka/vodka.png",
+   "workshop": "brewerymod:cook:distiller",
+   "level_requirement" : 0,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:water_bucket",
+         "count" : 1
+      },
+      {
+         "uri" : "cookmod:crops:potato_harvest",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item" : "brewerymod:cooking:vodka"
+      }
+  ]
+}

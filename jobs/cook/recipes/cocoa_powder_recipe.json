@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 1,
+   "recipe_name": "Cocoa Powder",
+   "description": "it's not only used for baking but also for making chocolate.",
+   "flavor": " mmmm... chocolate",
+   "portrait": "/brewerymod/entities/food/cocoa_powder/cocoa_powder.png",
+   "workshop": "stonehearth:cook:mill",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "brewerymod:cooking:cocoabeans",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "brewerymod:cooking:cocoa_powder"
+      }
+   ]
+}

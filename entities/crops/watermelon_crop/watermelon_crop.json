@@ -1,0 +1,86 @@
+{
+   "type": "entity", 
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(watermelon_crop_4.qb)"
+            ]
+         },
+         "watermelon_1": {
+            "models": [
+               "file(watermelon_crop_1.qb)"
+            ]
+         },
+         "watermelon_2": {
+            "models": [
+               "file(watermelon_crop_2.qb)"
+            ]
+         },
+         "watermelon_3": {
+            "models": [
+               "file(watermelon_crop_3.qb)"
+            ]
+         },
+         "watermelon_4": {
+            "models": [
+               "file(watermelon_crop_4.qb)"
+            ]
+         }, 
+         "watermelon_12": {
+            "models": [
+               "file(watermelon_crop_12.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Watermelon", 
+         "description": "Slow growing, but delicious on a hot summer day.",
+         "icon" : "file(icon.png)"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:crop" : {
+         "resource_pairings" : {
+            "watermelon_4": "brewerymod:cooking:watermelon",
+            "watermelon_12": ""
+         },
+         "harvest_threshhold" : "watermelon_4",
+         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      }, 
+      "stonehearth:growing" : {
+         "growth_period" : "8h",
+         "growth_stages" : [
+            {
+               "model_name" : "watermelon_1",
+               "name": "Watermelon Seedling", 
+               "description": "A teeny tiny watermelon seedling."
+            },
+            {
+               "model_name" : "watermelon_2",
+               "name": "Watermelon Sprouts", 
+               "description": "Not edible yet!"
+            },
+            {
+               "model_name" : "watermelon_3",
+               "name": "Baby Watermelon", 
+               "description": "Small. Unripe."
+            },
+            {
+               "model_name" : "watermelon_4",
+               "name": "Ripe Watermelon", 
+               "description": "Mmmm... Delicious!"
+            }, {}, {}, {}, {}, {}, {}, {},
+            {
+               "model_name" : "watermelon_12",
+               "name": "Rotten Watermelon", 
+               "description": "Moldy and disgusting."
+            }
+         ]
+      },
+      "stonehearth:material" : {
+         "tags" :  "crop watermelon"
+      }
+   }
+}

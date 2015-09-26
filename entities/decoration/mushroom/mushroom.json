@@ -1,0 +1,18 @@
+{
+   "type" : "entity",
+   "mixins" : "file(mushroom_ghost.json)",
+
+   "components" : {
+      "stonehearth:entity_forms" : {
+         "iconic_form" : "file(mushroom_iconic.json)",
+         "ghost_form" : "file(mushroom_ghost.json)",
+         "placeable_on_ground" : false
+      },      
+      "stonehearth:material" : {
+         "tags" :  "mushroom plant"
+      },     
+      "mob" : {
+         "model_origin" : { "x": 0, "y": 0, "z": 0 }
+      }
+   }
+}

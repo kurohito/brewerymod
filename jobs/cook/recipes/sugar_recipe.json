@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 1,
+   "recipe_name": "Sugar",
+   "description": "it's not only used for baking but also for making mead.",
+   "flavor": " mmmm... sweet",
+   "portrait": "/brewerymod/entities/food/sugar/sugar.png",
+   "workshop": "stonehearth:cook:mill",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "brewerymod:cooking:sugarcanebundle",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "brewerymod:cooking:sugar"
+      }
+   ]
+}

@@ -1,0 +1,34 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "name": "Rice",
+         "description": "Hand picked organic rice, bland on its own.",
+         "icon": "file(rice_serving.png)"
+      },      
+      "item" : {
+         "category" : "food"
+      },
+      "stonehearth:material" : {
+         "tags" : "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(rice_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data" : {
+      "stonehearth:food" : {
+         "stonehearth:sitting_on_chair" : {
+            "satisfaction" : 15
+         },
+         "default" : {
+            "satisfaction" : 10
+         }
+      }
+   }   
+}

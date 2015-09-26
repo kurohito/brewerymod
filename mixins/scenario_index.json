@@ -1,0 +1,11 @@
+{
+    "static": {
+        "scenarios": [
+        	"file(../terrain/rose_field)",
+			"file(../terrain/allium_field)",
+			"file(../terrain/blueberry_field)",
+			"file(../terrain/strawberry_field)",
+			"file(../terrain/mushroom_field)"
+        ]
+   }
+}

@@ -1,0 +1,86 @@
+{
+   "type": "entity", 
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(strawberry_crop_4.qb)"
+            ]
+         },
+         "strawberry_1": {
+            "models": [
+               "file(strawberry_crop_1.qb)"
+            ]
+         },
+         "strawberry_2": {
+            "models": [
+               "file(strawberry_crop_2.qb)"
+            ]
+         },
+         "strawberry_3": {
+            "models": [
+               "file(strawberry_crop_3.qb)"
+            ]
+         },
+         "strawberry_4": {
+            "models": [
+               "file(strawberry_crop_4.qb)"
+            ]
+         }, 
+         "strawberry_12": {
+            "models": [
+               "file(strawberry_crop_12.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Strawberry", 
+         "description": "Fast growing delicious fruit.",
+         "icon" : "file(icon.png)"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:crop" : {
+         "resource_pairings" : {
+            "strawberry_4": "brewerymod:cooking:strawberry",
+            "strawberry_12": ""
+         },
+         "harvest_threshhold" : "strawberry_4",
+         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      }, 
+      "stonehearth:growing" : {
+         "growth_period" : "4h",
+         "growth_stages" : [
+            {
+               "model_name" : "strawberry_1",
+               "name": "Strawberry Seedlings", 
+               "description": "Teeny tiny strawberry seedlings."
+            },
+            {
+               "model_name" : "strawberry_2",
+               "name": "Strawberry Sprouts", 
+               "description": "Not edible yet!"
+            },
+            {
+               "model_name" : "strawberry_3",
+               "name": "Baby Strawberries", 
+               "description": "Small. Unripe."
+            },
+            {
+               "model_name" : "strawberry_4",
+               "name": "Ripe Strawberries", 
+               "description": "Delicious!"
+            }, {}, {}, {}, {}, {}, {}, {},
+            {
+               "model_name" : "strawberry_12",
+               "name": "Rotten Strawberries", 
+               "description": "Moldy and disgusting."
+            }
+         ]
+      },
+      "stonehearth:material" : {
+         "tags" :  "crop strawberry"
+      }
+   }
+}

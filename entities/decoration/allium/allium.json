@@ -1,0 +1,18 @@
+{
+   "type" : "entity",
+   "mixins" : "file(allium_ghost.json)",
+
+   "components" : {
+      "stonehearth:entity_forms" : {
+         "iconic_form" : "file(allium_iconic.json)",
+         "ghost_form" : "file(allium_ghost.json)",
+         "placeable_on_ground" : true
+      },      
+      "stonehearth:material" : {
+         "tags" :  "allium plant"
+      },     
+      "mob" : {
+         "model_origin" : { "x": 0, "y": 0, "z": 0 }
+      }
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item" : {
+         "category" : "plants",
+         "stacks" : 2,
+         "maxStacks" : 2
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(roses_iconic.qb)"
+            ]
+         }
+      },
+      "mob" : {
+         "model_origin" : { "x": 0, "y": 0, "z": 0 }
+      }
+   }
+}

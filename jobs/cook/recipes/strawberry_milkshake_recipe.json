@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 1,
+   "recipe_name" : "Strawberry Milkshake",
+   "description" : "Delicious Strawberry Milkshake.",
+   "flavor"      : "A thick and creamy milkshake made from mushed up strawberries and milk.",
+   "portrait"    : "/brewerymod/entities/food/strawberry_milkshake/strawberry_milkshake/strawberry_milkshake.png",
+   "level_requirement" : 0,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:milk",
+         "count" : 1
+      },
+      {
+         "uri" : "brewerymod:cooking:strawberry",
+         "count" : 1
+      }
+   ],
+   "produces": [
+      {
+         "item" : "brewerymod:cooking:strawberry_milkshake"
+      }
+   ]
+}

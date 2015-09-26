@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "name": "A Beaker of Golden Mead",
+         "description": "The ultimate mead for expensive tastes!"
+      },      
+      "stonehearth:material" : {
+         "tags" : "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(golden_mead_serving.qb)"
+            ]
+         }
+      }
+   },
+   "stonehearth:stacks_model_renderer": {},
+      "effect_list": {
+         "effects": [
+            "stonehearth:effects:treasure_glow"
+         ]
+      },
+   "entity_data" : {
+      "stonehearth:food" : {
+         "stonehearth:sitting_on_chair" : {
+            "satisfaction" : 200
+         },
+         "default" : {
+            "satisfaction" : 150
+         }
+      }
+   }   
+}

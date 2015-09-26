@@ -1,0 +1,23 @@
+{
+   "components": {
+      "unit_info": {
+         "description": "Used to create delicious fortified wines, meads and juices.",
+         "display_name": "Distiller",
+         "icon" : "file(distiller.png)"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(distiller.qb)"
+            ]
+         }
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0 },
+         "region_origin" : { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true
+   }
+}

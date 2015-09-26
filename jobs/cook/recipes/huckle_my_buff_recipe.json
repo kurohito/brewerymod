@@ -1,0 +1,35 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 4,
+   "recipe_name" : "Huckle My Buff",
+   "description" : "An interesting cocktail.",
+   "flavor"      : "A drink made from egg, mead and distilled with sugar and water.",
+   "portrait"    : "/brewerymod/entities/food/huckle_my_buff/huckle_my_buff/huckle_my_buff.png",
+   "workshop": "brewerymod:cook:distiller",
+   "level_requirement" : 5,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:water_bucket",
+         "count" : 1
+      },
+      {
+         "uri" : "brewerymod:cooking:sugar",
+         "count" : 1
+      },
+	  {
+         "uri" : "stonehearth:food:egg",
+         "count" : 1
+      },
+      {
+         "uri" : "brewerymod:cooking:mead",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item" : "brewerymod:cooking:huckle_my_buff"
+      }
+  ]
+}

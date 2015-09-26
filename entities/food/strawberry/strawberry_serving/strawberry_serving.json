@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "name": "Strawberry",
+         "description": "Sweet & Delicious.",
+         "icon": "file(strawberry_serving.png)"
+      },      
+      "item" : {
+         "category" : "food"
+      },
+      "stonehearth:material" : {
+         "tags" : "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(strawberry_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data" : {
+      "stonehearth:food" : {
+         "stonehearth:sitting_on_chair" : {
+            "satisfaction" : 35
+         },
+         "default" : {
+            "satisfaction" : 30
+         },
+		 
+		 "buff_uri" : "brewerymod:buff:sweet_tooth"
+      }
+   }   
+}

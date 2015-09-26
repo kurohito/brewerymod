@@ -1,0 +1,36 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "item": {
+         "category" : "food",
+         "stacks" : 3,
+         "maxStacks" : 3
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(amazing_blueberry_basket.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Amazing Basket of Blueberryes",
+         "description": "Super nutritous blueberries.",
+         "icon" : "file(amazing_blueberry_basket.png)"
+      },
+      "stonehearth:material" : {
+         "tags" :  "resource vegetable food_container blueberry raw_food"
+      },
+      "mob" : {
+         "model_origin" : { "x": 0, "y": 0, "z": 0.05 }
+      }
+   },
+   "entity_data" : {
+      "stonehearth:food_container" : {
+         "effect": "fiddle",
+         "food": "extendedfarming:food:blueberry:amazing_blueberry_serving",
+         "stacks_per_serving": 1
+      }      
+   }
+}

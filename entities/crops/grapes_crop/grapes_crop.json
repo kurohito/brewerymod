@@ -1,0 +1,86 @@
+{
+   "type": "entity", 
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(grapes_crop_4.qb)"
+            ]
+         },
+         "grapes_1": {
+            "models": [
+               "file(grapes_crop_1.qb)"
+            ]
+         },
+         "grapes_2": {
+            "models": [
+               "file(grapes_crop_2.qb)"
+            ]
+         },
+         "grapes_3": {
+            "models": [
+               "file(grapes_crop_3.qb)"
+            ]
+         },
+         "grapes_4": {
+            "models": [
+               "file(grapes_crop_4.qb)"
+            ]
+         }, 
+         "grapes_12": {
+            "models": [
+               "file(grapes_crop_12.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Grapes", 
+         "description": "Slow growing tiny tangy fruit, great for wine.",
+         "icon" : "file(icon.png)"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:crop" : {
+         "resource_pairings" : {
+            "grapes_4": "brewerymod:cooking:grapes",
+            "grapes_12": ""
+         },
+         "harvest_threshhold" : "grapes_4",
+         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      }, 
+      "stonehearth:growing" : {
+         "growth_period" : "10h",
+         "growth_stages" : [
+            {
+               "model_name" : "grapes_1",
+               "name": "Grape Vine Seedling", 
+               "description": "Grape Vine seedling."
+            },
+            {
+               "model_name" : "grapes_2",
+               "name": "Grape Vine Sprouts", 
+               "description": "Not edible yet!"
+            },
+            {
+               "model_name" : "grapes_3",
+               "name": "Baby Grapes", 
+               "description": "Small. Unripe."
+            },
+            {
+               "model_name" : "grapes_4",
+               "name": "Ripe Grapes", 
+               "description": "Tangy and Delicious!"
+            }, {}, {}, {}, {}, {}, {}, {},
+            {
+               "model_name" : "grapes_12",
+               "name": "Rotten Grapes", 
+               "description": "Moldy and disgusting."
+            }
+         ]
+      },
+      "stonehearth:material" : {
+         "tags" :  "crop grapes"
+      }
+   }
+}

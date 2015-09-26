@@ -1,0 +1,30 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Hot Chocolate",
+   "description" : "Sweet and Hot",
+   "flavor"      : "A warming drink made from cocoa powder, sugar and milk.",
+   "portrait"    : "/brewerymod/entities/food/hot_chocolate/hot_chocolate/hot_chocolate.png",
+   "level_requirement" : 2,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:milk",
+         "count" : 1
+      },
+      {
+         "uri" : "brewerymod:cooking:cocoa_powder",
+         "count" : 1
+      },
+      {
+         "uri" : "brewerymod:cooking:sugar",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item" : "brewerymod:cooking:hot_chocolate"
+      }
+  ]
+}

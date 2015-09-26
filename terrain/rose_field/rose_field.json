@@ -1,0 +1,20 @@
+{
+   "mixins" : "stonehearth/scenarios/static/entity_cluster",
+   "name" : "rose_field",
+   "category" : "terrain", 
+   "habitat_types" : ["plains", "foothills"],
+   "weight" : 2,
+   "size" : {
+      "width" : 6,
+      "length" : 6
+   },
+
+   "data" : {
+      "entity_type" : [ "brewerymod:roses:plant" ],
+      "entity_footprint_length" : 2,
+      "quantity" : {
+         "min" : 2,
+         "max" : 6
+      }
+   }
+}

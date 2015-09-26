@@ -1,0 +1,30 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "name": "A Beaker of Huckle My Buff",
+         "description": "A Fancy Cocktail!"
+      },      
+      "stonehearth:material" : {
+         "tags" : "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(huckle_my_buff_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data" : {
+      "stonehearth:food" : {
+         "stonehearth:sitting_on_chair" : {
+            "satisfaction" : 140
+         },
+         "default" : {
+            "satisfaction" : 100
+         }
+      }
+   }   
+}

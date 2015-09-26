@@ -1,0 +1,31 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 1,
+   "recipe_name" : "Fortified Pine Wine",
+   "description" : "An interesting fortified wine.",
+   "flavor"      : "A drink made from a chunk of pine wood soaked and distilled with fortified honey and water.",
+   "portrait"    : "/brewerymod/entities/food/fortified_pine_wine/fortified_pine_wine/fortified_pine_wine.png",
+   "workshop": "brewerymod:cook:distiller",
+   "level_requirement" : 0,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:water_bucket",
+         "count" : 1
+      },
+      {
+         "uri" : "cookmod:cooking:honey_vat",
+         "count" : 1
+      },
+	  {
+         "uri" : "stonehearth:resources:wood:pine_log",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item" : "brewerymod:cooking:fortified_pine_wine"
+      }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 1,
+   "recipe_name" : "Fortified Wine",
+   "description" : "A Pleasant Fortified Wine.",
+   "flavor"      : "A wine made from fortified grapes and water.",
+   "portrait"    : "/brewerymod/entities/food/fortified_wine/fortified_wine/fortified_wine.png",
+   "workshop": "brewerymod:cook:distiller",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:water_bucket",
+         "count" : 1
+      },
+      {
+         "uri" : "brewerymod:cooking:grapes",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item" : "brewerymod:cooking:fortified_wine"
+      }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "item": {
+         "category" : "food",
+         "stacks" : 10,
+         "maxStacks" : 10
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(grapes_basket.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(grapes_basket.qb)"
+            ]
+         },
+         "decay_2": {
+            "models": [
+               "file(grapes_basket.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Basket of Grapes",
+         "description": "Fresh and Tangy.",
+         "icon" : "file(grapes_basket.png)"
+      },
+      "stonehearth:material" : {
+         "tags" :  "resource vegetable food_container grapes raw_food"
+      },
+      "mob" : {
+         "model_origin" : { "x": 0, "y": 0, "z": 0.05 }
+      }
+   },
+   "entity_data" : {
+      "stonehearth:food_container" : {
+         "effect": "fiddle",
+         "food": "brewerymod:cooking:grapes_serving",
+         "stacks_per_serving": 5
+      },
+      "stonehearth:net_worth" : {
+         "value_in_gold" : 60,
+         "rarity" : "common",
+         "shop_info" : {
+            "buyable" : true,   
+            "sellable" : true,
+            "shopkeeper_level" : 1,
+            "shopkeeper_type" : "caravan"
+         }
+      }
+   }
+}

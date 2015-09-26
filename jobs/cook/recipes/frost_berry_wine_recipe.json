@@ -1,0 +1,31 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 1,
+   "recipe_name" : "Frost Berry Wine",
+   "description" : "A Chilling Berry Wine.",
+   "flavor"      : "A Refreshingly cool drink made from mushed up berries, frostsnap flowers and water.",
+   "portrait"    : "/brewerymod/entities/food/frost_berry_wine/frost_berry_wine/frost_berry_wine.png",
+   "workshop": "brewerymod:cook:distiller",
+   "level_requirement" : 3,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:water_bucket",
+         "count" : 1
+      },
+      {
+         "uri" : "stonehearth:food:berries:berry_basket",
+         "count" : 1
+      },
+	  {
+         "uri" : "stonehearth:decoration:frostsnap",
+         "count" : 3
+      }
+   ],
+  "produces": [
+      {
+         "item" : "brewerymod:cooking:frost_berry_wine"
+      }
+  ]
+}

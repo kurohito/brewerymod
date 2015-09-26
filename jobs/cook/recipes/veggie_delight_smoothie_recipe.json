@@ -1,0 +1,38 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 1,
+   "recipe_name" : "Veggie Delight Smoothie",
+   "description" : "A Nutritious Smoothie.",
+   "flavor"      : "A Delicious drink made from mushed up carrots, turnips, pumpkins, sugar and water.",
+   "portrait"    : "/brewerymod/entities/food/veggie_delight_smoothie/veggie_delight_smoothie/veggie_delight_smoothie.png",
+   "level_requirement" : 0,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:water_bucket",
+         "count" : 1
+      },
+      {
+         "uri" : "brewerymod:cooking:sugar",
+         "count" : 1
+      },
+      {
+         "uri" : "stonehearth:food:carrot:carrot_basket",
+         "count" : 1
+      },
+      {
+         "uri" : "stonehearth:food:turnip:turnip_basket",
+         "count" : 1
+      },
+      {
+         "uri" : "stonehearth:food:pumpkin:pumpkin_basket",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item" : "brewerymod:cooking:veggie_delight_smoothie"
+      }
+  ]
+}

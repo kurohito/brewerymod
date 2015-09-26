@@ -1,0 +1,124 @@
+{
+   "craftable_recipes": {
+      "workbenches": {
+         "ordinal": 1,
+         "name": "i18n(stonehearth:jobs.blacksmith.recipes.workbenches_name)",
+         "recipes": {
+            "distiller": {
+               "recipe": "file(distiller_recipe.json)"
+            }
+         }
+      },
+	  "ingredients": {
+         "ordinal": 1,
+         "name": "i18n(stonehearth:jobs.cook.recipes.ingredients_name)",
+         "recipes": {
+            "yeast": {
+               "recipe": "file(yeast_recipe.json)"
+            },
+            "cocoa_powder": {
+               "recipe": "file(cocoa_powder_recipe.json)"
+            },
+            "sugar": {
+               "recipe": "file(sugar_recipe.json)"
+            }
+         }
+      },
+      "Beverages" : {
+         "ordinal" : 4,
+         "name" : "Beverages",
+         "recipes": {
+			"carrot_juice": {
+               "recipe": "file(carrot_juice_recipe.json)"
+            },
+			"turnip_juice": {
+               "recipe": "file(turnip_juice_recipe.json)"
+            },
+            "tomato_juice": {
+               "recipe": "file(tomato_juice_recipe.json)"
+            },
+            "veggie_delight_smoothie": {
+               "recipe": "file(veggie_delight_smoothie_recipe.json)"
+            },
+            "watermelon_twist": {
+               "recipe": "file(watermelon_twist_recipe.json)"
+            }
+         }
+      },
+      "Meads" : {
+         "ordinal" : 6,
+         "name" : "Meads",
+         "recipes": {
+            "mead": {
+               "recipe": "file(mead_recipe.json)"
+            },
+            "corn_mead": {
+               "recipe": "file(corn_mead_recipe.json)"
+            },
+            "golden_mead": {
+               "recipe": "file(golden_mead_recipe.json)"
+            },
+            "pumpkin_spice_mead": {
+               "recipe": "file(pumpkin_spice_mead_recipe.json)"
+            },
+            "strawberry_mead": {
+               "recipe": "file(strawberry_mead_recipe.json)"
+            }
+         }
+      },
+      "Wines" : {
+         "ordinal" : 7,
+         "name" : "Wines",
+         "recipes": {
+            "fortified_pine_wine": {
+               "recipe": "file(fortified_pine_wine_recipe.json)"
+            },
+            "frost_berry_wine": {
+               "recipe": "file(frost_berry_wine_recipe.json)"
+            },
+            "blueberry_wine": {
+               "recipe": "file(blueberry_wine_recipe.json)"
+            },
+            "strawberry_wine": {
+               "recipe": "file(strawberry_wine_recipe.json)"
+            },
+            "fortified_wine": {
+               "recipe": "file(fortified_wine_recipe.json)"
+            },
+            "rice_wine": {
+               "recipe": "file(rice_wine_recipe.json)"
+            }
+         }
+      },
+      "Milkshakes" : {
+         "ordinal" : 7,
+         "name" : "Milkshakes",
+         "recipes": {
+            "blueberry_milkshake": {
+               "recipe": "file(blueberry_milkshake_recipe.json)"
+            },
+            "strawberry_milkshake": {
+               "recipe": "file(strawberry_milkshake_recipe.json)"
+            },
+            "chocolate_milkshake": {
+               "recipe": "file(chocolate_milkshake_recipe.json)"
+            }
+         }
+      },
+      "Other" : {
+         "ordinal" : 7,
+         "name" : "Other Drinks",
+         "recipes": {
+            "hot_chocolate": {
+               "recipe": "file(hot_chocolate_recipe.json)"
+            },
+            "vodka": {
+               "recipe": "file(vodka_recipe.json)"
+            },
+            "huckle_my_buff": {
+               "recipe": "file(huckle_my_buff_recipe.json)"
+            }
+         }
+      }
+   }
+}

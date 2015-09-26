@@ -1,0 +1,86 @@
+{
+   "type": "entity", 
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sugarcane_crop_4.qb)"
+            ]
+         },
+         "sugarcane_1": {
+            "models": [
+               "file(sugarcane_crop_1.qb)"
+            ]
+         },
+         "sugarcane_2": {
+            "models": [
+               "file(sugarcane_crop_2.qb)"
+            ]
+         },
+         "sugarcane_3": {
+            "models": [
+               "file(sugarcane_crop_3.qb)"
+            ]
+         },
+         "sugarcane_4": {
+            "models": [
+               "file(sugarcane_crop_4.qb)"
+            ]
+         }, 
+         "sugarcane_12": {
+            "models": [
+               "file(sugarcane_crop_12.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Sugarcane", 
+         "description": "Extremely Slow growing woody crop used to create Sugar.",
+         "icon" : "file(icon.png)"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:crop" : {
+         "resource_pairings" : {
+            "sugarcane_4": "brewerymod:food:sugarcanebundle",
+            "sugarcane_12": ""
+         },
+         "harvest_threshhold" : "sugarcane_4",
+         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      }, 
+      "stonehearth:growing" : {
+         "growth_period" : "16h",
+         "growth_stages" : [
+            {
+               "model_name" : "sugarcane_1",
+               "name": "Sugarcane Seedling", 
+               "description": "Sugarcane seedling."
+            },
+            {
+               "model_name" : "sugarcane_2",
+               "name": "Sugarcane Sprouts", 
+               "description": "Not usable yet!"
+            },
+            {
+               "model_name" : "sugarcane_3",
+               "name": "Immature Sugarcane", 
+               "description": "Small. Not ready Yet!."
+            },
+            {
+               "model_name" : "sugarcane_4",
+               "name": "Mature Sugarcane", 
+               "description": "Finally!!"
+            }, {}, {}, {}, {}, {}, {}, {},
+            {
+               "model_name" : "sugarcane_12",
+               "name": "Rotten Sugarcane", 
+               "description": "Moldy and disgusting."
+            }
+         ]
+      },
+      "stonehearth:material" : {
+         "tags" :  "crop sugarcane"
+      }
+   }
+}

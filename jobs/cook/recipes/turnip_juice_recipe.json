@@ -1,0 +1,26 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 1,
+   "recipe_name" : "Turnip Juice",
+   "description" : "Super Healthy Turnip Juice.",
+   "flavor"      : "A rather gross, yet healthy drink made from mushed up turnips and water.",
+   "portrait"    : "/brewerymod/entities/food/turnip_juice/turnip_juice/turnip_juice.png",
+   "level_requirement" : 0,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:water_bucket",
+         "count" : 1
+      },
+      {
+         "uri" : "stonehearth:food:turnip:turnip_basket",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item" : "brewerymod:cooking:turnip_juice"
+      }
+  ]
+}

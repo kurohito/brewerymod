@@ -1,0 +1,49 @@
+{
+	"mixins": "stonehearth:mixins:item_properties",
+		"type": "entity",
+		"components": {
+			"item": {
+         	"category" : "Tasty Beverage",
+				"stacks" : 8,
+				"max_stacks" : 8
+			},
+			"model_variants": {
+				"default": {
+				"models": [
+				"file(tomato_juice.qb)"
+				]
+			}
+		},
+		"unit_info": {
+			"name": "Tomato Juice",
+			"description": "No added preservatives!",
+			"icon" : "file(tomato_juice.png)"
+		},
+		"stonehearth:material" : {
+			"tags" :  "resource food_container tomato_juice"
+		},
+		"mob" : {
+			"model_origin" : { "x": 0, "y": 0, "z": 0.05 }
+			},
+      "render_info" : {
+         "scale" : 0.045
+      	}
+		},
+		"entity_data" : {
+			"stonehearth:food_container" : {
+			"effect": "fiddle",
+			"food": "brewerymod:cooking:tomato_juice_serving",
+			"stacks_per_serving": 1
+		},
+		"stonehearth:net_worth" : {
+			"value_in_gold" : 3,
+			"rarity" : "common",
+			"shop_info" : {
+			"buyable" : true,   
+			"sellable" : true,
+			"shopkeeper_level" : 1,
+			"shopkeeper_type" : "caravan"
+			}
+		}
+	}
+}

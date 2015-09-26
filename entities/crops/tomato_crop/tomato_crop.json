@@ -1,0 +1,86 @@
+{
+   "type": "entity", 
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(tomato_crop_4.qb)"
+            ]
+         },
+         "tomato_1": {
+            "models": [
+               "file(tomato_crop_1.qb)"
+            ]
+         },
+         "tomato_2": {
+            "models": [
+               "file(tomato_crop_2.qb)"
+            ]
+         },
+         "tomato_3": {
+            "models": [
+               "file(tomato_crop_3.qb)"
+            ]
+         },
+         "tomato_4": {
+            "models": [
+               "file(tomato_crop_4.qb)"
+            ]
+         }, 
+         "tomato_12": {
+            "models": [
+               "file(tomato_crop_12.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Tomato", 
+         "description": "Slow growing, but delicious.",
+         "icon" : "file(icon.png)"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:crop" : {
+         "resource_pairings" : {
+            "tomato_4": "brewerymod:cooking:tomato",
+            "tomato_12": ""
+         },
+         "harvest_threshhold" : "tomato_4",
+         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      }, 
+      "stonehearth:growing" : {
+         "growth_period" : "8h",
+         "growth_stages" : [
+            {
+               "model_name" : "tomato_1",
+               "name": "Tomato Seedlings", 
+               "description": "Teeny tiny tomato seedlings."
+            },
+            {
+               "model_name" : "tomato_2",
+               "name": "Tomato Sprouts", 
+               "description": "Not edible yet!"
+            },
+            {
+               "model_name" : "tomato_3",
+               "name": "Baby Tomatoes", 
+               "description": "Small. green."
+            },
+            {
+               "model_name" : "tomato_4",
+               "name": "Ripe Tomatoes", 
+               "description": "Delicious!"
+            }, {}, {}, {}, {}, {}, {}, {},
+            {
+               "model_name" : "tomato_12",
+               "name": "Rotten Tomatoes", 
+               "description": "Moldy and disgusting."
+            }
+         ]
+      },
+      "stonehearth:material" : {
+         "tags" :  "crop tomato"
+      }
+   }
+}

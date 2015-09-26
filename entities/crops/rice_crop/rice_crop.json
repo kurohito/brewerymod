@@ -1,0 +1,96 @@
+{
+   "type": "entity", 
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(rice_crop_5.qb)"
+            ]
+         },
+         "rice_1": {
+            "models": [
+               "file(rice_crop_1.qb)"
+            ]
+         },
+         "rice_2": {
+            "models": [
+               "file(rice_crop_2.qb)"
+            ]
+         },
+         "rice_3": {
+            "models": [
+               "file(rice_crop_3.qb)"
+            ]
+         },
+         "rice_4": {
+            "models": [
+               "file(rice_crop_4.qb)"
+            ]
+         },
+         "rice_5": {
+            "models": [
+               "file(rice_crop_5.qb)"
+            ]
+         },		 
+         "rice_12": {
+            "models": [
+               "file(rice_crop_12.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Rice", 
+         "description": "Slow growing grain.",
+         "icon" : "file(icon.png)"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:crop" : {
+         "resource_pairings" : {
+            "rice_5": "brewerymod:cooking:rice",
+            "rice_12": ""
+         },
+         "harvest_threshhold" : "rice_5",
+         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      }, 
+      "stonehearth:growing" : {
+         "growth_period" : "9h",
+         "growth_stages" : [
+            {
+               "model_name" : "rice_1",
+               "name": "Rice Seedling", 
+               "description": "Rice seedling."
+            },
+            {
+               "model_name" : "rice_2",
+               "name": "Rice Sprouts", 
+               "description": "Not edible yet!"
+            },
+            {
+               "model_name" : "rice_3",
+               "name": "Stumpy Rice", 
+               "description": "Small. Unripe."
+            },
+            {
+               "model_name" : "rice_4",
+               "name": "Maturing Rice", 
+               "description": "Not quite ready yet."
+            },
+			{
+               "model_name" : "rice_5",
+               "name": "Mature Rice", 
+               "description": "Ready for Harvest!!."
+            },			{}, {}, {}, {}, {}, {}, {},
+            {
+               "model_name" : "rice_12",
+               "name": "Rotten Rice", 
+               "description": "Moldy and disgusting."
+            }
+         ]
+      },
+      "stonehearth:material" : {
+         "tags" :  "crop rice"
+      }
+   }
+}

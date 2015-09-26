@@ -1,0 +1,86 @@
+{
+   "type": "entity", 
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(cocoabeans_crop_4.qb)"
+            ]
+         },
+         "cocoabeans_1": {
+            "models": [
+               "file(cocoabeans_crop_1.qb)"
+            ]
+         },
+         "cocoabeans_2": {
+            "models": [
+               "file(cocoabeans_crop_2.qb)"
+            ]
+         },
+         "cocoabeans_3": {
+            "models": [
+               "file(cocoabeans_crop_3.qb)"
+            ]
+         },
+         "cocoabeans_4": {
+            "models": [
+               "file(cocoabeans_crop_4.qb)"
+            ]
+         }, 
+         "cocoabeans_12": {
+            "models": [
+               "file(cocoabeans_crop_12.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Cocoa Beans", 
+         "description": "Slow growing beans, used to make chocolate.",
+         "icon" : "file(icon.png)"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:crop" : {
+         "resource_pairings" : {
+            "cocoabeans_4": "brewerymod:cooking:cocoabeans",
+            "cocoabeans_12": ""
+         },
+         "harvest_threshhold" : "cocoabeans_4",
+         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      }, 
+      "stonehearth:growing" : {
+         "growth_period" : "12h",
+         "growth_stages" : [
+            {
+               "model_name" : "cocoabeans_1",
+               "name": "Cocoa Bean Seedling", 
+               "description": "Seedlings."
+            },
+            {
+               "model_name" : "cocoabeans_2",
+               "name": "Cocoa Bean Sprout", 
+               "description": "Not edible yet!"
+            },
+            {
+               "model_name" : "cocoabeans_3",
+               "name": "Baby Cocoa Beans", 
+               "description": "Small. Unripe."
+            },
+            {
+               "model_name" : "cocoabeans_4",
+               "name": "Ripe Cocoa Beans", 
+               "description": "Smells Delicious!"
+            }, {}, {}, {}, {}, {}, {}, {},
+            {
+               "model_name" : "cocoabeans_12",
+               "name": "Rotten Cocoa Beans", 
+               "description": "Moldy and disgusting."
+            }
+         ]
+      },
+      "stonehearth:material" : {
+         "tags" :  "crop cocoabeans"
+      }
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item" : {
+         "category" : "decoration"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(allium_pot_iconic.qb)"
+            ]
+         }
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   }
+}

@@ -1,0 +1,27 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(distiller_iconic.qb)"
+            ]
+         }
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "item" : {
+         "category" : "workshops"
+      },
+      "stonehearth:material" : {
+         "tags" : "tool"
+      },
+      "effect_list" : {
+         "effects" : [
+            "stonehearth:effects:talisman_glow"
+         ]
+      }
+   }
+}

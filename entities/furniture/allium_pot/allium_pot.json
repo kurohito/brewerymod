@@ -1,0 +1,28 @@
+{
+   "mixins" : "file(allium_pot_ghost.json)",
+   "components": {
+      "stonehearth:entity_forms" : {
+         "iconic_form" : "file(allium_pot_iconic.json)",
+         "ghost_form" : "file(allium_pot_ghost.json)",
+         "placeable_on_ground" : true
+      },
+	  	  			"stonehearth:net_worth" : {
+         "value_in_gold" : 5,
+         "rarity" : "common",
+         "shop_info" : {
+            "buyable" : false,   
+            "sellable" : true,
+            "shopkeeper_level" : 1,
+            "shopkeeper_type" : "caravan"
+         }
+				},
+      "region_collision_shape" : {
+         "region": [
+            {
+               "min" : { "x" : 0, "y" : 0, "z" : 0 },
+               "max" : { "x" : 1, "y" : 1.25, "z" : 1 }
+            }
+         ]
+      }
+   }
+}

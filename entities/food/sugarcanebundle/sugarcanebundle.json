@@ -1,0 +1,45 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "category": "food",
+         "stacks": 5,
+         "max_stacks": 5
+      },
+      "stonehearth:material": {
+         "tags": "plant sugarcane grain cooking_ingredient"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sugarcanebundle.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Bundle of Sugarcane",
+         "description": "Sugarcane grinds down in to Sugar.",
+         "icon" : "file(sugarcanebundle.png)"
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 15,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

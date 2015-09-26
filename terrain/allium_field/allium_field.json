@@ -1,0 +1,20 @@
+{
+   "mixins" : "stonehearth/scenarios/static/entity_cluster",
+   "name" : "allium_field",
+   "category" : "terrain", 
+   "habitat_types" : ["plains", "foothills"],
+   "weight" : 2,
+   "size" : {
+      "width" : 6,
+      "length" : 6
+   },
+
+   "data" : {
+      "entity_type" : [ "brewerymod:allium:plant" ],
+      "entity_footprint_length" : 2,
+      "quantity" : {
+         "min" : 3,
+         "max" : 8
+      }
+   }
+}

@@ -1,0 +1,172 @@
+{
+    "info": {
+        "name": "brewerymod",
+        "version": 3
+    },
+    "aliases": {
+
+    	"buff:sweet_tooth": "file(data/buffs/sweet_tooth)",
+		
+		"cook:distiller": "file(jobs/cook/distiller/distiller.json)",
+		
+		"cooking:mead": "file(entities/food/mead/mead)",
+		"cooking:mead_serving": "file(entities/food/mead/mead_serving)",
+
+		"cooking:yeast": "file(entities/food/yeast)",
+
+		"cooking:sugar": "file(entities/food/sugar)",
+
+		"cooking:cocoa_powder": "file(entities/food/cocoa_powder)",
+
+		"cooking:mushroom": "file(entities/food/mushroom)",
+
+		"cooking:blueberry": "file(entities/food/blueberry/blueberry_basket)",
+		"cooking:blueberry_serving": "file(entities/food/blueberry/blueberry_serving)",
+
+		"cooking:cocoabeans": "file(entities/food/cocoabeans/cocoabeans_basket)",
+		"cooking:cocoabeans_serving": "file(entities/food/cocoabeans/cocoabeans_serving)",
+
+		"cooking:garlic": "file(entities/food/garlic/garlic_basket)",
+		"cooking:garlic_serving": "file(entities/food/garlic/garlic_serving)",
+
+		"cooking:grapes": "file(entities/food/grapes/grapes_basket)",
+		"cooking:grapes_serving": "file(entities/food/grapes/grapes_serving)",
+
+		"cooking:rice": "file(entities/food/rice/rice_basket)",
+		"cooking:rice_serving": "file(entities/food/rice/rice_serving)",
+
+		"cooking:strawberry": "file(entities/food/strawberry/strawberry_basket)",
+		"cooking:strawberry_serving": "file(entities/food/strawberry/strawberry_serving)",
+
+		"cooking:sugarcanebundle": "file(entities/food/sugarcanebundle)",
+
+		"cooking:tomato": "file(entities/food/tomato/tomato_basket)",
+		"cooking:tomato_serving": "file(entities/food/tomato/tomato_serving)",
+
+		"cooking:watermelon": "file(entities/food/watermelon/watermelon_basket)",
+		"cooking:watermelon_serving": "file(entities/food/watermelon/watermelon_serving)",
+		
+		"cooking:carrot_juice": "file(entities/food/carrot_juice/carrot_juice)",
+		"cooking:carrot_juice_serving": "file(entities/food/carrot_juice/carrot_juice_serving)",
+		
+		"cooking:corn_mead": "file(entities/food/corn_mead/corn_mead)",
+		"cooking:corn_mead_serving": "file(entities/food/corn_mead/corn_mead_serving)",
+		
+		"cooking:fortified_pine_wine": "file(entities/food/fortified_pine_wine/fortified_pine_wine)",
+		"cooking:fortified_pine_wine_serving": "file(entities/food/fortified_pine_wine/fortified_pine_wine_serving)",
+		
+		"cooking:frost_berry_wine": "file(entities/food/frost_berry_wine/frost_berry_wine)",
+		"cooking:frost_berry_wine_serving": "file(entities/food/frost_berry_wine/frost_berry_wine_serving)",
+		
+		"cooking:golden_mead": "file(entities/food/golden_mead/golden_mead)",
+		"cooking:golden_mead_serving": "file(entities/food/golden_mead/golden_mead_serving)",
+		
+		"cooking:pumpkin_spice_mead": "file(entities/food/pumpkin_spice_mead/pumpkin_spice_mead)",
+		"cooking:pumpkin_spice_mead_serving": "file(entities/food/pumpkin_spice_mead/pumpkin_spice_mead_serving)",
+		
+		"cooking:turnip_juice": "file(entities/food/turnip_juice/turnip_juice)",
+		"cooking:turnip_juice_serving": "file(entities/food/turnip_juice/turnip_juice_serving)",
+
+		"cooking:blueberry_milkshake": "file(entities/food/blueberry_milkshake/blueberry_milkshake)",
+		"cooking:blueberry_milkshake_serving": "file(entities/food/blueberry_milkshake/blueberry_milkshake_serving)",
+		
+		"cooking:blueberry_wine": "file(entities/food/blueberry_wine/blueberry_wine)",
+		"cooking:blueberry_wine_serving": "file(entities/food/blueberry_wine/blueberry_wine_serving)",
+
+		"cooking:chocolate_milkshake": "file(entities/food/chocolate_milkshake/chocolate_milkshake)",
+		"cooking:chocolate_milkshake_serving": "file(entities/food/chocolate_milkshake/chocolate_milkshake_serving)",
+
+		"cooking:fortified_wine": "file(entities/food/fortified_wine/fortified_wine)",
+		"cooking:fortified_wine_serving": "file(entities/food/fortified_wine/fortified_wine_serving)",
+
+		"cooking:hot_chocolate": "file(entities/food/hot_chocolate/hot_chocolate)",
+		"cooking:hot_chocolate_serving": "file(entities/food/hot_chocolate/hot_chocolate_serving)",
+
+		"cooking:huckle_my_buff": "file(entities/food/huckle_my_buff/huckle_my_buff)",
+		"cooking:huckle_my_buff_serving": "file(entities/food/huckle_my_buff/huckle_my_buff_serving)",
+
+		"cooking:rice_wine": "file(entities/food/rice_wine/rice_wine)",
+		"cooking:rice_wine_serving": "file(entities/food/rice_wine/rice_wine_serving)",
+
+		"cooking:strawberry_mead": "file(entities/food/strawberry_mead/strawberry_mead)",
+		"cooking:strawberry_mead_serving": "file(entities/food/strawberry_mead/strawberry_mead_serving)",
+
+		"cooking:strawberry_milkshake": "file(entities/food/strawberry_milkshake/strawberry_milkshake)",
+		"cooking:strawberry_milkshake_serving": "file(entities/food/strawberry_milkshake/strawberry_milkshake_serving)",
+
+		"cooking:strawberry_wine": "file(entities/food/strawberry_wine/strawberry_wine)",
+		"cooking:strawberry_wine_serving": "file(entities/food/strawberry_wine/strawberry_wine_serving)",
+
+		"cooking:tomato_juice": "file(entities/food/tomato_juice/tomato_juice)",
+		"cooking:tomato_juice_serving": "file(entities/food/tomato_juice/tomato_juice_serving)",
+
+		"cooking:veggie_delight_smoothie": "file(entities/food/veggie_delight_smoothie/veggie_delight_smoothie)",
+		"cooking:veggie_delight_smoothie_serving": "file(entities/food/veggie_delight_smoothie/veggie_delight_smoothie_serving)",
+
+		"cooking:vodka": "file(entities/food/vodka/vodka)",
+		"cooking:vodka_serving": "file(entities/food/vodka/vodka_serving)",
+
+		"cooking:watermelon_twist": "file(entities/food/watermelon_twist/watermelon_twist)",
+		"cooking:watermelon_twist_serving": "file(entities/food/watermelon_twist/watermelon_twist_serving)",
+
+
+		"decoration:mushroom"    : "file(entities/decoration/mushroom)",
+		"decoration:empty_barrel"    : "file(entities/decoration/empty_barrel)",
+		"empty_barrel": "file(entities/decoration/empty_barrel)",
+		"mushroom": "file(entities/decoration/mushroom)",
+		"mushroom:plant" : "file(entities/plants/mushroom)",
+
+		"rose_pot": "file(entities/furniture/rose_pot)",
+		"furniture:rose_pot": "file(entities/furniture/rose_pot)",
+		"allium_pot": "file(entities/furniture/allium_pot)",
+		"furniture:allium_pot": "file(entities/furniture/allium_pot)",
+
+		"crops:tomato_crop"   : "file(entities/crops/tomato_crop)",
+		"crops:strawberry_crop"   : "file(entities/crops/strawberry_crop)",
+		"crops:watermelon_crop"   : "file(entities/crops/watermelon_crop)",
+		"crops:blueberry_crop"   : "file(entities/crops/blueberry_crop)",
+		"crops:grapes_crop"   : "file(entities/crops/grapes_crop)",
+		"crops:cocoabeans_crop"   : "file(entities/crops/cocoabeans_crop)",
+		"crops:rice_crop"   : "file(entities/crops/rice_crop)",
+		"crops:garlic_crop"   : "file(entities/crops/garlic_crop)",
+		"crops:sugarcane_crop"   : "file(entities/crops/sugarcane_crop)",
+
+		"decoration:roses"    : "file(entities/decoration/roses)",
+		"roses": "file(entities/decoration/roses)",
+    	"roses:plant" : "file(entities/plants/roses)",
+	
+		"decoration:allium"    : "file(entities/decoration/allium)",
+		"allium": "file(entities/decoration/allium)",
+    	"allium:plant" : "file(entities/plants/allium)",
+	
+		"decoration:blueberry"    : "file(entities/decoration/blueberry)",
+		"blueberry": "file(entities/decoration/blueberry)",
+    	"blueberry:plant" : "file(entities/plants/blueberry)",
+	
+		"decoration:strawberry"    : "file(entities/decoration/strawberry)",
+		"strawberry": "file(entities/decoration/strawberry)",
+    	"strawberry:plant" : "file(entities/plants/strawberry)"
+
+    },
+
+	
+    "mixintos": {
+
+		"stonehearth/services/server/farming/data/initial_crops.json": [
+            "file(mixins/initial_crops.json)"
+        ],
+		"stonehearth/jobs/cook/recipes/recipes.json" : [
+			"file(jobs/cook/recipes/recipes.json)"
+		],
+		"stonehearth/jobs/carpenter/recipes/recipes.json": [
+			"file(jobs/carpenter/recipes/recipes.json)"
+		],
+		"stonehearth/ui/data/constants.json" : [ 
+		"file(ui/data/constants.json)"
+		],
+		"stonehearth/scenarios/scenario_index.json": [
+            "file(mixins/scenario_index.json)"
+        ]
+    }
+	
+}

@@ -1,0 +1,31 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 1,
+   "recipe_name" : "Blueberry Wine",
+   "description" : "A Tarte Blueberry Wine.",
+   "flavor"      : "A tarte wine made from fermented blueberries, sugar and water.",
+   "portrait"    : "/brewerymod/entities/food/blueberry_wine/blueberry_wine/blueberry_wine.png",
+   "workshop": "brewerymod:cook:distiller",
+   "level_requirement" : 1,
+
+   "ingredients": [
+      {
+         "uri" : "cookmod:cooking:water_bucket",
+         "count" : 1
+      },
+      {
+         "uri" : "brewerymod:cooking:blueberry",
+         "count" : 1
+      },
+      {
+         "uri" : "brewerymod:cooking:sugar",
+         "count" : 1
+      }
+   ],
+  "produces": [
+      {
+         "item" : "brewerymod:cooking:blueberry_wine"
+      }
+  ]
+}

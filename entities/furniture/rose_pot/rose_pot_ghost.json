@@ -1,0 +1,23 @@
+{
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(rose_pot.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Potted Roses",
+         "description": "A pot of Roses.",
+         "icon" : "file(rose_pot.png)"
+      },
+      "stonehearth:material" : {
+         "tags" : "decoration crafted"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 },
+         "region_origin" : { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   }
+}
