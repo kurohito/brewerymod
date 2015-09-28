@@ -6,6 +6,7 @@ A companion mod for <a href="http://discourse.stonehearth.net/t/mod-stonehearth-
 Welcome to my second mod ever released, a companion mod to <a href="http://discourse.stonehearth.net/users/Froggy/activity">Froggy's</a> <a href="http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-4/10159">Stonehearth Cafe (Cooking And Farming Expansion) 1.4</a>, In this mod I have added Distiller workbench for the cook as well as a few more drink recipes using the Distiller and I have added harvestable Wild Mushrooms that spawn in the gameworld, there is also a new ingredient I have added; Yeast.
 <br><br>
 This mod borrows models and code from <a href="http://discourse.stonehearth.net/users/Froggy/activity">Froggy's</a> <a href="http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-4/10159">Stonehearth Cafe (Cooking And Farming Expansion) 1.4</a> for the drink containers and the serving containers.
+All credit for the food buff observer goes to <a href="http://discourse.stonehearth.net/users/repeatpan/activity">RepeatPan</a> and <a href="http://discourse.stonehearth.net/users/Froggy/activity">Froggy</a>
 <br><br>
 I have removed all conflicting code and objects from my mod so that my mod works in unison with <a href="http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-4/10159">Stonehearth Cafe (Cooking And Farming Expansion) 1.4</a> which means I have removed the Well and Apiary but it can be found in <a href="http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-4/10159">Stonehearth Cafe (Cooking And Farming Expansion) 1.4</a> and works in the same way.
 <br><br><h5>
@@ -16,11 +17,11 @@ If you would like my apiary model here are the .qb files : <a href="https://www.
 <ul>
 <li><b>Functional Distiller</b> <i>(A new workbench for the cook profession, built by the cook using 2 wood, 3 copper ingots and 1 empty wood barrel)</i> The distiller gives the cook the new ability to brew drinks such as Mead, Fortified Pine Wine and lots more.</li>
 <br>
-<li><b>Harvestable Wild Mushrooms</b> <i>(Harvestable by using the standard harvesting selection tool)</i> Groups of wild mushrooms will now spawn in the gameworld automatically and spawn on all terrain. Wild mushrooms can be used by the cook to create Yeast.</li>
+<li><b>Harvestable Wild Mushrooms, Blueberries, Strawberries and Flowers</b> <i>(Harvestable by using the standard harvesting selection tool)</i> Groups of wild mushrooms, roses, allium, blueberries and strawberries will now spawn in the gameworld automatically and spawn on all terrain. Wild Mushrooms can be used by the cook to create Yeast, Blueberries and Strawberries can be eaten raw or used by the cook.</li>
 <br>
 <li><b>Decorative Barrel</b> <i>(Used in the recipe for the distiller and can be placed just like any other decoration.)</i> The decorative barrel is created by the carpenter and requires level 1 and 4 wood.</li>
 <br>
-<li><b>8 Drink Recipes</b> <i>(Created with the distiller workbench.)</i> The drink recipes are being added to but for now there are 8 drinks available utilizing ingredients from stonehearth, stonehearth cafe and ingredients from this mod.</li>
+<li><b>14 Drink Recipes</b> <i>(Created with the distiller workbench.)</i> The drink recipes are always being added to but for now there are 14 drinks available utilizing ingredients from stonehearth, stonehearth cafe and ingredients from this mod. For a comprehensive list of all ingredients you can check the wiki: <a href="http://github.com/kurohito/brewerymod/wiki/Home">Brewery Mod Wiki</a></li>
 </ul><br><br>
 <img src="https://cdn.discourse.org/business/uploads/stonehearth/original/3X/8/5/85ca75a520504a3b92d944e73ce361f9024d8ec4.png" width="613" height="102">
 <br>
@@ -28,10 +29,10 @@ In the upcoming future I plan on adding these features:
 <br>
 <ul>
 <li>Buffs to go with the various drinks</li>
-<li>Even More drink recipes</li>
+<li><s>Even More drink recipes</s><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/check_small_icon.png"></li>
 <li>Animated distiller workbench</li>
 <li>Turn barrels into storage for drinks.</li>
-<li>More harvestable and growable crops, plants, flowers and resources.</li>
+<li><s>More harvestable and growable crops, plants, flowers and resources.</s><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/check_small_icon.png"></li>
 </ul>
 <br><br>
 <img src="https://cdn.discourse.org/business/uploads/stonehearth/original/3X/a/5/a5949f13032348bb950af7943d295228b434f583.png" width="613" height="102">
