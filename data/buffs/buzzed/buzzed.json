@@ -1,0 +1,21 @@
+{
+   "type" : "buff",
+   
+   "name" : "Buzzed",
+   "description" : "Feeling the effects of alcohol your hearthings are feeling a little bit braver and loving",
+   "short_description" : "Gives a 10 % Courage Increase, 10% Compassion Increase and a 5% Speed Decrease",
+   "icon" : "file(buzzed.png)",
+   "duration" : "1h",
+
+   "modifiers" : {
+      "speed" : {
+         "multiply" : 0.95
+      },
+      "courage" : {
+         "multiply" : 1.10
+      },
+      "compassion" : {
+         "multiply" : 1.10
+      }
+   }
+} 

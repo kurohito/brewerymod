@@ -6,6 +6,7 @@
    "description" : "Super Healthy Turnip Juice.",
    "flavor"      : "A rather gross, yet healthy drink made from mushed up turnips and water.",
    "portrait"    : "/brewerymod/entities/food/turnip_juice/turnip_juice/turnip_juice.png",
+   "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,
 
    "ingredients": [

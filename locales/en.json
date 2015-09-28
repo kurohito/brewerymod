@@ -1,0 +1,814 @@
+{
+   "ui": {
+      "buffs": {
+      	  "blitzed": {
+            "blitzed_buff": {
+               "display_name": "Blitzed!",
+               "description": "Your Hearthing has had way too much alcohol!"
+               }
+            },
+            "buzzed": {
+            "buzzed_buff": {
+               "display_name": "Buzzed!",
+               "description": "Feeling the effects of the alcohol, your Hearthings are feeling a little bit braver and more affectionate!"
+               }
+            },
+            "drunk": {
+            "drunk_buff": {
+               "display_name": "Drunk!",
+               "description": "Your Hearthling is as drunk as a skunk!"
+               }
+            },   
+            "funky_taste": {
+            "funky_taste_buff": {
+               "display_name": "Funky Taste!",
+               "description": "Your Hearthling has eaten or drank something that doesn't agree with them... eww."
+               }
+            }, 
+            "hangover": {
+            "hangover_buff": {
+               "display_name": "Hungover!",
+               "description": "Your Hearthling partied a little too hard and now has a hangover!"
+               }
+            }, 
+            "healthy_glow": {
+            "healthy_glow_buff": {
+               "display_name": "Healthy Glow!",
+               "description": "Packed full of nutrients your Hearthlings feel amazing and get a boost to all stats!"
+               }
+            }, 
+            "sugar_coma": {
+            "sugar_coma_buff": {
+               "display_name": "Sugar Coma!",
+               "description": "Your Hearthling is having a sugar crash!"
+               }
+            },
+            "sweet_tooth": {
+            "sweet_tooth_buff": {
+               "display_name": "Sweet Tooth!",
+               "description": "Packed full of sugary sweet goodness your Hearthlings are able to work faster and longer!"
+               }
+            }
+         }
+      },
+      "entities": {
+            "crops": {
+               "blueberry_crop": {
+            "display_name": "Blueberries",
+            "description": "Fast growing tiny sweet fruit.",
+            "growth_stage": {
+               "003": {
+                  "name": "Ripe Blueberries",
+                  "description": "Delicious!"
+               },
+               "002": {
+                  "name": "Baby Blueberries",
+                  "description": "Small. Unripe."
+               },
+               "001": {
+                  "name": "Blueberry Sprouts",
+                  "description": "Not edible yet!"
+               },
+               "000": {
+                  "name": "Blueberry Seedlings",
+                  "description": "Teeny tiny blueberry seedlings."
+               },
+               "011": {
+                  "name": "Rotten Blueberries",
+                  "description": "Moldy and disgusting."
+               }
+            }
+         },
+         "cocoabeans_crop": {
+            "display_name": "Cocoa Beans",
+            "description": "Slow growing beans, used to make chocolate.",
+            "growth_stage": {
+               "003": {
+                  "name": "Ripe Cocoa Beans",
+                  "description": "Smells Delicious!"
+               },
+               "002": {
+                  "name": "Baby Cocoa Beans",
+                  "description": "Small. Unripe."
+               },
+               "001": {
+                  "name": "Cocoa Bean Sprout",
+                  "description": "Not edible yet!"
+               },
+               "000": {
+                  "name": "Cocoa Bean Seedling",
+                  "description": "Seedlings."
+               },
+               "011": {
+                  "name": "Rotten Cocoa Beans",
+                  "description": "Moldy and disgusting."
+               }
+            }
+         },
+         "garlic_crop": {
+            "display_name": "Garlic",
+            "description": "Garlic, used in cooking.",
+            "growth_stage": {
+               "003": {
+                  "name": "Ripe Garlic",
+                  "description": "Pretty purple flowers mean its time to harvest!"
+               },
+               "002": {
+                  "name": "Baby Garlic Shoots",
+                  "description": "Small."
+               },
+               "001": {
+                  "name": "Garlic Sprout",
+                  "description": "Not useable yet!"
+               },
+               "000": {
+                  "name": "Garlic Bulb",
+                  "description": "Freshly planted Garlic bulb."
+               },
+               "011": {
+                  "name": "Rotten Garlic",
+                  "description": "Moldy and disgusting."
+               }
+            }
+         },
+         "grapes_crop": {
+            "display_name": "Grapes",
+            "description": "Slow growing tiny tangy fruit, great for wine.",
+            "growth_stage": {
+               "003": {
+                  "name": "Ripe Grapes",
+                  "description": "Tangy and Delicious!"
+               },
+               "002": {
+                  "name": "Baby Grapes",
+                  "description": "Small. Unripe."
+               },
+               "001": {
+                  "name": "Grape Vine Sprouts",
+                  "description": "Not edible yet!"
+               },
+               "000": {
+                  "name": "Grape Vine Seedling",
+                  "description": "Grape Vine seedling."
+               },
+               "011": {
+                  "name": "Rotten Grapes",
+                  "description": "Moldy and disgusting."
+               }
+            }
+         },
+         "rice_crop": {
+            "display_name": "Rice",
+            "description": "Slow growing grain.",
+            "growth_stage": {
+               "004": {
+                  "name": "Mature Rice",
+                  "description": "Ready for Harvest!!."
+               },
+               "001": {
+                  "name": "Rice Sprouts",
+                  "description": "Not usable yet!"
+               },
+               "000": {
+                  "name": "Rice Seedling",
+                  "description": "Rice seedling."
+               },
+               "019": {
+                  "name": "Rotten Rice",
+                  "description": "Moldy and disgusting."
+               },
+               "003": {
+                  "name": "Maturing Rice",
+                  "description": "Not quite ready yet."
+               },
+               "002": {
+                  "name": "Stubby rice",
+                  "description": "Small. Unripe"
+               }
+            }
+         },
+         "strawberry_crop": {
+            "display_name": "Strawberries",
+            "description": "Fast growing delicious fruit.",
+            "growth_stage": {
+               "003": {
+                  "name": "Ripe Strawberries",
+                  "description": "Tangy and Delicious!"
+               },
+               "002": {
+                  "name": "Baby Strawberries",
+                  "description": "Small. Unripe."
+               },
+               "001": {
+                  "name": "Strawberry Sprouts",
+                  "description": "Not edible yet!"
+               },
+               "000": {
+                  "name": "Strawberry Seedlings",
+                  "description": "Teeny tiny strawberry seedlings."
+               },
+               "011": {
+                  "name": "Rotten Strawberries",
+                  "description": "Moldy and disgusting."
+               }
+            }
+         },
+         "sugarcane_crop": {
+            "display_name": "Sugarcane",
+            "description": "Extremely Slow growing woody crop used to create Sugar.",
+            "growth_stage": {
+               "003": {
+                  "name": "Mature Sugarcane",
+                  "description": "Finally!!"
+               },
+               "002": {
+                  "name": "Immature Sugarcane",
+                  "description": "Small. Not ready Yet!"
+               },
+               "001": {
+                  "name": "Sugarcane Sprouts",
+                  "description": "Not usable yet!"
+               },
+               "000": {
+                  "name": "Sugarcane Seedling",
+                  "description": "Sugarcane seedling."
+               },
+               "011": {
+                  "name": "Rotten Sugarcane",
+                  "description": "Moldy and disgusting."
+               }
+            }
+         },
+         "tomato_crop": {
+            "display_name": "Tomatoes",
+            "description": "Slow growing, but delicious.",
+            "growth_stage": {
+               "003": {
+                  "name": "Ripe Tomatoes",
+                  "description": "Delicious!"
+               },
+               "002": {
+                  "name": "Baby Tomatoes",
+                  "description": "Small. Green."
+               },
+               "001": {
+                  "name": "Tomato Sprouts",
+                  "description": "Not edible yet!"
+               },
+               "000": {
+                  "name": "Tomato Seedlings",
+                  "description": "Teeny tiny tomato seedlings."
+               },
+               "011": {
+                  "name": "Rotten Tomatoes",
+                  "description": "Moldy and disgusting."
+               }
+            }
+         },
+         "watermelon_crop": {
+            "display_name": "Watermelon",
+            "description": "Slow growing, but delicious on a hot summer day.",
+            "growth_stage": {
+               "003": {
+                  "name": "Ripe Watermelon",
+                  "description": "Mmmm... Delicious!"
+               },
+               "002": {
+                  "name": "Baby Watermelon",
+                  "description": "Small. Unripe."
+               },
+               "001": {
+                  "name": "Watermelon Sprouts",
+                  "description": "Not edible yet!"
+               },
+               "000": {
+                  "name": "Watermelon Seedling",
+                  "description": "A teeny tiny watermelon seedling."
+               },
+               "011": {
+                  "name": "Rotten Watermelon",
+                  "description": "Moldy and disgusting."
+               }
+            }
+         }
+      },
+      "decoration": {
+         "empty_barrel": {
+            "empty_barrel_ghost": {
+               "display_name": "Empty Wood Barrel",
+               "description": "Hmmm... theres nothing inside."
+               }
+            }
+         },
+         "furniture": {
+         "allium_pot": {
+            "allium_pot_ghost": {
+               "display_name": "Potted Allium",
+               "description": "A pot of Allium."
+            }
+         },
+         "rose_pot": {
+            "rose_pot_ghost": {
+               "display_name": "Potted Roses",
+               "description": "A pot of Roses."
+            }
+         }
+      },
+      "food": {
+         "blueberry": {
+            "blueberry_basket": {
+               "display_name": "Basket of Blueberries",
+               "description": "Fresh and Sweet."
+            },
+            "blueberry_serving": {
+               "display_name": "Plate of blueberries",
+               "description": "Delicious."
+            }
+         },
+         "blueberry_milkshake": {
+            "blueberry_milkshake": {
+               "display_name": "Blueberry Milkshake",
+               "description": "Thick & Creamy!"
+            },
+            "blueberry_milkshake_serving": {
+               "display_name": "A Beaker of Blueberry Milkshake",
+               "description": "Thick & Creamy!"
+            }
+         },
+         "blueberry_wine": {
+            "blueberry_wine": {
+               "display_name": "Blueberry Wine",
+               "description": "Tarte & Refreshing"
+            },
+            "blueberry_wine_serving": {
+               "display_name": "A Beaker of Blueberry Wine",
+               "description": "Tarte & Refreshing"
+            }
+         },
+         "carrot_juice": {
+            "carrot_juice": {
+               "display_name": "Carrot Juice",
+               "description": "No added preservatives!"
+            },
+            "carrot_juice_serving": {
+               "display_name": "Carrot Juice",
+               "description": "No added preservatives!"
+            }
+         },
+         "chocolate_milkshake": {
+            "chocolate_milkshake": {
+               "display_name": "Chocolate Milkshake",
+               "description": "Thick & Creamy!"
+            },
+            "chocolate_milkshake_serving": {
+               "display_name": "Chocolate Milkshake",
+               "description": "Thick & Creamy!"
+            }
+         },
+         "cocoa_powder": {
+            "cocoa_powder": {
+               "display_name": "Cocoa Powder",
+               "description": "An ingredient for cooking"
+            }
+         },
+         "cocoabeans": {
+            "cocoabeans": {
+               "display_name": "Basket of Cocoa Beans",
+               "description": "Very bitter, used to make delicious chocolate."
+            },
+            "cocoabeans_serving": {
+               "display_name": "Cocoa Beans",
+               "description": "Bitter, best used in cooking."
+            }
+         },
+         "corn_mead": {
+            "corn_mead": {
+               "display_name": "Corn Mead",
+               "description": "No added preservatives!"
+            },
+            "corn_mead_serving": {
+               "display_name": "A Beaker of Corn Mead",
+               "description": "Delicious and refreshing!"
+            }
+         },
+         "fortified_pine_wine": {
+            "fortified_pine_wine": {
+               "display_name": "Fortified Pine Wine",
+               "description": "No added preservatives!"
+            },
+            "fortified_pine_wine_serving": {
+               "display_name": "A Beaker of Fortified Pine Wine",
+               "description": "Now comes with pine fresh scent!"
+            }
+         },
+         "fortified_wine": {
+            "fortified_wine": {
+               "display_name": "Fortified Wine",
+               "description": "A unique robust flavour!"
+            },
+            "fortified_wine_serving": {
+               "display_name": "A Beaker of Fortified Wine",
+               "description": "A unique robust flavour!"
+            }
+         },
+         "frost_berry_wine": {
+            "frost_berry_wine": {
+               "display_name": "Frost Berry Wine",
+               "description": "No added preservatives!"
+            },
+            "frost_berry_wine_serving": {
+               "display_name": "A Beaker of Frost Berry Wine",
+               "description": "Cold and refreshing!"
+            }
+         },
+         "garlic": {
+            "garlic_basket": {
+               "display_name": "Basket of Garlic",
+               "description": "Used in cooking."
+            },
+            "garlic_serving": {
+               "display_name": "Garlic",
+               "description": "Strong and bitter on its own. Used in cooking."
+            }
+         },
+         "golden_mead": {
+            "golden_mead": {
+               "display_name": "Exquisite Golden Mead",
+               "description": "No added preservatives!"
+            },
+            "golden_mead_serving": {
+               "display_name": "A Beaker of Golden Mead",
+               "description": "The ultimate mead for expensive tastes!"
+            }
+         },
+         "grapes": {
+            "grapes_basket": {
+               "display_name": "Basket of Grapes",
+               "description": "Fresh and Tangy."
+            },
+            "grapes_serving": {
+               "display_name": "Grapes",
+               "description": "Delicious and Tangy."
+            }
+         },
+         "hot_chocolate": {
+            "hot_chocolate": {
+               "display_name": "Hot Chocolate",
+               "description": "Warming & Delicious!"
+            },
+            "hot_chocolate_serving": {
+               "display_name": "A Beaker of Hot Chocolate",
+               "description": "Warming & Delicious!"
+            }
+         },
+         "huckle_my_buff": {
+            "huckle_my_buff": {
+               "display_name": "Huckle My Buff",
+               "description": "A Fancy Cocktail!"
+            },
+            "huckle_my_buff_serving": {
+               "display_name": "A Beaker of Huckle My Buff",
+               "description": "A Fancy Cocktail!"
+            }
+         },
+         "mead": {
+            "mead": {
+               "display_name": "A Vat of Mead",
+               "description": "No added preservatives!"
+            },
+            "mead_serving": {
+               "display_name": "A Beaker of Mead",
+               "description": "Delicious and refreshing!"
+            }
+         },
+         "mushroom": {
+            "mushroom": {
+               "display_name": "Wild Mushroom",
+               "description": "An ingredient for cooking"
+            }
+         },
+         "pumpkin_spice_mead": {
+            "pumpkin_spice_mead": {
+               "display_name": "Pumpkin Spice Mead",
+               "description": "No added preservatives!"
+            },
+            "pumpkin_spice_mead_serving": {
+               "display_name": "A Beaker of Pumpkin Spice Mead",
+               "description": "Delicious and warming!"
+            }
+         },
+         "rice": {
+            "rice_basket": {
+               "display_name": "Basket of Rice",
+               "description": "Hand picked."
+            },
+            "rice_serving": {
+               "display_name": "Rice",
+               "description": "Hand picked organic rice, bland on its own."
+            }
+         },
+         "rice_wine": {
+            "rice_wine": {
+               "display_name": "Rice Wine",
+               "description": "A Delicious Wine"
+            },
+            "rice_wine_serving": {
+               "display_name": "A Beaker of Rice Wine",
+               "description": "A Delicious Wine!"
+            }
+         },
+         "strawberry": {
+            "strawberry_basket": {
+               "display_name": "Basket of strawberries",
+               "description": "Fresh and Sweet."
+            },
+            "strawberry_serving": {
+               "display_name": "Strawberry",
+               "description": "Sweet & Delicious."
+            }
+         },
+         "strawberry_mead": {
+            "strawberry_mead": {
+               "display_name": "Strawberry Mead",
+               "description": "Sweet!"
+            },
+            "strawberry_mead_serving": {
+               "display_name": "A Beaker of Strawberry Mead",
+               "description": "Delicious and Sweet!"
+            }
+         },
+         "strawberry_milkshake": {
+            "strawberry_milkshake": {
+               "display_name": "Strawberry Milkshake",
+               "description": "Thick & Creamy!"
+            },
+            "strawberry_milkshake_serving": {
+               "display_name": "A Beaker of Strawberry Milkshake",
+               "description": "Thick & Creamy!"
+            }
+         },
+         "strawberry_wine": {
+            "strawberry_wine": {
+               "display_name": "Strawberry Wine",
+               "description": "Packed with sweet goodness!"
+            },
+            "strawberry_wine_serving": {
+               "display_name": "A Beaker of Strawberry Wine",
+               "description": "Packed with sweet goodness!"
+            }
+         },
+         "sugar": {
+            "sugar": {
+               "display_name": "Sugar",
+               "description": "An ingredient for cooking"
+            }
+         },
+         "sugarcanebundle": {
+            "sugarcanebundle": {
+               "display_name": "Bundle of Sugarcane",
+               "description": "Sugarcane grinds down in to Sugar."
+            }
+         },
+         "tomato": {
+            "tomato_basket": {
+               "display_name": "Basket of Tomatoes",
+               "description": "Fresh and tasty."
+            },
+            "tomato_serving": {
+               "display_name": "Tomato",
+               "description": "Delicious."
+            }
+         },
+         "tomato_juice": {
+            "tomato_juice": {
+               "display_name": "Tomato Juice",
+               "description": "No added preservatives!"
+            },
+            "tomato_juice_serving": {
+               "display_name": "A Beaker of Tomato Juice",
+               "description": "Delicious and Healthy!"
+            }
+         },
+         "turnip_juice": {
+            "turnip_juice": {
+               "display_name": "Turnip Juice",
+               "description": "No added preservatives!"
+            },
+            "turnip_juice_serving": {
+               "display_name": "A Beaker of Turnip Juice",
+               "description": "Kinda gross but does the job!"
+            }
+         },
+         "veggie_delight_smoothie": {
+            "veggie_delight_smoothie": {
+               "display_name": "Veggie Delight Smoothie",
+               "description": "Super Healthy Smoothie!"
+            },
+            "veggie_delight_smoothie_serving": {
+               "display_name": "A Beaker of Veggie Delight Smoothie",
+               "description": "Super Healthy Smoothie!"
+            }
+         },
+         "vodka": {
+            "vodka": {
+               "display_name": "Vodka",
+               "description": "A Smooth Potato Vodka"
+            },
+            "vodka_serving": {
+               "display_name": "A Beaker of Vodka",
+               "description": "A Smooth Potato Vodka"
+            }
+         },
+         "watermelon": {
+            "watermelon_basket": {
+               "display_name": "Basket of Watermelon",
+               "description": "Fresh and tasty."
+            },
+            "watermelon_serving": {
+               "display_name": "Watermelon",
+               "description": "Delicious."
+            }
+         },
+         "vodka": {
+            "watermelon_twist": {
+               "display_name": "Watermelon Twist",
+               "description": "Fancy!"
+            },
+            "watermelon_twist_serving": {
+               "display_name": "A Beaker of Watermelon Twist",
+               "description": "Fancy!"
+            }
+         },
+         "yeast": {
+            "yeast": {
+               "display_name": "Yeast",
+               "description": "An ingredient for cooking"
+            }
+         }
+         },
+         "plants": {
+            "allium": {
+            "display_name": "Wild Allium",
+            "description": "A harvestable wild flower"
+         },
+         "blueberry": {
+            "display_name": "Wild Blueberries",
+            "description": "Harvestable wild blueberries"
+         },
+         "mushroom": {
+            "display_name": "Wild Mushroom",
+            "description": "A harvestable wild mushroom"
+         },
+         "roses": {
+            "display_name": "Wild Roses",
+            "description": "A harvestable wild flower"
+         },
+         "strawberry": {
+            "display_name": "Wild Strawberries",
+            "description": "Harvestable wild strawberries"
+         }
+      }
+   },
+   "jobs": {
+      "carpenter": {
+         "recipes": {
+            "empty_barrel_recipe": {
+               "description": "Used to hold liquid, or other things...",
+               "recipe_name": "Empty Wooden Barrel",
+               "flavor": ""
+            },
+            "signage_decoration": "Specialist Items"
+            }
+         },
+      "cook": {
+         "distiller": {
+            "distiller_ghost": {
+               "display_name": "Distiller",
+               "description": "Used to create delicious fortified wines, meads and juices."
+            }
+         },
+         "recipes": {
+            "carrot_juice_recipe": {
+               "description": "Delicious Nutritious Carrot Juice.",
+               "recipe_name": "Carrot Juice",
+               "flavor": "A Refreshing drink made from mushed up carrots and water."
+            },
+            "chocolate_milkshake_recipe": {
+               "description": "Delicious Chocolate Milkshake.",
+               "recipe_name": "Chocolate Milkshake",
+               "flavor": "A thick and creamy milkshake made from cocoa powder and milk."
+            },
+            "cocoa_powder_recipe": {
+               "description": "it's not only used for baking but also for making chocolate.",
+               "recipe_name": "Cocoa Powder",
+               "flavor": "mmmm... chocolate"
+            },
+            "corn_mead_recipe": {
+               "description": "Delicious Corn Mead.",
+               "recipe_name": "Corn Mead",
+               "flavor": "A Refreshing drink made from fermented yeast, corn, honey and water."
+            },
+            "distiller_recipe": {
+               "description": "Used to create delicious fortified wines and juices.",
+               "recipe_name": "Distiller Workbench",
+               "flavor": " *hic* "
+            },
+            "fortified_pine_wine_recipe": {
+               "description": "An interesting fortified wine.",
+               "recipe_name": "Fortified Pine Wine",
+               "flavor": "A drink made from a chunk of pine wood soaked and distilled with fortified honey and water."
+            },
+            "fortified_wine_recipe": {
+               "description": "A Pleasant Fortified Wine.",
+               "recipe_name": "Fortified Wine",
+               "flavor": "A wine made from fortified grapes and water."
+            },
+            "frost_berry_wine_recipe": {
+               "description": "A Chilling Berry Wine.",
+               "recipe_name": "Frost Berry Wine",
+               "flavor": "A Refreshingly cool drink made from mushed up berries, frostsnap flowers and water."
+            },
+            "golden_mead_recipe": {
+               "description": "An Exquisite Mead.",
+               "recipe_name": "Golden Mead",
+               "flavor": "A Delightful mead made from fermented yeast, water and honey flecked with real gold."
+            },
+            "hot_chocolate_recipe": {
+               "description": "Sweet and Hot",
+               "recipe_name": "Hot Chocolate",
+               "flavor": "A warming drink made from cocoa powder, sugar and milk."
+            },
+            "huckle_my_buff_recipe": {
+               "description": "An interesting cocktail.",
+               "recipe_name": "Huckle My Buff",
+               "flavor": "A drink made from egg, mead and distilled with sugar and water."
+            },
+            "mead_recipe": {
+               "description": "Delicious Honey Mead.",
+               "recipe_name": "Mead",
+               "flavor": "A Refreshing drink made from fermented yeast, water and honey."
+            },
+            "pumpkin_spice_mead_recipe": {
+               "description": "Heartwarming Pumpkin Spice Mead.",
+               "recipe_name": "Pumpkin Spice Mead",
+               "flavor": "A warming drink made from fermented yeast, pumpkin, water and honey"
+            },
+            "rice_wine_recipe": {
+               "description": "A Tasty Rice Wine.",
+               "recipe_name": "Rice Wine",
+               "flavor": "A wine made from fermented rice and water."
+            },
+            "strawberry_mead_recipe": {
+               "description": "Delicious Strawberry Mead.",
+               "recipe_name": "Strawberry Mead",
+               "flavor": "A tasty mead made from fermented yeast, water, honey and strawberries."
+            },
+            "strawberry_milkshake_recipe": {
+               "description": "Delicious Strawberry Milkshake.",
+               "recipe_name": "Strawberry Milkshake",
+               "flavor": "A thick and creamy milkshake made from mushed up strawberries and milk."
+            },
+            "strawberry_wine_recipe": {
+               "description": "A Sweet Strawberry Wine.",
+               "recipe_name": "Strawberry Wine",
+               "flavor": "A super sweet wine made from fermented strawberries, sugar and water."
+            },
+            "sugar_recipe": {
+               "description": "It's not only used for baking but also for making drinks.",
+               "recipe_name": "Sugar",
+               "flavor": " mmmm... sweet"
+            },
+            "tomato_juice_recipe": {
+               "description": "Delicious Nutritious Tomato Juice.",
+               "recipe_name": "Tomato Juice",
+               "flavor": "A Refreshing drink made from mushed up tomatoes, sugar and water."
+            },
+            "turnip_juice_recipe": {
+               "description": "Super Healthy Turnip Juice.",
+               "recipe_name": "Turnip Juice",
+               "flavor": "A rather gross, yet healthy drink made from mushed up turnips and water."
+            },
+            "veggie_delight_smoothie_recipe": {
+               "description": "A Nutritious Smoothie.",
+               "recipe_name": "Veggie Delight Smoothie",
+               "flavor": "A Delicious drink made from mushed up carrots, turnips, pumpkins, sugar and water."
+            },
+            "vodka_recipe": {
+               "description": "A Strong Smooth Vodka.",
+               "recipe_name": "Vodka",
+               "flavor": "A flavorless drink made from fermented potatoes and water."
+            },
+            "watermelon_twist_recipe": {
+               "description": "A Fancy Cocktail Full Of Zing!",
+               "recipe_name": "Watermelon Twist",
+               "flavor": "A Refreshing cocktail made from mushed up watermelon, strawberries and vodka."
+            },
+            "yeast_recipe": {
+               "description": "It's not only used for baking but also for making mead.",
+               "recipe_name": "Yeast",
+               "flavor": " mmmm... yeasty"
+            }
+         }
+      }
+}
+}

@@ -2,7 +2,7 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Mushroom",
+         "name": "Wild Mushroom",
          "description": "Delicious mmmmmm Mushroom!.",
          "icon" : "file(mushroom.png)"
       },

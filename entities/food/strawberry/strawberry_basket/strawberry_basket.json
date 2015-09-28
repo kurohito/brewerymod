@@ -39,7 +39,7 @@
    "entity_data" : {
       "stonehearth:food_container" : {
          "effect": "fiddle",
-         "food": "brewerymod:cooking:strawberry",
+         "food": "brewerymod:cooking:strawberry_serving",
          "stacks_per_serving": 3
       },
       "stonehearth:net_worth" : {

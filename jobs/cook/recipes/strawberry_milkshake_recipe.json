@@ -6,6 +6,7 @@
    "description" : "Delicious Strawberry Milkshake.",
    "flavor"      : "A thick and creamy milkshake made from mushed up strawberries and milk.",
    "portrait"    : "/brewerymod/entities/food/strawberry_milkshake/strawberry_milkshake/strawberry_milkshake.png",
+   "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,
 
    "ingredients": [

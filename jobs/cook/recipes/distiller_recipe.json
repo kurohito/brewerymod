@@ -1,7 +1,7 @@
 {
    "type": "recipe",
    "work_units": 5,
-   "recipe_name": "Distiller Recipe",
+   "recipe_name": "Distiller Workbench",
    "description": "Used to create delicious fortified wines and juices.",
    "flavor": " *hic* ",
    "portrait": "/brewerymod/jobs/cook/distiller/distiller.png",
@@ -20,7 +20,7 @@
 	  {
          "uri": "brewerymod:decoration:empty_barrel",
          "count": 1
-      },
+      }
 	  
    ],
    "produces": [

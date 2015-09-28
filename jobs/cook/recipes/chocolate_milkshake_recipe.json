@@ -6,6 +6,7 @@
    "description" : "Delicious Chocolate Milkshake.",
    "flavor"      : "A thick and creamy milkshake made from cocoa powder and milk.",
    "portrait"    : "/brewerymod/entities/food/chocolate_milkshake/chocolate_milkshake/chocolate_milkshake.png",
+   "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,
 
    "ingredients": [

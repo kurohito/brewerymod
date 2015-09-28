@@ -6,6 +6,7 @@
    "description" : "Sweet and Hot",
    "flavor"      : "A warming drink made from cocoa powder, sugar and milk.",
    "portrait"    : "/brewerymod/entities/food/hot_chocolate/hot_chocolate/hot_chocolate.png",
+   "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 2,
 
    "ingredients": [

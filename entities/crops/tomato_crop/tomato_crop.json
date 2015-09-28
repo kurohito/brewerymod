@@ -34,7 +34,7 @@
          }
       },
       "unit_info": {
-         "name": "Tomato", 
+         "name": "Tomatoes", 
          "description": "Slow growing, but delicious.",
          "icon" : "file(icon.png)"
       },
@@ -65,7 +65,7 @@
             {
                "model_name" : "tomato_3",
                "name": "Baby Tomatoes", 
-               "description": "Small. green."
+               "description": "Small. Green."
             },
             {
                "model_name" : "tomato_4",

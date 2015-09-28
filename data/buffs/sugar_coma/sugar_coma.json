@@ -1,0 +1,18 @@
+{
+   "type" : "buff",
+   
+   "name" : "Sugar Coma",
+   "description" : "Your Hearthling is having a sugar crash!",
+   "short_description" : "Gives a 20% Speed and Stamina Decrease",
+   "icon" : "file(sugar_coma.png)",
+   "duration" : "2h",
+
+   "modifiers" : {
+      "speed" : {
+         "multiply" : 0.80
+      },
+      "stamina" : {
+      	"multiply" : 0.80
+      }
+   }
+} 

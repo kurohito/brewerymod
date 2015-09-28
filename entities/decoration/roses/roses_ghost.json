@@ -2,8 +2,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Roses",
-         "description": "Bright, beautiful red roses.",
+         "name": "Wild Roses",
+         "description": "Bright, beautiful wild red roses.",
          "icon" : "file(roses.png)"
       },
       "render_info" : {

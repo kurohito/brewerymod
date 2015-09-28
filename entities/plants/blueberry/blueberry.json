@@ -6,7 +6,7 @@
       },
       "unit_info" : {
          "name": "Wild Blueberries", 
-         "description": "A harvestable wild plant"
+         "description": "Harvestable wild blueberries"
       },      
       "model_variants": {
          "default": {

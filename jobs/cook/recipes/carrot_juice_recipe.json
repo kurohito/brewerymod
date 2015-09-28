@@ -6,6 +6,7 @@
    "description" : "Delicious Nutritious Carrot Juice.",
    "flavor"      : "A Refreshing drink made from mushed up carrots and water.",
    "portrait"    : "/brewerymod/entities/food/carrot_juice/carrot_juice/carrot_juice.png",
+   "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,
 
    "ingredients": [

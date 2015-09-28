@@ -3,7 +3,7 @@
    "components": {
       "unit_info": {
          "name": "Empty Wood Barrel",
-         "description": "hmmm... theres nothing inside.",
+         "description": "Hmmm... theres nothing inside.",
          "icon" : "file(empty_barrel.png)"
       },
       "render_info" : {

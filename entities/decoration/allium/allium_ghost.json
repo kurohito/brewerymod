@@ -2,7 +2,7 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Allium",
+         "name": "Wild Allium",
          "description": "Bright, beautiful purple allium.",
          "icon" : "file(allium.png)"
       },

@@ -6,6 +6,7 @@
    "description" : "Delicious Nutritious Tomato Juice.",
    "flavor"      : "A Refreshing drink made from mushed up tomatoes, sugar and water.",
    "portrait"    : "/brewerymod/entities/food/tomato_juice/tomato_juice/tomato_juice.png",
+   "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,
 
    "ingredients": [

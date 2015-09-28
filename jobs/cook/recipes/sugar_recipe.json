@@ -2,7 +2,7 @@
    "type": "recipe",
    "work_units": 1,
    "recipe_name": "Sugar",
-   "description": "it's not only used for baking but also for making mead.",
+   "description": "It's not only used for baking but also for making drinks.",
    "flavor": " mmmm... sweet",
    "portrait": "/brewerymod/entities/food/sugar/sugar.png",
    "workshop": "stonehearth:cook:mill",

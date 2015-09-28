@@ -24,7 +24,10 @@
          },
          "default" : {
             "satisfaction" : 100
-         }
+         },
+               "buff_uri" : "brewerymod:buff:buzzed",
+                     "buff_uri" : "brewerymod:buff:sweet_tooth",
+                           "buff_uri" : "brewerymod:buff:hungover"
       }
    }   
 }

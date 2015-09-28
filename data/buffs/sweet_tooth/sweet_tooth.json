@@ -2,16 +2,16 @@
    "type" : "buff",
    
    "name" : "Sweet Tooth",
-   "description" : "Packed full of sugary goodness your Hearthlings are able to work faster!",
+   "description" : "Packed full of sugary sweet goodness your Hearthlings are able to work faster and longer!",
    "short_description" : "20%",
    "icon" : "file(sweet_tooth.png)",
    "duration" : "3h",
 
    "modifiers" : {
       "speed" : {
-         "multiply" : 3.20
+         "multiply" : 1.20
       },
-      "health" : {
+      "stamina" : {
       	"multiply" : 1.20
       }
    }

@@ -6,7 +6,7 @@
       },
       "unit_info" : {
          "name": "Wild Strawberries", 
-         "description": "A harvestable wild plant"
+         "description": "Harvestable wild strawberries"
       },      
       "model_variants": {
          "default": {

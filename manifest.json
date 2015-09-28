@@ -6,6 +6,13 @@
     "aliases": {
 
     	"buff:sweet_tooth": "file(data/buffs/sweet_tooth)",
+    	"buff:blitzed": "file(data/buffs/blitzed)",
+    	"buff:buzzed": "file(data/buffs/buzzed)",
+    	"buff:drunk": "file(data/buffs/drunk)",
+    	"buff:funky_taste": "file(data/buffs/funky_taste)",
+    	"buff:hangover": "file(data/buffs/hangover)",
+    	"buff:healthy_glow": "file(data/buffs/healthy_glow)",
+    	"buff:sugar_coma": "file(data/buffs/sugar_coma)",
 		
 		"cook:distiller": "file(jobs/cook/distiller/distiller.json)",
 		
@@ -166,6 +173,9 @@
 		],
 		"stonehearth/scenarios/scenario_index.json": [
             "file(mixins/scenario_index.json)"
+        ],
+        "stonehearth/locales/en.json": [
+        	"file(locales/en.json)"
         ]
     }
 	
