@@ -1,0 +1,33 @@
+{
+   "type" : "entity",
+   "mixins" : "file(empty_barrel_ghost.json)",
+   
+   "components": {
+      "stonehearth:storage" : {
+         "type" : "crate",
+         "auto_fill_from" : [ "vault" ],
+         "capacity" : 16
+      },
+      "stonehearth:entity_forms" : {
+         "iconic_form" : "file(empty_barrel_iconic.json)",
+         "ghost_form" : "file(empty_barrel_ghost.json)",
+         "placeable_on_ground" : true
+      },
+      "destination" : {
+         "region" : [
+            {
+               "min" : { "x" :-1, "y" : 0, "z" : 1 },
+               "max" : { "x" : 1, "y" : 2, "z" : 3 }
+            }
+         ]
+      },
+      "region_collision_shape" : {
+         "region" : [
+            {
+               "min" : { "x" :-1, "y" : 0, "z" : 1 },
+               "max" : { "x" : 1, "y" : 2, "z" : 3 }
+            }
+         ]
+      }           
+   }
+}

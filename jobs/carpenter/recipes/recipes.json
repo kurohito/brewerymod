@@ -1,8 +1,8 @@
 {
    "craftable_recipes": {   
-      "signage_decoration": {
-         "ordinal": 7,
-         "name": "Specialist Items",
+      "storage": {
+         "ordinal": 3,
+         "name": "i18n(stonehearth:jobs.carpenter.recipes.storage_name)",
          "recipes": {
             "empty_barrel": {
                "recipe": "file(empty_barrel_recipe.json)"

@@ -4,7 +4,7 @@
    "recipe_name": "Empty Wooden Barrel",
    "description": "Used to hold liquid, or other things...",
    "flavor": "",
-   "portrait": "/brewerymod/entities/decoration/empty_barrel/empty_barrel.png",
+   "portrait": "/brewerymod/entities/containers/empty_barrel/empty_barrel.png",
    "level_requirement": 1,
    "ingredients": [
       {
@@ -14,7 +14,7 @@
    ],
    "produces": [
       {
-         "item": "brewerymod:decoration:empty_barrel"
+         "item": "brewerymod:containers:empty_barrel"
       }
    ]
 }

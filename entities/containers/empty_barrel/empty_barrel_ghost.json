@@ -1,0 +1,39 @@
+{
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(empty_barrel.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.1
+      },
+      "unit_info": {
+         "description": "A nice place to store drinks.",
+         "icon": "file(empty_barrel.png)",
+         "display_name": "Wood Barrel"
+      },
+      "stonehearth:material": {
+         "tags": "wood furniture crafted"
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.0,
+            "y": 0,
+            "z": 0.0
+         },
+         "region_origin": {
+            "x": -1.0,
+            "y": 0,
+            "z": 1.0
+         },
+         "align_to_grid": [
+            "x",
+            "z"
+         ],
+         "allow_vertical_adjacent": true
+      }
+   }
+}

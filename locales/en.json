@@ -292,11 +292,11 @@
             }
          }
       },
-      "decoration": {
+      "containers": {
          "empty_barrel": {
             "empty_barrel_ghost": {
-               "display_name": "Empty Wood Barrel",
-               "description": "Hmmm... theres nothing inside."
+               "display_name": "Wood Barrel",
+               "description": "A nice place to store drinks."
                }
             }
          },
@@ -674,7 +674,7 @@
          "recipes": {
             "empty_barrel_recipe": {
                "description": "Used to hold liquid, or other things...",
-               "recipe_name": "Empty Wooden Barrel",
+               "recipe_name": "Wooden Barrel",
                "flavor": ""
             },
             "signage_decoration": "Specialist Items"

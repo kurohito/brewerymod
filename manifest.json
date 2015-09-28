@@ -118,8 +118,8 @@
 
 
 		"decoration:mushroom"    : "file(entities/decoration/mushroom)",
-		"decoration:empty_barrel"    : "file(entities/decoration/empty_barrel)",
-		"empty_barrel": "file(entities/decoration/empty_barrel)",
+		"containers:empty_barrel"    : "file(entities/containers/empty_barrel)",
+		"empty_barrel": "file(entities/containers/empty_barrel)",
 		"mushroom": "file(entities/decoration/mushroom)",
 		"mushroom:plant" : "file(entities/plants/mushroom)",
 
