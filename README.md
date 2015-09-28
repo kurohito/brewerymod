@@ -19,7 +19,7 @@ If you would like my apiary model here are the .qb files : <a href="https://www.
 <br>
 <li><b>Harvestable Wild Mushrooms, Blueberries, Strawberries and Flowers</b> <i>(Harvestable by using the standard harvesting selection tool)</i> Groups of wild mushrooms, roses, allium, blueberries and strawberries will now spawn in the gameworld automatically and spawn on all terrain. Wild Mushrooms can be used by the cook to create Yeast, Blueberries and Strawberries can be eaten raw or used by the cook.</li>
 <br>
-<li><b>Decorative Barrel</b> <i>(Used in the recipe for the distiller and can be placed just like any other decoration.)</i> The decorative barrel is created by the carpenter and requires level 1 and 4 wood.</li>
+<li><b>Storage Barrel</b> <i>(Used in the recipe for the distiller and can be placed just like any other stroage/decoration.)</i> The storage barrel is created by the carpenter and requires level 1 and 4 wood.</li>
 <br>
 <li><b>14 Drink Recipes</b> <i>(Created with the distiller workbench.)</i> The drink recipes are always being added to but for now there are 14 drinks available utilizing ingredients from stonehearth, stonehearth cafe and ingredients from this mod. For a comprehensive list of all ingredients you can check the wiki: <a href="http://github.com/kurohito/brewerymod/wiki/Home">Brewery Mod Wiki</a></li>
 <li><b>8 Drink Buffs</b>The various drinks contained within the mod now have various buffs and debuffs, affecting various attributes. For more info on the Buffs you can check the Wiki here: <a href="http://github.com/kurohito/brewerymod/wiki/Buffs">Buffs</a></li>
@@ -32,7 +32,7 @@ In the upcoming future I plan on adding these features:
 <li><s>Buffs to go with the various drinks</s><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/check_small_icon.png"></li>
 <li><s>Even More drink recipes</s><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/check_small_icon.png"></li>
 <li>Animated distiller workbench</li>
-<li>Turn barrels into storage for drinks.</li>
+<li><s>Turn barrels into storage for drinks.</s><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/check_small_icon.png"></li>
 <li><s>More harvestable and growable crops, plants, flowers and resources.</s><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/check_small_icon.png"></li>
 </ul>
 <br><br>
