@@ -22,13 +22,14 @@ If you would like my apiary model here are the .qb files : <a href="https://www.
 <li><b>Decorative Barrel</b> <i>(Used in the recipe for the distiller and can be placed just like any other decoration.)</i> The decorative barrel is created by the carpenter and requires level 1 and 4 wood.</li>
 <br>
 <li><b>14 Drink Recipes</b> <i>(Created with the distiller workbench.)</i> The drink recipes are always being added to but for now there are 14 drinks available utilizing ingredients from stonehearth, stonehearth cafe and ingredients from this mod. For a comprehensive list of all ingredients you can check the wiki: <a href="http://github.com/kurohito/brewerymod/wiki/Home">Brewery Mod Wiki</a></li>
+<li><b>8 Drink Buffs</b>The various drinks contained within the mod now have various buffs and debuffs, affecting various attributes. For more info on the Buffs you can check the Wiki here: <a href="http://github.com/kurohito/brewerymod/wiki/Buffs">Buffs</a></li>
 </ul><br><br>
 <img src="https://cdn.discourse.org/business/uploads/stonehearth/original/3X/8/5/85ca75a520504a3b92d944e73ce361f9024d8ec4.png" width="613" height="102">
 <br>
 In the upcoming future I plan on adding these features:
 <br>
 <ul>
-<li>Buffs to go with the various drinks</li>
+<li><s>Buffs to go with the various drinks</s><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/check_small_icon.png"></li>
 <li><s>Even More drink recipes</s><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/check_small_icon.png"></li>
 <li>Animated distiller workbench</li>
 <li>Turn barrels into storage for drinks.</li>
