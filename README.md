@@ -1,5 +1,5 @@
-# brewerymod
-A companion mod for <a href="http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-4/10159">Stonehearth Cafe</a>
+# Brewery Mod
+<a href="https://github.com/kurohito/brewerymod/releases"><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/latest-release.png"></a>
 
 <img src="https://cdn.discourse.org/business/uploads/stonehearth/original/3X/c/9/c9fc48f7bc15db3281fe6ca5d17ac161d7202885.png" width="613" height="387">
 <br>
