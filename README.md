@@ -58,7 +58,7 @@ Here are some images: (I will add more over time)
 <br><br>
 <img src="https://cdn.discourse.org/business/uploads/stonehearth/original/3X/b/4/b45d7dc271e7c04ac373adfc342105ebb5f9593c.png" width="613" height="102">
 <br>
-You can get the latest release here: <a href="https://github.com/kurohito/brewerymod/releases">Latest Release</a> <i>(make sure the folder is named "brewerymod" <b>NOT</b> "brewerymod-master" or "brewerymod-3.0" if so then please rename it)</i> <b>or</b> if you would like the .smod you can find it here: <a href="https://www.dropbox.com/s/5czh1j5dpnolam5/brewerymod.smod?dl=0">brewerymod.smod</a><br><br>
+You can get the latest release by clicking the button below:<br><br> <a href="https://github.com/kurohito/brewerymod/releases"><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/latest-release.png"></a><br><br> <i>(If you download the .rar file please unzip it and make sure the folder is named "brewerymod" <b>NOT</b> "brewerymod-master" or "brewerymod-3.0" if so then please rename it)</i> <b>or</b> if you would like the .smod you can find it in Latest Releases or  here: <a href="https://www.dropbox.com/s/5czh1j5dpnolam5/brewerymod.smod?dl=0">brewerymod.smod</a><br><br>
 <img src="https://cdn.discourse.org/business/images/emoji/emoji_one/exclamation.png?v=0" title=":exclamation:" class="emoji" alt=":exclamation:"><b>You will also need <a href="http://discourse.stonehearth.net/users/Froggy/activity">Froggy's</a> <a href="http://discourse.stonehearth.net/t/mod-stonehearth-cafe-cooking-and-farming-expansion-1-4/10159">Stonehearth Cafe (Cooking And Farming Expansion) 1.4</a> for this mod to work correctly.</b>
 <br><br><br>
 <b>To install this mod locate your stonehearth folder,</b>
