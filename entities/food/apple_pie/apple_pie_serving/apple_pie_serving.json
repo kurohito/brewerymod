@@ -1,0 +1,30 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "mmm.. it's still warm!",
+         "display_name": "Slice of Apple Pie"
+      },
+      "stonehearth:material": {
+         "tags": "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(apple_pie_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 240
+         },
+         "default": {
+            "satisfaction": 200
+         }
+      }
+   }
+}

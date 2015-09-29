@@ -1,0 +1,102 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(apple_tree_6.qb)"
+            ]
+         },
+         "apple_tree_1": {
+            "models": [
+               "file(apple_tree_1.qb)"
+            ]
+         },
+         "apple_tree_2": {
+            "models": [
+               "file(apple_tree_2.qb)"
+            ]
+         },
+         "apple_tree_3": {
+            "models": [
+               "file(apple_tree_3.qb)"
+            ]
+         },
+         "apple_tree_4": {
+            "models": [
+               "file(apple_tree_4.qb)"
+            ]
+         },
+         "apple_tree_5": {
+            "models": [
+               "file(apple_tree_5.qb)"
+            ]
+         },
+         "apple_tree_6": {
+            "models": [
+               "file(apple_tree_6.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.18
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.05,
+            "y": 0,
+            "z": 0.05
+         }
+      },
+      "unit_info": {
+         "description": "A hardy tree that produces Apples",
+         "icon": "file(apple_tree_crop.png)",
+         "display_name": "Apple Tree"
+      },
+      "stonehearth:crop": {
+         "resource_pairings": {
+            "apple_tree_6": "brewerymod:cooking:apple"
+         },
+         "harvest_threshhold": "apple_tree_6",
+         "plant_overlay_effect": "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      },
+      "stonehearth:growing": {
+         "growth_period": "2d",
+         "growth_stages": [
+            {
+               "model_name": "apple_tree_1",
+               "name": "Apple Tree Seedling",
+               "description": "Freshly planted apple seed"
+            },
+            {
+               "model_name": "apple_tree_2",
+               "name": "Apple Tree Sapling",
+               "description": "A fragile sapling"
+            },
+            {
+               "model_name": "apple_tree_3",
+               "name": "Immature Apple Tree",
+               "description": "Looks like it's getting ready to blosom"
+            },
+            {
+               "model_name": "apple_tree_4",
+               "name": "Apple Tree Blosom",
+               "description": "Pretty pink flowers!"
+            },
+            {
+               "model_name": "apple_tree_5",
+               "name": "Mature Apple Tree",
+               "description": "Looks like the fruit is starting to develop!"
+            },
+            {
+               "model_name": "apple_tree_6",
+               "name": "Apple Tree",
+               "description": "Finally! Crisp, Tasty Apples ready to harvest!"
+            }
+         ]
+      },
+      "stonehearth:material": {
+         "tags": "crop apple_tree_crop"
+      }
+   }
+}

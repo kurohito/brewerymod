@@ -1,0 +1,35 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "A Wonderful Crisp Fresh Picked Apple",
+         "icon": "file(berry_serving.png)",
+         "display_name": "An Apple"
+      },
+      "item": {
+         "category": "food"
+      },
+      "stonehearth:material": {
+         "tags": "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(apple_serving.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 50
+         },
+         "default": {
+            "satisfaction": 45
+         }
+      },
+      "buff_uri" : "cookmod:buff:well_fed"
+   }
+}

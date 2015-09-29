@@ -24,6 +24,15 @@
             }
          }
       },
+      "Sweet" : {
+         "ordinal" : 3,
+         "name" : "Sweet",
+         "recipes" : {  
+            "apple_pie" : {
+               "recipe" : "file(apple_pie_recipe.json)"
+            }
+         }
+      },
       "Beverages" : {
          "ordinal" : 4,
          "name" : "Beverages",

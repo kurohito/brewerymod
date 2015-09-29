@@ -1,0 +1,39 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "stacks": 4,
+         "max_stacks": 4
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(apple_pie.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "description": "A freshly baked, yummy apple pie!",
+         "icon": "file(apple_pie.png)",
+         "display_name": "Apple Pie"
+      },
+      "stonehearth:material": {
+         "tags": "resource food_container apple_pie"
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "brewerymod:cooking:apple_pie_serving",
+         "stacks_per_serving": 1
+      }
+   }
+}

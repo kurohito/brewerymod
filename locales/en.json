@@ -290,6 +290,36 @@
                   "description": "Moldy and disgusting."
                }
             }
+         },
+         "apple_tree_crop": {
+            "display_name": "Apple Tree",
+            "description": "A hardy tree that produces Apples",
+            "growth_stage": {
+               "005": {
+                  "name": "Apple Tree",
+                  "description": "Finally! Crisp, Tasty Apples ready to harvest!"
+               },
+               "001": {
+                  "name": "Apple Tree Sapling",
+                  "description": "A fragile sapling"
+               },
+               "000": {
+                  "name": "Apple Tree Seedling",
+                  "description": "Freshly planted apple seed"
+               },
+               "004": {
+                  "name": "Mature Apple Tree",
+                  "description": "Looks like the fruit is starting to develop!"
+               },
+               "003": {
+                  "name": "Apple Tree Blosom",
+                  "description": "Pretty pink flowers!"
+               },
+               "002": {
+                  "name": "Immature Apple Tree",
+                  "description": "Looks like it's getting ready to blosom"
+               }
+            }
          }
       },
       "containers": {
@@ -644,6 +674,26 @@
                "display_name": "Yeast",
                "description": "An ingredient for cooking"
             }
+         },
+         "apple": {
+            "apple_basket": {
+               "display_name": "Basket of Apples",
+               "description": "Basket Of Wonderful Crisp Fresh Picked Apples"
+            },
+            "apple_serving": {
+               "display_name": "An Apple",
+               "description": "A Wonderful Crisp Fresh Picked Apple"
+            }
+         },
+         "apple_pie": {
+            "apple_pie": {
+               "display_name": "Apple Pie",
+               "description": "A freshly baked, yummy apple pie!"
+            },
+            "apple_pie_serving": {
+               "display_name": "Slice of Apple Pie",
+               "description": "mmm.. it's still warm!"
+            }
          }
          },
          "plants": {
@@ -807,6 +857,11 @@
                "description": "It's not only used for baking but also for making mead.",
                "recipe_name": "Yeast",
                "flavor": " mmmm... yeasty"
+            },
+            "apple_pie_recipe": {
+               "description": "A fresh baked apple pie",
+               "recipe_name": "Apple Pie",
+               "flavor": "A Refreshing pie made from mushed up apples, flour, yeast and water."
             }
          }
       }

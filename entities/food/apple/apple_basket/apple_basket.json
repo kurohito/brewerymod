@@ -1,0 +1,59 @@
+{
+   "mixins": "stonehearth:mixins:food_decay",
+   "type": "entity",
+   "components": {
+      "item": {
+         "category": "food",
+         "stacks": 3,
+         "maxStacks": 3
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(apple_basket.qb)"
+            ]
+         },
+         "decay_1": {
+            "models": [
+               "file(apple_basket_rotting.qb)"
+            ]
+         },
+         "decay_2": {
+            "models": [
+               "file(apple_basket_rotten.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "description": "Basket Of Wonderful Crisp Fresh Picked Apples",
+         "icon": "file(apple_basket.png)",
+         "display_name": "Basket of Apples"
+      },
+      "stonehearth:material": {
+         "tags": "resource fruit food_container apple raw_food"
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "brewerymod:cooking:apple_serving"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 25,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

@@ -35,6 +35,10 @@
 	{
          "crop_type" : "brewerymod:crops:tomato_crop",
          "quantity" : 10
+      },
+      {
+         "crop_type" : "brewerymod:crops:apple_tree_crop",
+         "quantity" : 10
       }	  
    ],
 	"stonehearth:kingdoms:rayyas_children" : [
@@ -73,6 +77,10 @@
 	{
          "crop_type" : "brewerymod:crops:tomato_crop",
          "quantity" : 10
+      },
+      {
+         "crop_type" : "brewerymod:crops:apple_tree_crop",
+         "quantity" : 10
       }
    ],
 	"stonehearth:kingdoms:northern_alliance" : [
@@ -110,6 +118,10 @@
       },
 	{
          "crop_type" : "brewerymod:crops:tomato_crop",
+         "quantity" : 10
+      },
+      {
+         "crop_type" : "brewerymod:crops:apple_tree_crop",
          "quantity" : 10
       }
 

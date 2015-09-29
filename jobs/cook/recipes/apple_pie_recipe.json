@@ -1,0 +1,37 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "Apple Pie",
+   "description": "A fresh baked apple pie",
+   "flavor": "mmmm... pie",
+   "portrait": "/brewerymod/entities/food/apple_pie/apple_pie.png",
+   "level_requirement": 3,
+   "workshop": "stonehearth:cook:oven",
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:flour",
+         "count": 1
+      },
+      {
+         "uri": "brewerymod:cooking:apples",
+         "count": 1
+      },
+      {
+         "uri": "brewerymod:cooking:yeast",
+         "count": 1
+      },
+      {
+         "uri": "cookmod:cooking:water_bucket",
+         "count": 1
+      },
+      {
+         "uri": "brewerymod:cooking:sugar",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "brewerymod:cooking:apple_pie"
+      }
+   ]
+}

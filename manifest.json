@@ -116,6 +116,13 @@
 		"cooking:watermelon_twist": "file(entities/food/watermelon_twist/watermelon_twist)",
 		"cooking:watermelon_twist_serving": "file(entities/food/watermelon_twist/watermelon_twist_serving)",
 
+		"cooking:apple": "file(entities/food/apple/apple_basket)",
+		"cooking:apple_serving": "file(entities/food/apple/apple_serving)",
+
+		"cooking:apple_pie": "file(entities/food/apple_pie/apple_pie)",
+		"cooking:apple_pie_serving": "file(entities/food/apple_pie/apple_pie_serving)",
+
+
 
 		"decoration:mushroom"    : "file(entities/decoration/mushroom)",
 		"containers:empty_barrel"    : "file(entities/containers/empty_barrel)",
@@ -137,6 +144,7 @@
 		"crops:rice_crop"   : "file(entities/crops/rice_crop)",
 		"crops:garlic_crop"   : "file(entities/crops/garlic_crop)",
 		"crops:sugarcane_crop"   : "file(entities/crops/sugarcane_crop)",
+		"crops:apple_tree_crop"   : "file(entities/crops/apple_tree_crop)",
 
 		"decoration:roses"    : "file(entities/decoration/roses)",
 		"roses": "file(entities/decoration/roses)",
