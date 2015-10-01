@@ -160,11 +160,16 @@
 	
 		"decoration:strawberry"    : "file(entities/decoration/strawberry)",
 		"strawberry": "file(entities/decoration/strawberry)",
-    	"strawberry:plant" : "file(entities/plants/strawberry)"
+    	"strawberry:plant" : "file(entities/plants/strawberry)",
+
+    	"trees:apple:ancient": "file(entities/trees/apple_tree/ancient_apple_tree)",
+      	"trees:apple:large": "file(entities/trees/apple_tree/large_apple_tree)",
+      	"trees:apple:medium": "file(entities/trees/apple_tree/medium_apple_tree)",
+      	"trees:apple:sapling": "file(entities/trees/apple_tree/sapling_apple_tree)",
+      	"trees:apple:small": "file(entities/trees/apple_tree/small_apple_tree)"
 
     },
 
-	
     "mixintos": {
 
 		"stonehearth/services/server/farming/data/initial_crops.json": [
@@ -184,6 +189,9 @@
         ],
         "stonehearth/locales/en.json": [
         	"file(locales/en.json)"
+        ],
+        "stonehearth/data/commands/plant_tree/plant_tree.json": [
+        	"file(data/commands/plant_tree/plant_tree.json)"
         ]
     }
 	

@@ -1,0 +1,3 @@
+local apple_tree_growth_class={}function apple_tree_growth_class.growth_check(entity,target_growth_stage,growth_attempts)return target_growth_stage
+end
+return apple_tree_growth_class

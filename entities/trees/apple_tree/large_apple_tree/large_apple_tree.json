@@ -1,0 +1,76 @@
+{
+   "mixins": "stonehearth:mixins:tree",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(large_apple_tree.qb)",
+                     "file(large_apple_tree_2.qb)",
+                     "file(large_apple_tree_3.qb)"
+                  ]
+               }
+            ]
+         }
+      },
+      "unit_info": {
+         "description": "100's of years old.",
+         "display_name": "Large Apple Tree"
+      },
+      "stonehearth:resource_node": {
+         "resource": "brewerymod:cooking:apple",
+         "durability": 15
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.5,
+            "y": 0,
+            "z": 0.5
+         },
+         "region_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+         },
+         "align_to_grid": [
+            "x",
+            "z"
+         ]
+      },
+      "destination": {
+         "region": [
+            {
+               "min": {
+                  "x": -3,
+                  "y": 0,
+                  "z": -3
+               },
+               "max": {
+                  "x": 4,
+                  "y": 1,
+                  "z": 4
+               }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": {
+                  "x": -3,
+                  "y": 0,
+                  "z": -3
+               },
+               "max": {
+                  "x": 4,
+                  "y": 24,
+                  "z": 4
+               }
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "description": "Plant it in the earth and watch it grow.",
+         "icon": "file(sapling_apple_tree.png)",
+         "display_name": "Apple Tree Sapling"
+      },
+      "render_info": {
+         "scale": 1
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sapling_apple_tree.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "region_origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+         },
+         "align_to_grid": [
+            "x",
+            "z"
+         ]
+      }
+   }
+}

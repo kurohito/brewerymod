@@ -4,7 +4,7 @@
    "recipe_name": "Apple Pie",
    "description": "A fresh baked apple pie",
    "flavor": "mmmm... pie",
-   "portrait": "/brewerymod/entities/food/apple_pie/apple_pie.png",
+   "portrait": "/brewerymod/entities/food/apple_pie/apple_pie/apple_pie.png",
    "level_requirement": 3,
    "workshop": "stonehearth:cook:oven",
    "ingredients": [
@@ -13,7 +13,7 @@
          "count": 1
       },
       {
-         "uri": "brewerymod:cooking:apples",
+         "uri": "brewerymod:cooking:apple",
          "count": 1
       },
       {

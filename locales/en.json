@@ -292,32 +292,24 @@
             }
          },
          "apple_tree_crop": {
-            "display_name": "Apple Tree",
-            "description": "A hardy tree that produces Apples",
+            "display_name": "Apple Tree Sapling",
+            "description": "Want some fruit? Get ready for lots of Apples!",
             "growth_stage": {
-               "005": {
-                  "name": "Apple Tree",
-                  "description": "Finally! Crisp, Tasty Apples ready to harvest!"
-               },
                "001": {
-                  "name": "Apple Tree Sapling",
-                  "description": "A fragile sapling"
-               },
-               "000": {
                   "name": "Apple Tree Seedling",
-                  "description": "Freshly planted apple seed"
-               },
-               "004": {
-                  "name": "Mature Apple Tree",
-                  "description": "Looks like the fruit is starting to develop!"
+                  "description": "It's just getting started."
                },
                "003": {
-                  "name": "Apple Tree Blosom",
-                  "description": "Pretty pink flowers!"
+                  "name": "Apple Tree Sapling",
+                  "description": "Ready to be transferred to a bigger plot."
+               },
+               "000": {
+                  "name": "Apple Tree Seed",
+                  "description": "Freshly planted apple seed"
                },
                "002": {
-                  "name": "Immature Apple Tree",
-                  "description": "Looks like it's getting ready to blosom"
+                  "name": "Apple Tree Sprout",
+                  "description": "Reach for the sun, little sprout."
                }
             }
          }
@@ -589,7 +581,7 @@
          },
          "sugar": {
             "sugar": {
-               "display_name": "Sugar",
+               "display_name": "Sack of Sugar",
                "description": "An ingredient for cooking"
             }
          },
@@ -716,9 +708,39 @@
          "strawberry": {
             "display_name": "Wild Strawberries",
             "description": "Harvestable wild strawberries"
+            }
+         },
+      "trees": {
+         "apple_tree": {
+            "ancient_apple_tree": {
+               "display_name": "Ancient Apple Tree",
+               "description": "It radiates a mysterious aura"
+            },
+            "large_apple_tree": {
+               "display_name": "Large Apple Tree",
+               "description": "100's of years old."
+            },
+            "medium_apple_tree": {
+               "display_name": "Medium Apple Tree",
+               "description": "Sturdy, in the prime of life."
+            },
+            "small_apple_tree": {
+               "display_name": "Small Apple Tree",
+               "description": "Slightly larger than a sapling."
+            },
+            "sapling_apple_tree": {
+               "description": "Plant it in the earth and watch it grow.",
+               "sapling_apple_tree_ghost": {
+                  "display_name": "Apple Tree Sapling",
+                  "description": "Plant it in the earth and watch it grow."
+               },
+               "sapling_apple_tree_iconic": {
+                  "description": "Plant it in the earth and watch it grow."
+               }
+            }
+            }
          }
-      }
-   },
+      },
    "jobs": {
       "carpenter": {
          "recipes": {

@@ -1,0 +1,33 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "stacks": 1,
+         "maxStacks": 1,
+         "category": "plants"
+      },
+      "unit_info": {
+         "description": "Plant it in the earth and watch it grow."
+      },
+      "stonehearth:commands": {
+         "commands": [
+            "file(/data/commands/plant_tree)"
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sapling_apple_tree_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": {
+            "x": 0.05,
+            "y": 0,
+            "z": 0.05
+         }
+      }
+   }
+}

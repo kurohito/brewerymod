@@ -1,0 +1,82 @@
+{
+   "mixins": "stonehearth:mixins:tree",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(medium_apple_tree.qb)",
+                     "file(medium_apple_tree_2.qb)",
+                     "file(medium_apple_tree_3.qb)"
+                  ]
+               }
+            ]
+         }
+      },
+      "unit_info": {
+         "description": "Sturdy, in the prime of life.",
+         "display_name": "Medium Apple Tree"
+      },
+      "stonehearth:resource_node": {
+         "resource": "brewerymod:cooking:apple",
+         "durability": 7
+      },
+      "mob": {
+         "model_origin": {
+            "x": -0.5,
+            "y": 0,
+            "z": 0.5
+         },
+         "region_origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+         },
+         "align_to_grid": [
+            "x",
+            "z"
+         ]
+      },
+      "destination": {
+         "region": [
+            {
+               "min": {
+                  "x": -2,
+                  "y": 0,
+                  "z": -2
+               },
+               "max": {
+                  "x": 3,
+                  "y": 1,
+                  "z": 3
+               }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": {
+                  "x": -2,
+                  "y": 0,
+                  "z": -2
+               },
+               "max": {
+                  "x": 3,
+                  "y": 16,
+                  "z": 3
+               }
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "brewerymod:trees:apple:large",
+         "evolve_time": "5d"
+      }
+   }
+}

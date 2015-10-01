@@ -1,0 +1,64 @@
+{
+   "type": "entity",
+   "mixins": [
+      "stonehearth:mixins:tree",
+      "file(sapling_apple_tree_ghost.json)"
+   ],
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sapling_apple_tree.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(sapling_apple_tree_iconic.json)",
+         "ghost_form": "file(sapling_apple_tree_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_placement_ui": true
+      },
+      "unit_info": {
+         "description": "Plant it in the earth and watch it grow."
+      },
+      "stonehearth:material": {
+         "tags": "plant tree"
+      },
+      "stonehearth:evolve": {
+      },
+      "stonehearth:resource_node": {
+         "resource": "stonehearth:resources:wood:oak_log",
+         "durability": 2
+      },
+      "destination": {
+         "region": [
+            {
+               "min": {
+                  "x": -2,
+                  "y": 0,
+                  "z": -2
+               },
+               "max": {
+                  "x": 2,
+                  "y": 1,
+                  "z": 2
+               }
+            }
+         ]
+      },
+      "region_collision_shape": {
+         "region_from_model": {
+            "model": "file(sapling_apple_tree.qb)",
+            "matrices": [
+               "trunk"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:evolve_data": {
+         "next_stage": "brewerymod:trees:apple:small",
+         "evolve_time": "1d"
+      }
+   }
+}
