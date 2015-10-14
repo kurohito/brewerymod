@@ -22,6 +22,8 @@ I have removed all conflicting code and objects from my mod so that my mod works
 <li><b>Storage Barrel</b> <i>(Used in the recipe for the distiller and can be placed just like any other stroage/decoration.)</i> The storage barrel is created by the carpenter and requires level 1 and 4 wood.</li>
 <br>
 <li><b>14 Drink Recipes</b> <i>(Created with the distiller workbench.)</i> The drink recipes are always being added to but for now there are 14 drinks available utilizing ingredients from stonehearth, stonehearth cafe and ingredients from this mod. For a comprehensive list of all ingredients you can check the wiki: <a href="http://github.com/kurohito/brewerymod/wiki/Home">Brewery Mod Wiki</a></li>
+<br>
+<li><b>Apple Tree</b> <i>(Grown by the farmer as a sapling.)</i> The Apple tree is growable and plantable like the existing oak tree sapling once planted the tree will continue to grow and will be harvestable and provide apples as a resource.</li>
 </ul><br><br>
 
 <img src="https://cdn.discourse.org/business/uploads/stonehearth/original/3X/8/5/85ca75a520504a3b92d944e73ce361f9024d8ec4.png" width="613" height="102">
@@ -30,10 +32,9 @@ In the upcoming future I plan on adding these features:
 <br>
 <ul>
 <li>Buffs to go with the various drinks</li>
-<li><s>Even More drink recipes</s><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/check_small_icon.png"></li>
+<li>Yeast added into existing bread recipes</li>
 <li>Animated distiller workbench</li>
-<li><s>Turn barrels into storage for drinks.</s><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/check_small_icon.png"></li>
-<li><s>More harvestable and growable crops, plants, flowers and resources.</s><img src="http://i794.photobucket.com/albums/yy224/blindrite/Brewery%20Mod/check_small_icon.png"></li>
+<li>More harvestable and growable Trees and resources.</li>
 </ul>
 <br><br>
 <img src="https://cdn.discourse.org/business/uploads/stonehearth/original/3X/a/5/a5949f13032348bb950af7943d295228b434f583.png" width="613" height="102">
