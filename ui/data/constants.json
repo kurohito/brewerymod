@@ -6,16 +6,19 @@
             "icon" : "/brewerymod/entities/food/yeast/yeast.png",
             "stacks" : 1
          },
+
 			"resource mushroom" : {
             "name" : "mushroom",
             "icon" : "/brewerymod/entities/food/mushroom/mushroom.png",
             "stacks" : 1
          },
+
          "resource cocoa_powder" : {
             "name" : "cocoa_powder",
             "icon" : "/brewerymod/entities/food/cocoa_powder/cocoa_powder.png",
             "stacks" : 1
          },
+         
          "resource sugar" : {
             "name" : "sugar",
             "icon" : "/brewerymod/entities/food/sugar/sugar.png",
