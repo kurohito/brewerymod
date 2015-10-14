@@ -24,8 +24,7 @@
          },
          "default" : {
             "satisfaction" : 20
-         },
-               "buff_uri" : "brewerymod:buff:funky_taste"
+         }
       }
    }   
 }

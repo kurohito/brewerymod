@@ -28,9 +28,7 @@
          },
          "default" : {
             "satisfaction" : 30
-         },
-		 
-		 "buff_uri" : "brewerymod:buff:sweet_tooth"
+         }
       }
    }   
 }

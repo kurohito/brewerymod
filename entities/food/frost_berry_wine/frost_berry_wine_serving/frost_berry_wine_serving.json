@@ -24,9 +24,7 @@
          },
          "default": {
             "satisfaction": 200
-         },
-         
-         "buff_uri" : "brewerymod:buff:buzzed"
+         }
       }
    }   
 }

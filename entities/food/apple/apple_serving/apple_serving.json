@@ -29,7 +29,7 @@
          "default": {
             "satisfaction": 45
          }
-      },
-      "buff_uri" : "cookmod:buff:well_fed"
+      }
    }
+
 }

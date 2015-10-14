@@ -24,9 +24,7 @@
          },
          "default" : {
             "satisfaction" : 100
-         },
-               "buff_uri" : "brewerymod:buff:buzzed",
-                     "buff_uri" : "brewerymod:buff:hungover"
+         }
       }
    }   
 }

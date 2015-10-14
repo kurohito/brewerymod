@@ -30,8 +30,7 @@
          },
          "default" : {
             "satisfaction" : 150
-         },
-                        "buff_uri" : "brewerymod:buff:drunk"
+         }
       }
    }   
 }
