@@ -43,7 +43,7 @@
       },
       "stonehearth:crop" : {
          "resource_pairings" : {
-            "sugarcane_4": "brewerymod:food:sugarcanebundle",
+            "sugarcane_4": "brewerymod:cooking:sugarcanebundle",
             "sugarcane_12": ""
          },
          "harvest_threshhold" : "sugarcane_4",
