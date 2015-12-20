@@ -3,13 +3,13 @@
       "buffs": {
          "blitzed": {
             "blitzed_buff": {
-               "display_name": "Blitzed!",
+               "display_name": "Besoffen!",
                "description": "Dein Heartling hat einen über den Durst getrunken! "
             }
          },
          "buzzed": {
             "buzzed_buff": {
-               "display_name": "Buzzed!",
+               "display_name": "Angeheitert!",
                "description": "Dein Heartling fühlt die Auswirkungen des Alkohols. Er fühlt sich ein weniger mutiger und liebesbedürftiger!"
             }
          },
@@ -27,7 +27,7 @@
          },
          "hangover": {
             "hangover_buff": {
-               "display_name": "Hungover!",
+               "display_name": "Verkatert!",
                "description": "Dein Heartling feierte ein wenig zu hart und hat jetzt einen Kater!"
             }
          },
