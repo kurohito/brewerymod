@@ -132,15 +132,15 @@
             }
          },
          "grapes_crop": {
-            "display_name": "Trauben",
+            "display_name": "Weintrauben",
             "description": "Kleine langsam wachsende spritzig Früchte, ideal für Wein.",
             "growth_stage": {
                "003": {
-                  "name": "reife Trauben",
+                  "name": "reife Weintrauben",
                   "description": "Spritzig und lecker!"
                },
                "002": {
-                  "name": "Junge Trauben",
+                  "name": "junge Weintrauben",
                   "description": "Klein. Unreif."
                },
                "001": {
@@ -152,7 +152,7 @@
                   "description": "Weintrauben Setzling."
                },
                "011": {
-                  "name": "verfaulte Trauben",
+                  "name": "verfaulte Weintrauben",
                   "description": "Schimmelig und Ekelhaft."
                }
             }
@@ -162,7 +162,7 @@
             "description": "Langsam wachsende Korn.",
             "growth_stage": {
                "004": {
-                  "name": "Älterer Reis",
+                  "name": "reifer Reis",
                   "description": "Bereit zum Ernten!"
                },
                "001": {
@@ -196,7 +196,7 @@
                   "description": "Spritzig und lecker!"
                },
                "002": {
-                  "name": "Kleine Erdbeeren",
+                  "name": "kleine Erdbeeren",
                   "description": "Klein. Unreif."
                },
                "001": {
@@ -274,15 +274,15 @@
                   "description": "Hmmmm..... Lecker!"
                },
                "002": {
-                  "name": "Junge Wassermelone",
+                  "name": "junge Wassermelone",
                   "description": "Klein. Unreif."
                },
                "001": {
-                  "name": "Wassermelone",
+                  "name": "Wassermelonen Sprössling",
                   "description": "Noch nicht essbar!"
                },
                "000": {
-                  "name": "Wassermelone Setzling",
+                  "name": "Wassermelonen Setzling",
                   "description": "Ein kleiner Wassermelone Setzling."
                },
                "011": {
@@ -292,7 +292,7 @@
             }
          },
          "apple_tree_crop": {
-            "display_name": "Apfelbaum Schößling",
+            "display_name": "Apfelbaum Schössling",
             "description": "Ein paar Früchte? Sei bereit für viele Äpfel!",
             "growth_stage": {
                "001": {
@@ -690,7 +690,7 @@
       },
       "plants": {
          "allium": {
-            "display_name": "Wilde Lauch",
+            "display_name": "Wilder Lauch",
             "description": "Eine sammelbare wilde Pflanze"
          },
          "blueberry": {
@@ -698,15 +698,15 @@
             "description": "Sammelbare wilde Blaubeeren"
          },
          "mushroom": {
-            "display_name": "Wilde Pilze",
-            "description": "A harvestable Wilde Pilze"
+            "display_name": "Wildpilze",
+            "description": "Ein sammelbarer Wildpilz"
          },
          "roses": {
-            "display_name": "wilde Rosen",
+            "display_name": "Wildrosen",
             "description": " Eine sammelbare wilde Blume"
          },
          "strawberry": {
-            "display_name": "wilde Erdbeeren",
+            "display_name": "Walderdbeeren",
             "description": " Sammelbare wilde Erdbeeren"
          }
       },
@@ -731,7 +731,7 @@
             "sapling_apple_tree": {
                "description": "Pflanze es in die Erde und schaue beim Wachsen zu.",
                "sapling_apple_tree_ghost": {
-                  "display_name": "Apfelbaum Sapling",
+                  "display_name": "Apfelbaum Sprössling",
                   "description": "Pflanze es in die Erde und schaue beim Wachsen zu."
                },
                "sapling_apple_tree_iconic": {
@@ -749,7 +749,7 @@
                "recipe_name": "Holzfass",
                "flavor": ""
             },
-            "signage_decoration": "Fachartikel"
+            "signage_decoration": "Besondere Elemente"
          }
       },
       "cook": {
@@ -781,7 +781,7 @@
                "flavor": "Ein erfrischendes Getränk hergestellt aus fermentierter Hefe, Mais, Honig und Wasser."
             },
             "distiller_recipe": {
-               "description": "Wird verwendet um leckere Weine und Säfte zu erstellen.",
+               "description": "Wird verwendet um leckere Weine, Met und Säfte zu erstellen.",
                "recipe_name": "Destillerie",
                "flavor": " *hicks* "
             },
@@ -862,16 +862,16 @@
             },
             "veggie_delight_smoothie_recipe": {
                "description": "Ein nahrhafter Smoothie.",
-               "recipe_name": "Veggie Delight Smoothie",
+               "recipe_name": "entzückender Gemüse Smoothie",
                "flavor": "Ein köstliches Getränk hergestellt aus pürierte Karotten, Rüben, Kürbisse, Zucker und Wasser."
             },
             "vodka_recipe": {
-               "description": "Ein starker runder Vodka",
+               "description": "Ein starker geschmeidiger Vodka",
                "recipe_name": "Vodka",
                "flavor": "Ein geschmackloses Getränk hergestellt aus fermentierten Kartoffeln und Wasser."
             },
             "watermelon_twist_recipe": {
-               "description": "Ein raffinierter Cocktail voll mit Zing!",
+               "description": "Ein raffinierter Cocktail voll mit Pfiff!",
                "recipe_name": "Wassermelonen Slushi",
                "flavor": "Einen erfrischenden Cocktail hergestellt aus bis pürierten Wassermelonen, Erdbeeren und Vodka."
             },
