@@ -495,7 +495,7 @@
          },
          "mead": {
             "mead": {
-               "display_name": "Einen Bottich mit Met",
+               "display_name": "Ein Bottich mit Met",
                "description": "Ohne Zusatz von Konservierungsmittel!"
             },
             "mead_serving": {
@@ -623,11 +623,11 @@
          },
          "veggie_delight_smoothie": {
             "veggie_delight_smoothie": {
-               "display_name": "Veggie Delight Smoothie",
+               "display_name": "entzückender Gemüse Smoothie",
                "description": "Super gesunder Smoothie!"
             },
             "veggie_delight_smoothie_serving": {
-               "display_name": "Ein Becher mit Veggie Delight Smoothie",
+               "display_name": "Ein Becher mit entzückendem Gemüse Smoothie",
                "description": "Super gesunder Smoothie!"
             }
          },
@@ -781,7 +781,7 @@
                "flavor": "Ein erfrischendes Getränk hergestellt aus fermentierter Hefe, Mais, Honig und Wasser."
             },
             "distiller_recipe": {
-               "description": "Used to create delicious fortified Weins and Safts.",
+               "description": "Wird verwendet um leckere Weine und Säfte zu erstellen.",
                "recipe_name": "Destillerie",
                "flavor": " *hicks* "
             },
@@ -791,12 +791,12 @@
                "flavor": "Ein Getränk, das aus einem Stück Kiefernholz extrahiert und mit Honig und Wasser destilliert wurde."
             },
             "fortified_wine_recipe": {
-               "description": "Ein Angenehmer Dessertwein.",
+               "description": "Ein angenehmer Dessertwein.",
                "recipe_name": "Kräftiger Wein",
                "flavor": "Ein Wein aus Trauben und Wasser hergestellt."
             },
             "frost_berry_wine_recipe": {
-               "description": "A Chilling Berry Wine.",
+               "description": "Ein kühler Beeren Wein.",
                "recipe_name": "Frostbeeren Wein",
                "flavor": "Ein erfrischend kühles Getränk aus pürierten Beeren, Eisblumen und Wasser."
             },
@@ -826,7 +826,7 @@
                "flavor": "Ein wärmendes Getränk aus fermentierter Hefe, Kürbis, Wasser und Honig"
             },
             "rice_wine_recipe": {
-               "description": "A wohlschmeckender Reiswein.",
+               "description": "Ein wohlschmeckender Reiswein.",
                "recipe_name": "Reiswein",
                "flavor": "Ein Wein hergestellt aus fermentiertem Reis und Wasser."
             },
