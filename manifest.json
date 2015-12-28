@@ -3,6 +3,9 @@
         "name": "brewerymod",
         "version": 3
     },
+
+    "default_locales" : "en",
+
     "aliases": {
 		
 		"cook:distiller": "file(jobs/cook/distiller/distiller.json)",
