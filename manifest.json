@@ -4,7 +4,7 @@
         "version": 3
     },
 
-    "default_locales" : "en",
+    "default_locale" : "en",
 
     "aliases": {
 		
