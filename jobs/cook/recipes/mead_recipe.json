@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Mead",
-   "description" : "Delicious Honey Mead.",
-   "flavor"      : "A Refreshing drink made from fermented yeast, water and honey.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.mead_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.mead_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.mead_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/mead/mead/mead.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 4,

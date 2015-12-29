@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Corn Mead",
-   "description" : "Delicious Corn Mead.",
-   "flavor"      : "A Refreshing drink made from fermented yeast, corn, honey and water.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.corn_mead_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.corn_mead_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.corn_mead_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/corn_mead/corn_mead/corn_mead.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,

@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 3,
-   "recipe_name" : "Watermelon Twist",
-   "description" : "A Fancy Cocktail Full Of Zing!",
-   "flavor"      : "A Refreshing cocktail made from mushed up watermelon, strawberries and vodka.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.watermelon_twist_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.watermelon_twist_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.watermelon_twist_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/watermelon_twist/watermelon_twist/watermelon_twist.png",
    "level_requirement" : 0,
 

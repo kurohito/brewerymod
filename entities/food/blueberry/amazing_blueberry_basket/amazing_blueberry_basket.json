@@ -15,8 +15,8 @@
          }
       },
       "unit_info": {
-         "name": "Amazing Basket of Blueberryes",
-         "description": "Super nutritous blueberries.",
+         "display_name": "i18n(brewerymod:entities.food.blueberry.amazing_blueberry_basket.display_name)",
+         "description": "i18n(brewerymod:entities.food.blueberry.amazing_blueberry_basket.description)",
          "icon" : "file(amazing_blueberry_basket.png)"
       },
       "stonehearth:material" : {

@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Turnip Juice",
-			"description": "No added preservatives!",
+			"display_name": "i18n(brewerymod:entities.food.turnip_juice.turnip_juice.display_name)",
+			"description": "i18n(brewerymod:entities.food.turnip_juice.turnip_juice.description)",
 			"icon" : "file(turnip_juice.png)"
 		},
 		"stonehearth:material" : {

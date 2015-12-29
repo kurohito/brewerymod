@@ -2,9 +2,9 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "description": "Plant it in the earth and watch it grow.",
+         "description": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_ghost.description)",
          "icon": "file(sapling_apple_tree.png)",
-         "display_name": "Apple Tree Sapling"
+         "display_name": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_ghost.display_name)"
       },
       "render_info": {
          "scale": 1

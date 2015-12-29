@@ -15,8 +15,8 @@
          }
       },
       "unit_info": {
-         "name": "Yeast",
-         "description": "An ingredient for cooking",
+         "display_name": "i18n(brewerymod:entities.food.yeast.display_name)",
+         "description": "i18n(brewerymod:entities.food.yeast.description)",
          "icon": "file(yeast.png)"
       },
       "stonehearth:material": {

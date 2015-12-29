@@ -17,8 +17,8 @@
          }
       },
       "unit_info": {
-         "description": "Sturdy, in the prime of life.",
-         "display_name": "Medium Apple Tree"
+         "description": "i18n(brewerymod:entities.trees.apple_tree.medium_apple_tree.description)",
+         "display_name": "i18n(brewerymod:entities.trees.apple_tree.medium_apple_tree.display_name)"
       },
       "stonehearth:resource_node": {
          "resource": "brewerymod:cooking:apple",

@@ -894,7 +894,13 @@
                "description": "A fresh baked apple pie",
                "recipe_name": "Apple Pie",
                "flavor": "A Refreshing pie made from mushed up apples, flour, yeast and water."
-            }
+            },
+            "sweet": "sweet",
+            "Beverages": "Beverages",
+            "meads": "meads",
+            "wines": "wines",
+            "Milkshakes": "Milkshakes",
+            "other_drinks": "other drinks"
          }
       }
    }

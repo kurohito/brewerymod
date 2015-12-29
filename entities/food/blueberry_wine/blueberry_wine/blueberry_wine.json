@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Blueberry Wine",
-			"description": "Tarte & Refreshing",
+			"display_name": "i18n(brewerymod:entities.food.blueberry_wine.blueberry_wine.display_name)",
+			"description": "i18n(brewerymod:entities.food.blueberry_wine.blueberry_wine.description)",
 			"icon" : "file(blueberry_wine.png)"
 		},
 		"stonehearth:material" : {

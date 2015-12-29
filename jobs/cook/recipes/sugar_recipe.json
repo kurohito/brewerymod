@@ -1,9 +1,9 @@
 {
    "type": "recipe",
    "work_units": 1,
-   "recipe_name": "Sugar",
-   "description": "It's not only used for baking but also for making drinks.",
-   "flavor": " mmmm... sweet",
+   "recipe_name": "i18n(brewerymod:jobs.cook.recipes.sugar_recipe.recipe_name)",
+   "description": "i18n(brewerymod:jobs.cook.recipes.sugar_recipe.description)",
+   "flavor": "i18n(brewerymod:jobs.cook.recipes.sugar_recipe.flavor)",
    "portrait": "/brewerymod/entities/food/sugar/sugar.png",
    "workshop": "stonehearth:cook:mill",
    "level_requirement": 1,

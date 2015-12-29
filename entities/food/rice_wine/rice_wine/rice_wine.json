@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Rice Wine",
-			"description": "A Delicious Wine",
+			"display_name": "i18n(brewerymod:entities.food.rice_wine.rice_wine.display_name)",
+			"description": "i18n(brewerymod:entities.food.rice_wine.rice_wine.description)",
 			"icon" : "file(rice_wine.png)"
 		},
 		"stonehearth:material" : {

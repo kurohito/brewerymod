@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Fortified Pine Wine",
-			"description": "No added preservatives!",
+			"display_name": "i18n(brewerymod:entities.food.fortified_pine_wine.fortified_pine_wine.display_name)",
+			"description": "i18n(brewerymod:entities.food.fortified_pine_wine.fortified_pine_wine.description)",
 			"icon" : "file(fortified_pine_wine.png)"
 		},
 		"stonehearth:material" : {

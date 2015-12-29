@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "A Beaker of Frost Berry Wine",
-         "description": "Cold and refreshing!"
+         "display_name": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine_serving.description)"
       },      
       "stonehearth:material": {
          "tags": "food"

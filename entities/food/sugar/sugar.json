@@ -15,9 +15,9 @@
          }
       },
       "unit_info": {
-         "description": "An ingredient for cooking",
+         "description": "i18n(brewerymod:entities.food.sugar.description)",
          "icon": "file(sugar.png)",
-         "display_name": "Sack of Sugar"
+         "display_name": "i18n(brewerymod:entities.food.sugar.display_name)"
       },
       "stonehearth:material": {
          "tags": "resource sugar"

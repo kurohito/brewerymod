@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Cocoa Beans",
-         "description": "Bitter, best used in cooking.",
+         "display_name": "i18n(brewerymod:entities.food.cocoabeans.cocoabeans_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.cocoabeans.cocoabeans_serving.description)",
          "icon": "file(cocoabeans_serving.png)"
       },      
       "item" : {

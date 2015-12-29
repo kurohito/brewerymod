@@ -5,8 +5,8 @@
          "scale" : 0.2
       },
       "unit_info" : {
-         "name": "Wild Strawberries", 
-         "description": "Harvestable wild strawberries"
+         "display_name": "i18n(brewerymod:entities.plants.strawberry.display_name)", 
+         "description": "i18n(brewerymod:entities.plants.strawberry.description)"
       },      
       "model_variants": {
          "default": {

@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 2,
-   "recipe_name" : "Hot Chocolate",
-   "description" : "Sweet and Hot",
-   "flavor"      : "A warming drink made from cocoa powder, sugar and milk.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.hot_chocolate_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.hot_chocolate_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.hot_chocolate_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/hot_chocolate/hot_chocolate/hot_chocolate.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 2,

@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "A Beaker of Golden Mead",
-         "description": "The ultimate mead for expensive tastes!"
+         "display_name": "i18n(brewerymod:entities.food.golden_mead.golden_mead_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.golden_mead.golden_mead_serving.description)"
       },      
       "stonehearth:material" : {
          "tags" : "food"

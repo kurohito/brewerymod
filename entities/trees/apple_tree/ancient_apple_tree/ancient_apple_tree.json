@@ -10,8 +10,8 @@
          }
       },
       "unit_info": {
-         "description": "It radiates a mysterious aura",
-         "display_name": "Ancient Apple Tree"
+         "description": "i18n(brewerymod:entities.trees.ancient_apple_tree.description)",
+         "display_name": "i18n(brewerymod:entities.trees.ancient_apple_tree.display_name)"
       },
       "stonehearth:resource_node": {
          "resource": "brewerymod:cooking:apple",

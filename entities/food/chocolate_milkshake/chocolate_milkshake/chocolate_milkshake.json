@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Chocolate Milkshake",
-			"description": "Thick & Creamy!",
+			"display_name": "i18n(brewerymod:entities.food.chocolate_milkshake.chocolate_milkshake.display_name)",
+			"description": "i18n(brewerymod:entities.food.chocolate_milkshake.chocolate_milkshake.description)",
 			"icon" : "file(chocolate_milkshake.png)"
 		},
 		"stonehearth:material" : {

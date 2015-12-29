@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Hot Chocolate",
-			"description": "Warming & Delicious!",
+			"display_name": "i18n(brewerymod:entities.food.hot_chocolate.hot_chocolate.display_name)",
+			"description": "i18n(brewerymod:entities.food.hot_chocolate.hot_chocolate.description)",
 			"icon" : "file(hot_chocolate.png)"
 		},
 		"stonehearth:material" : {

@@ -1,9 +1,9 @@
 {
    "type": "recipe",
    "work_units": 5,
-   "recipe_name": "Apple Pie",
-   "description": "A fresh baked apple pie",
-   "flavor": "mmmm... pie",
+   "recipe_name": "i18n(brewerymod:jobs.cook.recipes.apple_pie_recipe.recipe_name)",
+   "description": "i18n(brewerymod:jobs.cook.recipes.apple_pie_recipe.description)",
+   "flavor": "i18n(brewerymod:jobs.cook.recipes.apple_pie_recipe.flavor)",
    "portrait": "/brewerymod/entities/food/apple_pie/apple_pie/apple_pie.png",
    "level_requirement": 3,
    "workshop": "stonehearth:cook:oven",

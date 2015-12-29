@@ -5,8 +5,8 @@
          "scale" : 0.2
       },
       "unit_info" : {
-         "name": "Wild Blueberries", 
-         "description": "Harvestable wild blueberries"
+         "display_name": "i18n(brewerymod:entities.plants.blueberry.display_name)", 
+         "description": "i18n(brewerymod:entities.plants.blueberry.description)"
       },      
       "model_variants": {
          "default": {

@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "A Beaker of Tomato Juice",
-         "description": "Delicious and Healthy!"
+         "display_name": "i18n(brewerymod:entities.food.tomato_juice.tomato_juice_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.tomato_juice.tomato_juice_serving.description)"
       },      
       "stonehearth:material" : {
          "tags" : "food"

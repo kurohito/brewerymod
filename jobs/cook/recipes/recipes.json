@@ -26,7 +26,7 @@
       },
       "Sweet" : {
          "ordinal" : 3,
-         "name" : "Sweet",
+         "name" : "i18n(brewerymod:jobs.cook.recipes.sweet)",
          "recipes" : {  
             "apple_pie" : {
                "recipe" : "file(apple_pie_recipe.json)"
@@ -35,7 +35,7 @@
       },
       "Beverages" : {
          "ordinal" : 4,
-         "name" : "Beverages",
+         "name" : "i18n(brewerymod:jobs.cook.recipes.Beverages)",
          "recipes": {
 			"carrot_juice": {
                "recipe": "file(carrot_juice_recipe.json)"
@@ -56,7 +56,7 @@
       },
       "Meads" : {
          "ordinal" : 6,
-         "name" : "Meads",
+         "name" : "i18n(brewerymod:jobs.cook.recipes.meads)",
          "recipes": {
             "mead": {
                "recipe": "file(mead_recipe.json)"
@@ -77,7 +77,7 @@
       },
       "Wines" : {
          "ordinal" : 7,
-         "name" : "Wines",
+         "name" : "i18n(brewerymod:jobs.cook.recipes.wines)",
          "recipes": {
             "fortified_pine_wine": {
                "recipe": "file(fortified_pine_wine_recipe.json)"
@@ -101,7 +101,7 @@
       },
       "Milkshakes" : {
          "ordinal" : 7,
-         "name" : "Milkshakes",
+         "name" : "i18n(brewerymod:jobs.cook.recipes.Milkshakes)",
          "recipes": {
             "blueberry_milkshake": {
                "recipe": "file(blueberry_milkshake_recipe.json)"
@@ -116,7 +116,7 @@
       },
       "Other" : {
          "ordinal" : 7,
-         "name" : "Other Drinks",
+         "name" : "i18n(brewerymod:jobs.cook.recipes.other_drinks)",
          "recipes": {
             "hot_chocolate": {
                "recipe": "file(hot_chocolate_recipe.json)"

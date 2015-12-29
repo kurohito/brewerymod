@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "A Beaker of Watermelon Twist",
-         "description": "Fancy!"
+         "display_name": "i18n(brewerymod:entities.food.watermelon_twist.watermelon_twist_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.watermelon_twist.watermelon_twist_serving.description)"
       },      
       "stonehearth:material" : {
          "tags" : "food"

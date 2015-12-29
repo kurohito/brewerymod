@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Strawberry Milkshake",
-   "description" : "Delicious Strawberry Milkshake.",
-   "flavor"      : "A thick and creamy milkshake made from mushed up strawberries and milk.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.strawberry_milkshake_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.strawberry_milkshake_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.strawberry_milkshake_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/strawberry_milkshake/strawberry_milkshake/strawberry_milkshake.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,

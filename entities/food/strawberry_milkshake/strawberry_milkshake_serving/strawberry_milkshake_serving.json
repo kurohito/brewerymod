@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "A Beaker of Strawberry Milkshake",
-         "description": "Thick & Creamy!"
+         "display_name": "i18n(brewerymod:entities.food.strawberry_milkshake.strawberry_milkshake_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.strawberry_milkshake.strawberry_milkshake_serving.description)"
       },      
       "stonehearth:material" : {
          "tags" : "food"

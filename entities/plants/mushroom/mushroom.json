@@ -5,8 +5,8 @@
          "scale" : 0.2
       },
       "unit_info" : {
-         "name": "Wild Mushroom", 
-         "description": "A harvestable wild mushroom"
+         "display_name": "i18n(brewerymod:entities.plants.mushroom.display_name)", 
+         "description": "i18n(brewerymod:entities.plants.mushroom.description)"
       },      
       "model_variants": {
          "default": {

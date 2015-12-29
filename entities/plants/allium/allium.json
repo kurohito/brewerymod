@@ -5,8 +5,8 @@
          "scale" : 0.2
       },
       "unit_info" : {
-         "name": "Wild Allium", 
-         "description": "A harvestable wild flower"
+         "display_name": "i18n(brewerymod:entities.plants.allium.display_name)", 
+         "description": "i18n(brewerymod:entities.plants.allium.description)"
       },      
       "model_variants": {
          "default": {

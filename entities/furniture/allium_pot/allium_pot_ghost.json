@@ -8,8 +8,8 @@
          }
       },
       "unit_info": {
-         "name": "Potted Allium",
-         "description": "A pot of Allium.",
+         "display_name": "i18n(brewerymod:entities.furniture.allium_pot.allium_pot_ghost.display_name)",
+         "description": "i18n(brewerymod:entities.furniture.allium_pot.allium_pot_ghost.description)",
          "icon" : "file(allium_pot.png)"
       },
       "stonehearth:material" : {

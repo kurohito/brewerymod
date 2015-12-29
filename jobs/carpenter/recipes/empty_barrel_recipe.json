@@ -1,9 +1,9 @@
 {
    "type": "recipe",
    "work_units": 7,
-   "recipe_name": "Empty Wooden Barrel",
-   "description": "Used to hold liquid, or other things...",
-   "flavor": "",
+   "recipe_name": "i18n(brewerymod:jobs.carpenter.recipes.empty_barrel_recipe.recipe_name)",
+   "description": "i18n(brewerymod:jobs.carpenter.recipes.empty_barrel_recipe.description)",
+   "flavor": "i18n(brewerymod:jobs.carpenter.recipes.empty_barrel_recipe.flavor)",
    "portrait": "/brewerymod/entities/containers/empty_barrel/empty_barrel.png",
    "level_requirement": 1,
    "ingredients": [

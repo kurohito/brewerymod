@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Strawberry Wine",
-   "description" : "A Sweet Strawberry Wine.",
-   "flavor"      : "A super sweet wine made from fermented strawberries, sugar and water.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.strawberry_wine_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.strawberry_wine_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.strawberry_wine_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/strawberry_wine/strawberry_wine/strawberry_wine.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 1,

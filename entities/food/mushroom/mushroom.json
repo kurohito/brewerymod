@@ -15,8 +15,8 @@
          }
       },
       "unit_info": {
-         "name": "Wild Mushroom",
-         "description": "An ingredient for cooking",
+         "display_name": "i18n(brewerymod:entities.food.mushroom.display_name)",
+         "description": "i18n(brewerymod:entities.food.mushroom.description)",
          "icon": "file(mushroom.png)"
       },
       "stonehearth:material": {

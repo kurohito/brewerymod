@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Grapes",
-         "description": "Delicious and Tangy.",
+         "display_name": "i18n(brewerymod:entities.food.grapes.grapes_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.grapes.grapes_serving.description)",
          "icon": "file(grapes_serving.png)"
       },      
       "item" : {

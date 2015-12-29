@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Huckle My Buff",
-			"description": "A Fancy Cocktail!",
+			"display_name": "i18n(brewerymod:entities.food.huckle_my_buff.huckle_my_buff.display_name)",
+			"description": "i18n(brewerymod:entities.food.huckle_my_buff.huckle_my_buff.description)",
 			"icon" : "file(huckle_my_buff.png)"
 		},
 		"stonehearth:material" : {

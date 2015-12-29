@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 4,
-   "recipe_name" : "Huckle My Buff",
-   "description" : "An interesting cocktail.",
-   "flavor"      : "A drink made from egg, mead and distilled with sugar and water.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.huckle_my_buff_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.huckle_my_buff_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.huckle_my_buff_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/huckle_my_buff/huckle_my_buff/huckle_my_buff.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 5,

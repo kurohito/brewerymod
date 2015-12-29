@@ -25,8 +25,8 @@
          }
       },
       "unit_info": {
-         "name": "Basket of Tomatoes",
-         "description": "Fresh and tasty.",
+         "display_name": "i18n(brewerymod:entities.food.tomato.tomato_basket.display_name)",
+         "description": "i18n(brewerymod:entities.food.tomato.tomato_basket.description)",
          "icon" : "file(tomato_basket.png)"
       },
       "stonehearth:material" : {

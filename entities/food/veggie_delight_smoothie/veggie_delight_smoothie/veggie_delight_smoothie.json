@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Veggie Delight Smoothie",
-			"description": "Super Healthy Smoothie!",
+			"display_name": "i18n(brewerymod:entities.food.veggie_delight_smoothie.veggie_delight_smoothie.display_name)",
+			"description": "i18n(brewerymod:entities.food.veggie_delight_smoothie.veggie_delight_smoothie.description)",
 			"icon" : "file(veggie_delight_smoothie.png)"
 		},
 		"stonehearth:material" : {

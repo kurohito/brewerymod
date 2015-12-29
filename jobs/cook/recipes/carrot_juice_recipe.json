@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Carrot Juice",
-   "description" : "Delicious Nutritious Carrot Juice.",
-   "flavor"      : "A Refreshing drink made from mushed up carrots and water.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.carrot_juice_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.carrot_juice_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.carrot_juice_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/carrot_juice/carrot_juice/carrot_juice.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,

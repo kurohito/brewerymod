@@ -25,8 +25,8 @@
          }
       },
       "unit_info": {
-         "name": "Basket of Cocoa Beans",
-         "description": "Very bitter, used to make delicious chocolate.",
+         "display_name": "i18n(brewerymod:entities.food.cocoabeans.cocoabeans_basket.display_name)",
+         "description": "i18n(brewerymod:entities.food.cocoabeans.cocoabeans_basket.description)",
          "icon" : "file(cocoabeans_basket.png)"
       },
       "stonehearth:material" : {

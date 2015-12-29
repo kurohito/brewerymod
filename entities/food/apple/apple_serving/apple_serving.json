@@ -3,9 +3,9 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "description": "A Wonderful Crisp Fresh Picked Apple",
+         "description": "i18n(brewerymod:entities.food.apple.apple_serving.description)",
          "icon": "file(berry_serving.png)",
-         "display_name": "An Apple"
+         "display_name": "i18n(brewerymod:entities.food.apple.apple_serving.display_name)"
       },
       "item": {
          "category": "food"
