@@ -56,22 +56,22 @@
             {
                "model_name": "apple_tree_1",
                "name": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.000.name)",
-               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.000.desciption)"
+               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.000.description)"
             },
             {
                "model_name": "apple_tree_2",
                "name": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.001.name)",
-               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.000.desciption)"
+               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.001.description)"
             },
             {
                "model_name": "apple_tree_3",
                "name": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.002.name)",
-               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.000.desciption)"
+               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.002.description)"
             },
             {
                "model_name": "apple_tree_4",
                "name": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.003.name)",
-               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.000.desciption)"
+               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.003.description)"
             }
          ]
       },

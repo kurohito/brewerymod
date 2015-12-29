@@ -83,7 +83,7 @@
                   "name": "Blueberry Seedlings",
                   "description": "Teeny tiny blueberry seedlings."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Blueberries",
                   "description": "Moldy and disgusting."
                }
@@ -109,7 +109,7 @@
                   "name": "Cocoa Bean Seedling",
                   "description": "Seedlings."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Cocoa Beans",
                   "description": "Moldy and disgusting."
                }
@@ -135,7 +135,7 @@
                   "name": "Garlic Bulb",
                   "description": "Freshly planted Garlic bulb."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Garlic",
                   "description": "Moldy and disgusting."
                }
@@ -161,7 +161,7 @@
                   "name": "Grape Vine Seedling",
                   "description": "Grape Vine seedling."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Grapes",
                   "description": "Moldy and disgusting."
                }
@@ -183,7 +183,7 @@
                   "name": "Rice Seedling",
                   "description": "Rice seedling."
                },
-               "019": {
+               "012": {
                   "name": "Rotten Rice",
                   "description": "Moldy and disgusting."
                },
@@ -217,7 +217,7 @@
                   "name": "Strawberry Seedlings",
                   "description": "Teeny tiny strawberry seedlings."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Strawberries",
                   "description": "Moldy and disgusting."
                }
@@ -243,7 +243,7 @@
                   "name": "Sugarcane Seedling",
                   "description": "Sugarcane seedling."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Sugarcane",
                   "description": "Moldy and disgusting."
                }
@@ -269,7 +269,7 @@
                   "name": "Tomato Seedlings",
                   "description": "Teeny tiny tomato seedlings."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Tomatoes",
                   "description": "Moldy and disgusting."
                }
@@ -295,7 +295,7 @@
                   "name": "Watermelon Seedling",
                   "description": "A teeny tiny watermelon seedling."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Watermelon",
                   "description": "Moldy and disgusting."
                }

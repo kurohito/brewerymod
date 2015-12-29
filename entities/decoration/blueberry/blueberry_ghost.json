@@ -2,8 +2,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Wild Blueberries",
-         "description": "yummy, delicious wild blueberries.",
+         "display_name": "i18n(brewerymod:entities.decoration.blueberry.blueberry_ghost.display_name)",
+         "description": "i18n(brewerymod:entities.decoration.blueberry.blueberry_ghost.description)",
          "icon" : "file(blueberry.png)"
       },
       "render_info" : {

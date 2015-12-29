@@ -2,8 +2,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Wild Mushroom",
-         "description": "Delicious mmmmmm Mushroom!.",
+         "display_name": "i18n(brewerymod:entities.decoration.mushroom.mushroom_ghost.display_name)",
+         "description": "i18n(brewerymod:entities.decoration.mushroom.mushroom_ghost.description)",
          "icon" : "file(mushroom.png)"
       },
       "render_info" : {

@@ -34,8 +34,8 @@
          }
       },
       "unit_info": {
-         "name": "Tomatoes", 
-         "description": "Slow growing, but delicious.",
+         "display_name": "i18n(brewerymod:entities.crops.tomato_crop.display_name)", 
+         "description": "i18n(brewerymod:entities.crops.tomato_crop.description)",
          "icon" : "file(icon.png)"
       },
       "mob" : {
@@ -54,28 +54,28 @@
          "growth_stages" : [
             {
                "model_name" : "tomato_1",
-               "name": "Tomato Seedlings", 
-               "description": "Teeny tiny tomato seedlings."
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.000.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.000.description)"
             },
             {
                "model_name" : "tomato_2",
-               "name": "Tomato Sprouts", 
-               "description": "Not edible yet!"
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.001.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.001.description)"
             },
             {
                "model_name" : "tomato_3",
-               "name": "Baby Tomatoes", 
-               "description": "Small. Green."
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.002.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.002.description)"
             },
             {
                "model_name" : "tomato_4",
-               "name": "Ripe Tomatoes", 
-               "description": "Delicious!"
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.003.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.003.description)"
             }, {}, {}, {}, {}, {}, {}, {},
             {
                "model_name" : "tomato_12",
-               "name": "Rotten Tomatoes", 
-               "description": "Moldy and disgusting."
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.012.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.012.description)"
             }
          ]
       },

@@ -34,8 +34,8 @@
          }
       },
       "unit_info": {
-         "name": "Sugarcane", 
-         "description": "Extremely Slow growing woody crop used to create Sugar.",
+         "display_name": "i18n(brewerymod:entities.crops.sugarcane_crop.display_name)", 
+         "description": "i18n(brewerymod:entities.crops.sugarcane_crop.description)",
          "icon" : "file(icon.png)"
       },
       "mob" : {
@@ -54,28 +54,28 @@
          "growth_stages" : [
             {
                "model_name" : "sugarcane_1",
-               "name": "Sugarcane Seedling", 
-               "description": "Sugarcane seedling."
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.000.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.000.description)."
             },
             {
                "model_name" : "sugarcane_2",
-               "name": "Sugarcane Sprouts", 
-               "description": "Not usable yet!"
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.001.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.001.description)"
             },
             {
                "model_name" : "sugarcane_3",
-               "name": "Immature Sugarcane", 
-               "description": "Small. Not ready Yet!."
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.002.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.002.description)."
             },
             {
                "model_name" : "sugarcane_4",
-               "name": "Mature Sugarcane", 
-               "description": "Finally!!"
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.003.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.003.description)"
             }, {}, {}, {}, {}, {}, {}, {},
             {
                "model_name" : "sugarcane_12",
-               "name": "Rotten Sugarcane", 
-               "description": "Moldy and disgusting."
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.012.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.012.description)"
             }
          ]
       },

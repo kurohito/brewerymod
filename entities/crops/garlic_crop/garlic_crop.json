@@ -34,8 +34,8 @@
          }
       },
       "unit_info": {
-         "name": "Garlic", 
-         "description": "Garlic, used in cooking.",
+         "display_name": "i18n(brewerymod:entities.crops.garlic_crop.display_name)", 
+         "description": "i18n(brewerymod:entities.crops.garlic_crop.description)",
          "icon" : "file(icon.png)"
       },
       "mob" : {
@@ -54,28 +54,28 @@
          "growth_stages" : [
             {
                "model_name" : "garlic_1",
-               "name": "Garlic Bulb", 
-               "description": "Freshly planted Garlic bulb."
+               "name": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.000.name)", 
+               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.000.desciption)"
             },
             {
                "model_name" : "garlic_2",
-               "name": "Garlic Sprout", 
-               "description": "Not useable yet!"
+               "name": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.001.name)", 
+               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.001.desciption)"
             },
             {
                "model_name" : "garlic_3",
-               "name": "Baby Garlic Shoots", 
-               "description": "Small."
+               "name": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.002.name)", 
+               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.002.desciption)"
             },
             {
                "model_name" : "garlic_4",
-               "name": "Ripe Garlic", 
-               "description": "Pretty purple flowers mean its time to harvest!"
+               "name": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.003.name)", 
+               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.003.desciption)"
             }, {}, {}, {}, {}, {}, {}, {},
             {
                "model_name" : "garlic_12",
-               "name": "Rotten Garlic", 
-               "description": "Moldy and disgusting."
+               "name": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.012.name)", 
+               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.012.desciption)"
             }
          ]
       },

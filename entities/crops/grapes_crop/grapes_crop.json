@@ -34,8 +34,8 @@
          }
       },
       "unit_info": {
-         "name": "Grapes", 
-         "description": "Slow growing tiny tangy fruit, great for wine.",
+         "display_name": "i18n(brewerymod:entities.crops.grapes_crop.display_name)", 
+         "description": "i18n(brewerymod:entities.crops.grapes_crop.description)",
          "icon" : "file(icon.png)"
       },
       "mob" : {
@@ -54,28 +54,28 @@
          "growth_stages" : [
             {
                "model_name" : "grapes_1",
-               "name": "Grape Vine Seedling", 
-               "description": "Grape Vine seedling."
+               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.000.name)", 
+               "description": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.000.desciption)"
             },
             {
                "model_name" : "grapes_2",
-               "name": "Grape Vine Sprouts", 
-               "description": "Not edible yet!"
+               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.001.name)", 
+               "description": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.001.desciption)"
             },
             {
                "model_name" : "grapes_3",
-               "name": "Baby Grapes", 
-               "description": "Small. Unripe."
+               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.002.name)", 
+               "description": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.002.desciption)."
             },
             {
                "model_name" : "grapes_4",
-               "name": "Ripe Grapes", 
-               "description": "Tangy and Delicious!"
+               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.003.name)", 
+               "description": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.003.desciption)"
             }, {}, {}, {}, {}, {}, {}, {},
             {
                "model_name" : "grapes_12",
-               "name": "Rotten Grapes", 
-               "description": "Moldy and disgusting."
+               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.012.name)", 
+               "description": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.012.desciption)"
             }
          ]
       },
