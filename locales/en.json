@@ -661,7 +661,7 @@
                "description": "Delicious."
             }
          },
-         "vodka": {
+         "watermelon_twist": {
             "watermelon_twist": {
                "display_name": "Watermelon Twist",
                "description": "Fancy!"
@@ -774,6 +774,16 @@
                "description": "Delicious Nutritious Carrot Juice.",
                "recipe_name": "Carrot Juice",
                "flavor": "A Refreshing drink made from mushed up carrots and water."
+            },
+            "blueberry_wine_recipe": {
+               "description": "Blueberry Wine",
+               "recipe_name": "A Tarte Blueberry Wine.",
+               "flavor": "A tarte wine made from fermented blueberries, sugar and water."
+            },
+            "blueberry_milkshake_recipe": {
+               "description": "Blueberry Milkshake",
+               "recipe_name": "Delicious Blueberry Milkshake.",
+               "flavor": "A thick and creamy milkshake made from mushed up blueberries and milk."
             },
             "chocolate_milkshake_recipe": {
                "description": "Delicious Chocolate Milkshake.",
@@ -895,12 +905,12 @@
                "recipe_name": "Apple Pie",
                "flavor": "A Refreshing pie made from mushed up apples, flour, yeast and water."
             },
-            "sweet": "sweet",
-            "Beverages": "Beverages",
-            "meads": "meads",
-            "wines": "wines",
-            "Milkshakes": "Milkshakes",
-            "other_drinks": "other drinks"
+            "sweet_name": "sweet",
+            "beverages_name": "Beverages",
+            "meads_name": "meads",
+            "wines_name": "wines",
+            "milkshakes_name": "Milkshakes",
+            "other_drinks_name": "other drinks"
          }
       }
    }
