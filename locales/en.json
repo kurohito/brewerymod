@@ -1,59 +1,69 @@
 {
+   "data": {
+      "commands": {
+         "plant_tree": {
+            "plant_tree": {
+               "display_name": "Plant Tree",
+               "description": "Plant this tree in some dirt."
+            }
+         }
+      }
+   },
    "ui": {
       "buffs": {
-      	  "blitzed": {
+         "blitzed": {
             "blitzed_buff": {
                "display_name": "Blitzed!",
                "description": "Your Hearthing has had way too much alcohol!"
-               }
-            },
-            "buzzed": {
+            }
+         },
+         "buzzed": {
             "buzzed_buff": {
                "display_name": "Buzzed!",
                "description": "Feeling the effects of the alcohol, your Hearthings are feeling a little bit braver and more affectionate!"
-               }
-            },
-            "drunk": {
+            }
+         },
+         "drunk": {
             "drunk_buff": {
                "display_name": "Drunk!",
                "description": "Your Hearthling is as drunk as a skunk!"
-               }
-            },   
-            "funky_taste": {
+            }
+         },
+         "funky_taste": {
             "funky_taste_buff": {
                "display_name": "Funky Taste!",
                "description": "Your Hearthling has eaten or drank something that doesn't agree with them... eww."
-               }
-            }, 
-            "hangover": {
+            }
+         },
+         "hangover": {
             "hangover_buff": {
                "display_name": "Hungover!",
                "description": "Your Hearthling partied a little too hard and now has a hangover!"
-               }
-            }, 
-            "healthy_glow": {
+            }
+         },
+         "healthy_glow": {
             "healthy_glow_buff": {
                "display_name": "Healthy Glow!",
                "description": "Packed full of nutrients your Hearthlings feel amazing and get a boost to all stats!"
-               }
-            }, 
-            "sugar_coma": {
+            }
+         },
+         "sugar_coma": {
             "sugar_coma_buff": {
                "display_name": "Sugar Coma!",
                "description": "Your Hearthling is having a sugar crash!"
-               }
-            },
-            "sweet_tooth": {
+            }
+         },
+         "sweet_tooth": {
             "sweet_tooth_buff": {
                "display_name": "Sweet Tooth!",
                "description": "Packed full of sugary sweet goodness your Hearthlings are able to work faster and longer!"
-               }
             }
          }
-      },
-      "entities": {
-            "crops": {
-               "blueberry_crop": {
+      }
+   },
+   "entities": {
+      "crops": {
+         "blueberry_crop": {
             "display_name": "Blueberries",
             "description": "Fast growing tiny sweet fruit.",
             "growth_stage": {
@@ -319,10 +329,10 @@
             "empty_barrel_ghost": {
                "display_name": "Wood Barrel",
                "description": "A nice place to store drinks."
-               }
             }
-         },
-         "furniture": {
+         }
+      },
+      "furniture": {
          "allium_pot": {
             "allium_pot_ghost": {
                "display_name": "Potted Allium",
@@ -687,9 +697,9 @@
                "description": "mmm.. it's still warm!"
             }
          }
-         },
-         "plants": {
-            "allium": {
+      },
+      "plants": {
+         "allium": {
             "display_name": "Wild Allium",
             "description": "A harvestable wild flower"
          },
@@ -708,8 +718,8 @@
          "strawberry": {
             "display_name": "Wild Strawberries",
             "description": "Harvestable wild strawberries"
-            }
-         },
+         }
+      },
       "trees": {
          "apple_tree": {
             "ancient_apple_tree": {
@@ -738,9 +748,9 @@
                   "description": "Plant it in the earth and watch it grow."
                }
             }
-            }
          }
-      },
+      }
+   },
    "jobs": {
       "carpenter": {
          "recipes": {
@@ -750,8 +760,8 @@
                "flavor": ""
             },
             "signage_decoration": "Specialist Items"
-            }
-         },
+         }
+      },
       "cook": {
          "distiller": {
             "distiller_ghost": {
@@ -887,5 +897,5 @@
             }
          }
       }
-}
+   }
 }

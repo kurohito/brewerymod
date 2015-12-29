@@ -39,9 +39,9 @@
          }
       },
       "unit_info": {
-         "description": "A hardy tree that produces Apples",
+         "description": "i18n(brewerymod:entities.crops.apple_tree_crop.description)",
          "icon": "file(apple_tree_crop.png)",
-         "display_name": "Apple Tree"
+         "display_name": "i18n(brewerymod:entities.crops.apple_tree_crop.display_name)"
       },
       "stonehearth:crop": {
          "resource_pairings": {
@@ -55,23 +55,23 @@
          "growth_stages": [
             {
                "model_name": "apple_tree_1",
-               "name": "Apple Tree Seed",
-               "description": "Freshly planted apple seed)"
+               "name": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.000.name)",
+               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.000.desciption)"
             },
             {
                "model_name": "apple_tree_2",
-               "name": "Apple Tree Seedling",
-               "description": "It's just getting started."
+               "name": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.001.name)",
+               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.000.desciption)"
             },
             {
                "model_name": "apple_tree_3",
-               "name": "Apple Tree Sprout",
-               "description": "Reach for the sun, little sprout."
+               "name": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.002.name)",
+               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.000.desciption)"
             },
             {
                "model_name": "apple_tree_4",
-               "name": "Apple Tree Sapling",
-               "description": "Ready to be transferred to a bigger plot."
+               "name": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.003.name)",
+               "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.000.desciption)"
             }
          ]
       },

@@ -1,8 +1,8 @@
 {
    "type": "command",
    "name": "plant_tree",
-   "display_name": "Plant Tree",
-   "description": "Plant this tree in some dirt.",
+   "display_name": "i18n(brewerymod:data.commands.plant_tree.plant_tree.display_name)",
+   "description": "i18n(brewerymod:data.commands.plant_tree.plant_tree.description)",
    "icon": "file(plant_tree.png)",
    "action": "fire_event",
    "event_name": "radiant_place_item",
