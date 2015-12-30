@@ -398,10 +398,8 @@
             }
          },
          "cocoa_powder": {
-            "cocoa_powder": {
                "display_name": "Cocoa Powder",
                "description": "An ingredient for cooking"
-            }
          },
          "cocoabeans": {
             "cocoabeans": {
@@ -514,10 +512,8 @@
             }
          },
          "mushroom": {
-            "mushroom": {
                "display_name": "Wild Mushroom",
                "description": "An ingredient for cooking"
-            }
          },
          "pumpkin_spice_mead": {
             "pumpkin_spice_mead": {
@@ -590,10 +586,8 @@
             }
          },
          "sugar": {
-            "sugar": {
                "display_name": "Sack of Sugar",
                "description": "An ingredient for cooking"
-            }
          },
          "sugarcanebundle": {
             "sugarcanebundle": {
@@ -672,10 +666,8 @@
             }
          },
          "yeast": {
-            "yeast": {
                "display_name": "Yeast",
                "description": "An ingredient for cooking"
-            }
          },
          "apple": {
             "apple_basket": {

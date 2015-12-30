@@ -55,27 +55,27 @@
             {
                "model_name" : "garlic_1",
                "name": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.000.name)", 
-               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.000.desciption)"
+               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.000.description)"
             },
             {
                "model_name" : "garlic_2",
                "name": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.001.name)", 
-               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.001.desciption)"
+               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.001.description)"
             },
             {
                "model_name" : "garlic_3",
                "name": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.002.name)", 
-               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.002.desciption)"
+               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.002.description)"
             },
             {
                "model_name" : "garlic_4",
                "name": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.003.name)", 
-               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.003.desciption)"
+               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.003.description)"
             }, {}, {}, {}, {}, {}, {}, {},
             {
                "model_name" : "garlic_12",
                "name": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.012.name)", 
-               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.012.desciption)"
+               "description": "i18n(brewerymod:entities.crops.garlic_crop.growth_stage.012.description)"
             }
          ]
       },
