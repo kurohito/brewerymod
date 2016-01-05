@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Blueberries",
-         "description": "Delicious.",
+         "display_name": "i18n(brewerymod:entities.food.blueberry.blueberry_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.blueberry.blueberry_serving.description)",
          "icon": "file(blueberry_serving.png)"
       },      
       "item" : {

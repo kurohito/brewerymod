@@ -21,8 +21,8 @@
          ]
       },
 		"unit_info": {
-			"name": "Exquisite Golden Mead",
-			"description": "No added preservatives!",
+			"display_name": "i18n(brewerymod:entities.food.golden_mead.golden_mead.display_name)",
+			"description": "i18n(brewerymod:entities.food.golden_mead.golden_mead.description)",
 			"icon" : "file(golden_mead.png)"
 		},
 		"stonehearth:material" : {

@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Blueberry Wine",
-   "description" : "A Tarte Blueberry Wine.",
-   "flavor"      : "A tarte wine made from fermented blueberries, sugar and water.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.blueberry_wine_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.blueberry_wine_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.blueberry_wine_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/blueberry_wine/blueberry_wine/blueberry_wine.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 1,

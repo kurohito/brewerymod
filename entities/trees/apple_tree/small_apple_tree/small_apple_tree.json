@@ -20,8 +20,8 @@
          }
       },
       "unit_info": {
-         "description": "Slightly larger than a sapling. No Apples Yet.",
-         "display_name": "Small Apple Tree"
+         "description": "i18n(brewerymod:entities.trees.apple_tree.small_apple_tree.description)",
+         "display_name": "i18n(brewerymod:entities.trees.apple_tree.small_apple_tree.display_name)"
       },
       "stonehearth:resource_node": {
          "resource": "stonehearth:resources:wood:oak_log",

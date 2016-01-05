@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Blueberry Milkshake",
-			"description": "Thick & Creamy!",
+			"display_name": "i18n(brewerymod:entities.food.blueberry_milkshake.blueberry_milkshake.display_name)",
+			"description": "i18n(brewerymod:entities.food.blueberry_milkshake.blueberry_milkshake.description)",
 			"icon" : "file(blueberry_milkshake.png)"
 		},
 		"stonehearth:material" : {

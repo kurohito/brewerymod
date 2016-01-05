@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Carrot Juice",
-			"description": "No added preservatives!",
+			"display_name": "i18n(brewerymod:entities.food.carrot_juice.carrot_juice.display_name)",
+			"description": "i18n(brewerymod:entities.food.carrot_juice.carrot_juice.description)",
 			"icon" : "file(carrot_juice.png)"
 		},
 		"stonehearth:material" : {

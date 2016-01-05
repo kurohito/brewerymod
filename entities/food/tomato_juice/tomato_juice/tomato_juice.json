@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Tomato Juice",
-			"description": "No added preservatives!",
+			"display_name": "i18n(brewerymod:entities.food.tomato_juice.tomato_juice.display_name)",
+			"description": "i18n(brewerymod:entities.food.tomato_juice.tomato_juice.description)",
 			"icon" : "file(tomato_juice.png)"
 		},
 		"stonehearth:material" : {

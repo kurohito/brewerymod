@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "A Beaker of Blueberry Wine",
-         "description": "Tarte and refreshing!"
+         "display_name": "i18n(brewerymod:entities.food.blueberry_wine.blueberry_wine_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.blueberry_wine.blueberry_wine_serving.description)"
       },      
       "stonehearth:material" : {
          "tags" : "food"

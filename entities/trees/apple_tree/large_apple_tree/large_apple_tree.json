@@ -17,8 +17,8 @@
          }
       },
       "unit_info": {
-         "description": "100's of years old.",
-         "display_name": "Large Apple Tree"
+         "description": "i18n(brewerymod:entities.trees.apple_tree.large_apple_tree.description)",
+         "display_name": "i18n(brewerymod:entities.trees.apple_tree.large_apple_tree.display_name)"
       },
       "stonehearth:resource_node": {
          "resource": "brewerymod:cooking:apple",

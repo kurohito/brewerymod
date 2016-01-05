@@ -2,8 +2,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Wild Allium",
-         "description": "Bright, beautiful purple allium.",
+         "display_name": "i18n(brewerymod:entities.plants.allium.display_name)",
+         "description": "i18n(brewerymod:entities.plants.allium.description)",
          "icon" : "file(allium.png)"
       },
       "render_info" : {

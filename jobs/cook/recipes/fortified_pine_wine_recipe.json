@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Fortified Pine Wine",
-   "description" : "An interesting fortified wine.",
-   "flavor"      : "A drink made from a chunk of pine wood soaked and distilled with fortified honey and water.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.fortified_pine_wine_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.fortified_pine_wine_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.fortified_pine_wine_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/fortified_pine_wine/fortified_pine_wine/fortified_pine_wine.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,

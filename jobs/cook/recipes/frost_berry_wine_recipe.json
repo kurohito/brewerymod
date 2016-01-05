@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Frost Berry Wine",
-   "description" : "A Chilling Berry Wine.",
-   "flavor"      : "A Refreshingly cool drink made from mushed up berries, frostsnap flowers and water.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.frost_berry_wine_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.frost_berry_wine_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.frost_berry_wine_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/frost_berry_wine/frost_berry_wine/frost_berry_wine.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 3,

@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "A Beaker of Strawberry Mead",
-         "description": "Delicious and Sweet!"
+         "display_name": "i18n(brewerymod:entities.food.strawberry_mead.strawberry_mead_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.strawberry_mead.strawberry_mead_serving.description)"
       },      
       "stonehearth:material" : {
          "tags" : "food"

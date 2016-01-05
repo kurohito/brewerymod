@@ -11,9 +11,9 @@
          "scale": 0.1
       },
       "unit_info": {
-         "description": "A nice place to store drinks.",
+         "description": "i18n(brewerymod:entities.containers.empty_barrel.empty_barrel_ghost.description)",
          "icon": "file(empty_barrel.png)",
-         "display_name": "Wood Barrel"
+         "display_name": "i18n(brewerymod:entities.containers.empty_barrel.empty_barrel_ghost.display_name)"
       },
       "stonehearth:material": {
          "tags": "wood furniture crafted"

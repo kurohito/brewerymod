@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Fortified Wine",
-			"description": "A unique robust flavour!",
+			"display_name": "i18n(brewerymod:entities.food.fortified_wine.fortified_wine.display_name)",
+			"description": "i18n(brewerymod:entities.food.fortified_wine.fortified_wine.description)",
 			"icon" : "file(fortified_wine.png)"
 		},
 		"stonehearth:material" : {

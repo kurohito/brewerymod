@@ -25,8 +25,8 @@
          }
       },
       "unit_info": {
-         "name": "Basket of Blueberries",
-         "description": "Fresh and Sweet.",
+         "display_name": "i18n(brewerymod:entities.food.blueberry.blueberry_basket.display_name)",
+         "description": "i18n(brewerymod:entities.food.blueberry.blueberry_basket.description)",
          "icon" : "file(blueberry_basket.png)"
       },
       "stonehearth:material" : {

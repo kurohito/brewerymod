@@ -25,8 +25,8 @@
          }
       },
       "unit_info": {
-         "name": "Basket of Rice",
-         "description": "Hand picked.",
+         "display_name": "i18n(brewerymod:entities.food.rice.rice_basket.display_name)",
+         "description": "i18n(brewerymod:entities.food.rice.rice_basket.description)",
          "icon" : "file(rice_basket.png)"
       },
       "stonehearth:material" : {

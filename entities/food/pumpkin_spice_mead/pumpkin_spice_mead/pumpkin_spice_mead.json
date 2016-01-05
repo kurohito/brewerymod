@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Pumpkin Spice Mead",
-			"description": "No added preservatives!",
+			"display_name": "i18n(brewerymod:entities.food.pumpkin_spice_mead.pumpkin_spice_mead.display_name)",
+			"description": "i18n(brewerymod:entities.food.pumpkin_spice_mead.pumpkin_spice_mead.description)",
 			"icon" : "file(pumpkin_spice_mead.png)"
 		},
 		"stonehearth:material" : {

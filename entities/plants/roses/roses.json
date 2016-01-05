@@ -5,8 +5,8 @@
          "scale" : 0.2
       },
       "unit_info" : {
-         "name": "Wild Roses", 
-         "description": "A harvestable wild flower"
+         "display_name": "i18n(brewerymod:entities.plants.roses.display_name)", 
+         "description": "i18n(brewerymod:entities.plants.roses.description)"
       },      
       "model_variants": {
          "default": {

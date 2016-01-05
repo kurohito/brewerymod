@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Tomato Juice",
-   "description" : "Delicious Nutritious Tomato Juice.",
-   "flavor"      : "A Refreshing drink made from mushed up tomatoes, sugar and water.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.tomato_juice_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.tomato_juice_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.tomato_juice_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/tomato_juice/tomato_juice/tomato_juice.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,

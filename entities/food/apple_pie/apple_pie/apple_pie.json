@@ -14,9 +14,9 @@
          }
       },
       "unit_info": {
-         "description": "A freshly baked, yummy apple pie!",
+         "description": "i18n(brewerymod:entities.food.apple_pie.apple_pie.description)",
          "icon": "file(apple_pie.png)",
-         "display_name": "Apple Pie"
+         "display_name": "i18n(brewerymod:entities.food.apple_pie.apple_pie.display_name)"
       },
       "stonehearth:material": {
          "tags": "resource food_container apple_pie"

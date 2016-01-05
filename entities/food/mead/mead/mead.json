@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "A Vat of Mead",
-			"description": "No added preservatives!",
+			"display_name": "i18n(brewerymod:entities.food.mead.mead.display_name)",
+			"description": "i18n(brewerymod:entities.food.mead.mead.description)",
 			"icon" : "file(mead.png)"
 		},
 		"stonehearth:material" : {

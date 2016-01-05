@@ -2,8 +2,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Wild Roses",
-         "description": "Bright, beautiful wild red roses.",
+         "display_name": "i18n(brewerymod:entities.plants.roses.display_name)",
+         "description": "i18n(brewerymod:entities.plants.roses.description)",
          "icon" : "file(roses.png)"
       },
       "render_info" : {

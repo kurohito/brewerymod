@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Garlic",
-         "description": "Strong and bitter on its own. Used in cooking.",
+         "display_name": "i18n(brewerymod:entities.food.garlic.garlic_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.garlic.garlic_serving.description)",
          "icon": "file(garlic_serving.png)"
       },      
       "item" : {

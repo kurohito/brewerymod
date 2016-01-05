@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Vodka",
-			"description": "A Smooth Potato Vodka",
+			"display_name": "i18n(brewerymod:entities.food.vodka.vodka.display_name)",
+			"description": "i18n(brewerymod:entities.food.vodka.vodka.description)",
 			"icon" : "file(vodka.png)"
 		},
 		"stonehearth:material" : {

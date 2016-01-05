@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Watermelon Twist",
-			"description": "Fancy!",
+			"display_name": "i18n(brewerymod:entities.food.watermelon_twist.watermelon_twist.display_name)",
+			"description": "i18n(brewerymod:entities.food.watermelon_twist.watermelon_twist.description)",
 			"icon" : "file(watermelon_twist.png)"
 		},
 		"stonehearth:material" : {

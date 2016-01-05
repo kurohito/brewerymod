@@ -2,8 +2,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Wild Strawberries",
-         "description": "Small, Sweet Delicious Wild Strawberries.",
+         "display_name": "i18n(brewerymod:entities.plants.strawberry.display_name)",
+         "description": "i18n(brewerymod:entities.plants.strawberry.description)",
          "icon" : "file(strawberry.png)"
       },
       "render_info" : {

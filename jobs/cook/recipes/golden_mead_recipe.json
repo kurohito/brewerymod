@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Golden Mead",
-   "description" : "An Exquisite Mead.",
-   "flavor"      : "A Delightful mead made from fermented yeast, water and honey flecked with real gold.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.golden_mead_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.golden_mead_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.golden_mead_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/golden_mead/golden_mead/golden_mead.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 4,

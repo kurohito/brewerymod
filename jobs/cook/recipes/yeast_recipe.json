@@ -1,9 +1,9 @@
 {
    "type": "recipe",
    "work_units": 1,
-   "recipe_name": "Yeast",
-   "description": "It's not only used for baking but also for making mead.",
-   "flavor": " mmmm... yeasty",
+   "recipe_name": "i18n(brewerymod:jobs.cook.recipes.yeast_recipe.recipe_name)",
+   "description": "i18n(brewerymod:jobs.cook.recipes.yeast_recipe.description)",
+   "flavor": "i18n(brewerymod:jobs.cook.recipes.yeast_recipe.flavor)",
    "portrait": "/brewerymod/entities/food/yeast/yeast.png",
    "workshop": "stonehearth:cook:mill",
    "level_requirement": 1,

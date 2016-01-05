@@ -25,8 +25,8 @@
          }
       },
       "unit_info": {
-         "name": "Basket of Grapes",
-         "description": "Fresh and Tangy.",
+         "display_name": "i18n(brewerymod:entities.food.grapes.grapes_basket.display_name)",
+         "description": "i18n(brewerymod:entities.food.grapes.grapes_basket.description)",
          "icon" : "file(grapes_basket.png)"
       },
       "stonehearth:material" : {

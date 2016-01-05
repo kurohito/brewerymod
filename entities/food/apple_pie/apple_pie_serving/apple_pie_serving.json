@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "description": "mmm.. it's still warm!",
-         "display_name": "Slice of Apple Pie"
+         "description": "i18n(brewerymod:entities.food.apple_pie.apple_pie_serving.description)",
+         "display_name": "i18n(brewerymod:entities.food.apple_pie.apple_pie_serving.display_name)"
       },
       "stonehearth:material": {
          "tags": "food"

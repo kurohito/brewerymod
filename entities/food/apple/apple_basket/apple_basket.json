@@ -25,9 +25,9 @@
          }
       },
       "unit_info": {
-         "description": "Basket Of Wonderful Crisp Fresh Picked Apples",
+         "description": "i18n(brewerymod:entities.food.apple.apple_basket.description)",
          "icon": "file(apple_basket.png)",
-         "display_name": "Basket of Apples"
+         "display_name": "i18n(brewerymod:entities.food.apple.apple_basket.display_name)"
       },
       "stonehearth:material": {
          "tags": "resource fruit food_container apple raw_food"

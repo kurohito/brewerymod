@@ -34,8 +34,8 @@
          }
       },
       "unit_info": {
-         "name": "Strawberries", 
-         "description": "Fast growing delicious fruit.",
+         "display_name": "i18n(brewerymod:entities.crops.strawberry_crop.display_name)", 
+         "description": "i18n(brewerymod:entities.crops.strawberry_crop.description)",
          "icon" : "file(icon.png)"
       },
       "mob" : {
@@ -54,28 +54,28 @@
          "growth_stages" : [
             {
                "model_name" : "strawberry_1",
-               "name": "Strawberry Seedlings", 
-               "description": "Teeny tiny strawberry seedlings."
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.000.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.000.description)"
             },
             {
                "model_name" : "strawberry_2",
-               "name": "Strawberry Sprouts", 
-               "description": "Not edible yet!"
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.001.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.001.description)"
             },
             {
                "model_name" : "strawberry_3",
-               "name": "Baby Strawberries", 
-               "description": "Small. Unripe."
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.002.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.002.description)"
             },
             {
                "model_name" : "strawberry_4",
-               "name": "Ripe Strawberries", 
-               "description": "Delicious!"
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.003.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.003.description)"
             }, {}, {}, {}, {}, {}, {}, {},
             {
                "model_name" : "strawberry_12",
-               "name": "Rotten Strawberries", 
-               "description": "Moldy and disgusting."
+               "name": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.012.name)", 
+               "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.012.description)."
             }
          ]
       },

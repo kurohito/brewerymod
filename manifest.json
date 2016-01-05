@@ -3,6 +3,9 @@
         "name": "brewerymod",
         "version": 3
     },
+
+    "default_locale" : "en",
+
     "aliases": {
 		
 		"cook:distiller": "file(jobs/cook/distiller/distiller.json)",
@@ -117,7 +120,6 @@
 
 		"decoration:mushroom"    : "file(entities/decoration/mushroom)",
 		"containers:empty_barrel"    : "file(entities/containers/empty_barrel)",
-		"empty_barrel": "file(entities/containers/empty_barrel)",
 		"mushroom": "file(entities/decoration/mushroom)",
 		"mushroom:plant" : "file(entities/plants/mushroom)",
 
@@ -177,9 +179,6 @@
 		],
 		"stonehearth/scenarios/scenario_index.json": [
             "file(mixins/scenario_index.json)"
-        ],
-        "stonehearth/locales/en.json": [
-        	"file(locales/en.json)"
         ],
         "stonehearth/data/commands/plant_tree/plant_tree.json": [
         	"file(data/commands/plant_tree/plant_tree.json)"

@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Chocolate Milkshake",
-   "description" : "Delicious Chocolate Milkshake.",
-   "flavor"      : "A thick and creamy milkshake made from cocoa powder and milk.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.chocolate_milkshake_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.chocolate_milkshake_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.chocolate_milkshake_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/chocolate_milkshake/chocolate_milkshake/chocolate_milkshake.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,

@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "Strawberry",
-         "description": "Sweet & Delicious.",
+         "display_name": "i18n(brewerymod:entities.food.strawberry.strawberry_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.strawberry.strawberry_serving.description)",
          "icon": "file(strawberry_serving.png)"
       },      
       "item" : {

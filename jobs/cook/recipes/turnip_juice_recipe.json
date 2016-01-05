@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Turnip Juice",
-   "description" : "Super Healthy Turnip Juice.",
-   "flavor"      : "A rather gross, yet healthy drink made from mushed up turnips and water.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.turnip_juice_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.turnip_juice_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.turnip_juice_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/turnip_juice/turnip_juice/turnip_juice.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,

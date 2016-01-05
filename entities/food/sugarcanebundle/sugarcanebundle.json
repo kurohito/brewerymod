@@ -18,8 +18,8 @@
          }
       },
       "unit_info": {
-         "name": "Bundle of Sugarcane",
-         "description": "Sugarcane grinds down in to Sugar.",
+         "display_name": "i18n(brewerymod:entities.food.sugarcanebundle.display_name)",
+         "description": "i18n(brewerymod:entities.food.sugarcanebundle.description)",
          "icon" : "file(sugarcanebundle.png)"
       },
       "mob": {

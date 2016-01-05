@@ -25,8 +25,8 @@
          }
       },
       "unit_info": {
-         "name": "Basket of Garlic",
-         "description": "Used in cooking.",
+         "display_name": "i18n(brewerymod:entities.food.garlic.garlic_basket.display_name)",
+         "description": "i18n(brewerymod:entities.food.garlic.garlic_basket.description)",
          "icon" : "file(garlic_basket.png)"
       },
       "stonehearth:material" : {

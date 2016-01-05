@@ -3,8 +3,8 @@
    "type": "entity",
    "components": {
       "unit_info": {
-         "name": "A Beaker of Veggie Delight Smoothie",
-         "description": "Super Healthy Smoothie!"
+         "display_name": "i18n(brewerymod:entities.food.veggie_delight_smoothie.veggie_delight_smoothie_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.veggie_delight_smoothie.veggie_delight_smoothie_serving.description)"
       },      
       "stonehearth:material" : {
          "tags" : "food"

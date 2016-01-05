@@ -2,9 +2,9 @@
    "type":"recipe",
 
    "work_units"  : 1,
-   "recipe_name" : "Veggie Delight Smoothie",
-   "description" : "A Nutritious Smoothie.",
-   "flavor"      : "A Delicious drink made from mushed up carrots, turnips, pumpkins, sugar and water.",
+   "recipe_name" : "i18n(brewerymod:jobs.cook.recipes.veggie_delight_smoothie_recipe.recipe_name)",
+   "description" : "i18n(brewerymod:jobs.cook.recipes.veggie_delight_smoothie_recipe.description)",
+   "flavor"      : "i18n(brewerymod:jobs.cook.recipes.veggie_delight_smoothie_recipe.flavor)",
    "portrait"    : "/brewerymod/entities/food/veggie_delight_smoothie/veggie_delight_smoothie/veggie_delight_smoothie.png",
    "workshop": "brewerymod:cook:distiller",
    "level_requirement" : 0,

@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Strawberry Mead",
-			"description": "Sweet!",
+			"display_name": "i18n(brewerymod:entities.food.strawberry_mead.strawberry_mead.display_name)",
+			"description": "i18n(brewerymod:entities.food.strawberry_mead.strawberry_mead.description)",
 			"icon" : "file(strawberry_mead.png)"
 		},
 		"stonehearth:material" : {

@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Frost Berry Wine",
-			"description": "No added preservatives!",
+			"display_name": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine.display_name)",
+			"description": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine.description)",
 			"icon" : "file(frost_berry_wine.png)"
 		},
 		"stonehearth:material" : {

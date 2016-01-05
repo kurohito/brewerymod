@@ -15,8 +15,8 @@
 			}
 		},
 		"unit_info": {
-			"name": "Corn Mead",
-			"description": "No added preservatives!",
+			"display_name": "i18n(brewerymod:entities.food.corn_mead.corn_mead.display_name)",
+			"description": "i18n(brewerymod:entities.food.corn_mead.corn_mead.description)",
 			"icon" : "file(corn_mead.png)"
 		},
 		"stonehearth:material" : {

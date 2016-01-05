@@ -1,59 +1,69 @@
 {
+   "data": {
+      "commands": {
+         "plant_tree": {
+            "plant_tree": {
+               "display_name": "Plant Tree",
+               "description": "Plant this tree in some dirt."
+            }
+         }
+      }
+   },
    "ui": {
       "buffs": {
-      	  "blitzed": {
+         "blitzed": {
             "blitzed_buff": {
                "display_name": "Blitzed!",
                "description": "Your Hearthing has had way too much alcohol!"
-               }
-            },
-            "buzzed": {
+            }
+         },
+         "buzzed": {
             "buzzed_buff": {
                "display_name": "Buzzed!",
                "description": "Feeling the effects of the alcohol, your Hearthings are feeling a little bit braver and more affectionate!"
-               }
-            },
-            "drunk": {
+            }
+         },
+         "drunk": {
             "drunk_buff": {
                "display_name": "Drunk!",
                "description": "Your Hearthling is as drunk as a skunk!"
-               }
-            },   
-            "funky_taste": {
+            }
+         },
+         "funky_taste": {
             "funky_taste_buff": {
                "display_name": "Funky Taste!",
                "description": "Your Hearthling has eaten or drank something that doesn't agree with them... eww."
-               }
-            }, 
-            "hangover": {
+            }
+         },
+         "hangover": {
             "hangover_buff": {
                "display_name": "Hungover!",
                "description": "Your Hearthling partied a little too hard and now has a hangover!"
-               }
-            }, 
-            "healthy_glow": {
+            }
+         },
+         "healthy_glow": {
             "healthy_glow_buff": {
                "display_name": "Healthy Glow!",
                "description": "Packed full of nutrients your Hearthlings feel amazing and get a boost to all stats!"
-               }
-            }, 
-            "sugar_coma": {
+            }
+         },
+         "sugar_coma": {
             "sugar_coma_buff": {
                "display_name": "Sugar Coma!",
                "description": "Your Hearthling is having a sugar crash!"
-               }
-            },
-            "sweet_tooth": {
+            }
+         },
+         "sweet_tooth": {
             "sweet_tooth_buff": {
                "display_name": "Sweet Tooth!",
                "description": "Packed full of sugary sweet goodness your Hearthlings are able to work faster and longer!"
-               }
             }
          }
-      },
-      "entities": {
-            "crops": {
-               "blueberry_crop": {
+      }
+   },
+   "entities": {
+      "crops": {
+         "blueberry_crop": {
             "display_name": "Blueberries",
             "description": "Fast growing tiny sweet fruit.",
             "growth_stage": {
@@ -73,7 +83,7 @@
                   "name": "Blueberry Seedlings",
                   "description": "Teeny tiny blueberry seedlings."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Blueberries",
                   "description": "Moldy and disgusting."
                }
@@ -99,7 +109,7 @@
                   "name": "Cocoa Bean Seedling",
                   "description": "Seedlings."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Cocoa Beans",
                   "description": "Moldy and disgusting."
                }
@@ -125,7 +135,7 @@
                   "name": "Garlic Bulb",
                   "description": "Freshly planted Garlic bulb."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Garlic",
                   "description": "Moldy and disgusting."
                }
@@ -151,7 +161,7 @@
                   "name": "Grape Vine Seedling",
                   "description": "Grape Vine seedling."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Grapes",
                   "description": "Moldy and disgusting."
                }
@@ -173,7 +183,7 @@
                   "name": "Rice Seedling",
                   "description": "Rice seedling."
                },
-               "019": {
+               "012": {
                   "name": "Rotten Rice",
                   "description": "Moldy and disgusting."
                },
@@ -207,7 +217,7 @@
                   "name": "Strawberry Seedlings",
                   "description": "Teeny tiny strawberry seedlings."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Strawberries",
                   "description": "Moldy and disgusting."
                }
@@ -233,7 +243,7 @@
                   "name": "Sugarcane Seedling",
                   "description": "Sugarcane seedling."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Sugarcane",
                   "description": "Moldy and disgusting."
                }
@@ -259,7 +269,7 @@
                   "name": "Tomato Seedlings",
                   "description": "Teeny tiny tomato seedlings."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Tomatoes",
                   "description": "Moldy and disgusting."
                }
@@ -285,7 +295,7 @@
                   "name": "Watermelon Seedling",
                   "description": "A teeny tiny watermelon seedling."
                },
-               "011": {
+               "012": {
                   "name": "Rotten Watermelon",
                   "description": "Moldy and disgusting."
                }
@@ -319,10 +329,10 @@
             "empty_barrel_ghost": {
                "display_name": "Wood Barrel",
                "description": "A nice place to store drinks."
-               }
             }
-         },
-         "furniture": {
+         }
+      },
+      "furniture": {
          "allium_pot": {
             "allium_pot_ghost": {
                "display_name": "Potted Allium",
@@ -388,10 +398,8 @@
             }
          },
          "cocoa_powder": {
-            "cocoa_powder": {
                "display_name": "Cocoa Powder",
                "description": "An ingredient for cooking"
-            }
          },
          "cocoabeans": {
             "cocoabeans": {
@@ -504,10 +512,8 @@
             }
          },
          "mushroom": {
-            "mushroom": {
                "display_name": "Wild Mushroom",
                "description": "An ingredient for cooking"
-            }
          },
          "pumpkin_spice_mead": {
             "pumpkin_spice_mead": {
@@ -580,10 +586,8 @@
             }
          },
          "sugar": {
-            "sugar": {
                "display_name": "Sack of Sugar",
                "description": "An ingredient for cooking"
-            }
          },
          "sugarcanebundle": {
             "sugarcanebundle": {
@@ -651,7 +655,7 @@
                "description": "Delicious."
             }
          },
-         "vodka": {
+         "watermelon_twist": {
             "watermelon_twist": {
                "display_name": "Watermelon Twist",
                "description": "Fancy!"
@@ -662,10 +666,8 @@
             }
          },
          "yeast": {
-            "yeast": {
                "display_name": "Yeast",
                "description": "An ingredient for cooking"
-            }
          },
          "apple": {
             "apple_basket": {
@@ -687,9 +689,9 @@
                "description": "mmm.. it's still warm!"
             }
          }
-         },
-         "plants": {
-            "allium": {
+      },
+      "plants": {
+         "allium": {
             "display_name": "Wild Allium",
             "description": "A harvestable wild flower"
          },
@@ -708,8 +710,8 @@
          "strawberry": {
             "display_name": "Wild Strawberries",
             "description": "Harvestable wild strawberries"
-            }
-         },
+         }
+      },
       "trees": {
          "apple_tree": {
             "ancient_apple_tree": {
@@ -738,9 +740,9 @@
                   "description": "Plant it in the earth and watch it grow."
                }
             }
-            }
          }
-      },
+      }
+   },
    "jobs": {
       "carpenter": {
          "recipes": {
@@ -750,8 +752,8 @@
                "flavor": ""
             },
             "signage_decoration": "Specialist Items"
-            }
-         },
+         }
+      },
       "cook": {
          "distiller": {
             "distiller_ghost": {
@@ -764,6 +766,16 @@
                "description": "Delicious Nutritious Carrot Juice.",
                "recipe_name": "Carrot Juice",
                "flavor": "A Refreshing drink made from mushed up carrots and water."
+            },
+            "blueberry_wine_recipe": {
+               "description": "Blueberry Wine",
+               "recipe_name": "A Tarte Blueberry Wine.",
+               "flavor": "A tarte wine made from fermented blueberries, sugar and water."
+            },
+            "blueberry_milkshake_recipe": {
+               "description": "Blueberry Milkshake",
+               "recipe_name": "Delicious Blueberry Milkshake.",
+               "flavor": "A thick and creamy milkshake made from mushed up blueberries and milk."
             },
             "chocolate_milkshake_recipe": {
                "description": "Delicious Chocolate Milkshake.",
@@ -884,8 +896,14 @@
                "description": "A fresh baked apple pie",
                "recipe_name": "Apple Pie",
                "flavor": "A Refreshing pie made from mushed up apples, flour, yeast and water."
-            }
+            },
+            "sweet_name": "sweet",
+            "beverages_name": "Beverages",
+            "meads_name": "meads",
+            "wines_name": "wines",
+            "milkshakes_name": "Milkshakes",
+            "other_drinks_name": "other drinks"
          }
       }
-}
+   }
 }

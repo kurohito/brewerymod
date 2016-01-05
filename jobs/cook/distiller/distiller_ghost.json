@@ -1,8 +1,8 @@
 {
    "components": {
       "unit_info": {
-         "description": "Used to create delicious fortified wines, meads and juices.",
-         "display_name": "Distiller",
+         "description": "i18n(brewerymod:jobs.cook.distiller.distiller_ghost.description).",
+         "display_name": "i18n(brewerymod:jobs.cook.distiller.distiller_ghost.display_name)",
          "icon" : "file(distiller.png)"
       },
       "model_variants": {
