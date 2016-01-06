@@ -183,6 +183,13 @@
         "stonehearth/data/commands/plant_tree/plant_tree.json": [
         	"file(data/commands/plant_tree/plant_tree.json)"
         ]
+    },
+
+    "overrides": {
+
+    	"stonehearth/jobs/cook/recipes/corn_bread_recipe.json" : "brewerymod/jobs/cook/recipes/corn_bread_recipe.json",
+    	"stonehearth/jobs/cook/recipes/peasant_bread_recipe.json" : "brewerymod/jobs/cook/recipes/peasant_bread_recipe.json"
+
     }
 	
 }
