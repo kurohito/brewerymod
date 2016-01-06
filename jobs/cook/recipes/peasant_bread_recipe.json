@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 1,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.peasant_bread_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.peasant_bread_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/food/peasant_bread/peasant_bread/peasant_bread.png",
+   "workshop": "stonehearth:cook:oven",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:flour",
+         "count": 3
+      },
+      {
+         "uri": "brewerymod:cooking:yeast",
+         "count": 1
+      },
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:peasant_bread"
+      }
+   ]
+}
