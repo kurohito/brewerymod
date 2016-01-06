@@ -1,0 +1,33 @@
+{
+   "type": "recipe",
+   "work_units": 2,
+   "recipe_name": "i18n(stonehearth:jobs.cook.recipes.corn_bread_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.cook.recipes.corn_bread_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.cook.recipes.corn_bread_recipe.flavor)",
+   "portrait": "/stonehearth/entities/food/corn_bread/corn_bread/corn_bread.png",
+   "level_requirement" : 3,
+   "workshop": "stonehearth:cook:oven",
+   "ingredients": [
+      {
+         "uri": "stonehearth:food:flour",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:corn_meal",
+         "count": 1
+      },
+      {
+         "uri": "brewerymod:cooking:yeast",
+         "count": 1
+      },
+      {
+         "uri": "stonehearth:food:egg",
+         "count": 1
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:food:corn_bread"
+      }
+   ]
+}

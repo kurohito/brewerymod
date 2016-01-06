@@ -512,8 +512,8 @@
             }
          },
          "mushroom": {
-               "display_name": "Wild Mushroom",
-               "description": "An ingredient for cooking"
+            "display_name": "Wild Mushroom",
+            "description": "A harvestable wild mushroom"
          },
          "pumpkin_spice_mead": {
             "pumpkin_spice_mead": {
