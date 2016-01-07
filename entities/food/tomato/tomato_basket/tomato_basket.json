@@ -5,7 +5,7 @@
       "item": {
          "category" : "food",
          "stacks" : 10,
-         "maxStacks" : 10
+         "max_stacks" : 10
       },
       "model_variants": {
          "default": {

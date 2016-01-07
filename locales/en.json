@@ -903,5 +903,15 @@
             "other_drinks_name": "other drinks"
          }
       }
+   },
+   "ui": {
+      "data": {
+         "constants": {
+            "yeast_resource_name" : "yeast",
+            "mushroom_resource_name" : "mushroom",
+            "cocoa_powder_resource_name" : "cocoa_powder",
+            "sugar_resource_name" : "sugar"
+         }
+      }
    }
 }
