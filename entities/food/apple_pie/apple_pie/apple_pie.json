@@ -3,6 +3,7 @@
    "type": "entity",
    "components": {
       "item": {
+         "category": "food",
          "stacks": 4,
          "max_stacks": 4
       },
@@ -34,6 +35,16 @@
          "effect": "fiddle",
          "food": "brewerymod:cooking:apple_pie_serving",
          "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 15,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
       }
    }
 }

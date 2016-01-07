@@ -3,7 +3,7 @@
 		"type": "entity",
 		"components": {
 			"item": {
-         	"category" : "Tasty Beverage",
+         	"category" : "food",
 				"stacks" : 8,
 				"max_stacks" : 8
 			},
@@ -36,7 +36,7 @@
 			"stacks_per_serving": 1
 		},
 		"stonehearth:net_worth" : {
-			"value_in_gold" : 3,
+			"value_in_gold" : 14,
 			"rarity" : "common",
 			"shop_info" : {
 			"buyable" : true,   

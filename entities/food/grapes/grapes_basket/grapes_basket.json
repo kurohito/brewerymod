@@ -43,7 +43,7 @@
          "stacks_per_serving": 5
       },
       "stonehearth:net_worth" : {
-         "value_in_gold" : 60,
+         "value_in_gold" : 8,
          "rarity" : "common",
          "shop_info" : {
             "buyable" : true,   
