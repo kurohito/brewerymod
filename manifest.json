@@ -116,11 +116,7 @@
 		"cooking:apple_pie": "file(entities/food/apple_pie/apple_pie)",
 		"cooking:apple_pie_serving": "file(entities/food/apple_pie/apple_pie_serving)",
 
-
-
-		"decoration:mushroom"    : "file(entities/decoration/mushroom)",
 		"containers:empty_barrel"    : "file(entities/containers/empty_barrel)",
-		"mushroom": "file(entities/decoration/mushroom)",
 		"mushroom:plant" : "file(entities/plants/mushroom)",
 
 		"rose_pot": "file(entities/furniture/rose_pot)",
@@ -139,19 +135,15 @@
 		"crops:sugarcane_crop"   : "file(entities/crops/sugarcane_crop)",
 		"crops:apple_tree_crop"   : "file(entities/crops/apple_tree_crop)",
 
-		"decoration:roses"    : "file(entities/decoration/roses)",
 		"roses": "file(entities/decoration/roses)",
     	"roses:plant" : "file(entities/plants/roses)",
 	
-		"decoration:allium"    : "file(entities/decoration/allium)",
 		"allium": "file(entities/decoration/allium)",
     	"allium:plant" : "file(entities/plants/allium)",
 	
-		"decoration:blueberry"    : "file(entities/decoration/blueberry)",
 		"blueberry": "file(entities/decoration/blueberry)",
     	"blueberry:plant" : "file(entities/plants/blueberry)",
 	
-		"decoration:strawberry"    : "file(entities/decoration/strawberry)",
 		"strawberry": "file(entities/decoration/strawberry)",
     	"strawberry:plant" : "file(entities/plants/strawberry)",
 
