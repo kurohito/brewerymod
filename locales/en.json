@@ -402,7 +402,7 @@
                "description": "An ingredient for cooking"
          },
          "cocoabeans": {
-            "cocoabeans": {
+            "cocoabeans_basket": {
                "display_name": "Basket of Cocoa Beans",
                "description": "Very bitter, used to make delicious chocolate."
             },
@@ -590,10 +590,8 @@
                "description": "An ingredient for cooking"
          },
          "sugarcanebundle": {
-            "sugarcanebundle": {
                "display_name": "Bundle of Sugarcane",
                "description": "Sugarcane grinds down in to Sugar."
-            }
          },
          "tomato": {
             "tomato_basket": {
