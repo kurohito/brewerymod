@@ -5,7 +5,7 @@
       "item": {
          "category" : "food",
          "stacks" : 10,
-         "maxStacks" : 10
+         "max_stacks" : 10
       },
       "model_variants": {
          "default": {
@@ -42,14 +42,14 @@
          "food": "brewerymod:cooking:grapes_serving",
          "stacks_per_serving": 5
       },
-      "stonehearth:net_worth" : {
-         "value_in_gold" : 60,
-         "rarity" : "common",
-         "shop_info" : {
-            "buyable" : true,   
-            "sellable" : true,
-            "shopkeeper_level" : 1,
-            "shopkeeper_type" : "caravan"
+       "stonehearth:net_worth": {
+         "value_in_gold": 8,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
          }
       }
    }

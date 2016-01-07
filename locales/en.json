@@ -402,7 +402,7 @@
                "description": "An ingredient for cooking"
          },
          "cocoabeans": {
-            "cocoabeans": {
+            "cocoabeans_basket": {
                "display_name": "Basket of Cocoa Beans",
                "description": "Very bitter, used to make delicious chocolate."
             },
@@ -590,10 +590,8 @@
                "description": "An ingredient for cooking"
          },
          "sugarcanebundle": {
-            "sugarcanebundle": {
                "display_name": "Bundle of Sugarcane",
                "description": "Sugarcane grinds down in to Sugar."
-            }
          },
          "tomato": {
             "tomato_basket": {
@@ -903,6 +901,16 @@
             "wines_name": "wines",
             "milkshakes_name": "Milkshakes",
             "other_drinks_name": "other drinks"
+         }
+      }
+   },
+   "ui": {
+      "data": {
+         "constants": {
+            "yeast_resource_name" : "yeast",
+            "mushroom_resource_name" : "mushroom",
+            "cocoa_powder_resource_name" : "cocoa_powder",
+            "sugar_resource_name" : "sugar"
          }
       }
    }

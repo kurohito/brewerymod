@@ -1,29 +1,29 @@
 {
-   "formatting" : {
-      "resources" : {
-       "resource yeast" : {
-            "name" : "yeast",
-            "icon" : "/brewerymod/entities/food/yeast/yeast.png",
-            "stacks" : 1
+   "formatting": {
+      "resources": {
+         "resource yeast": {
+            "name": "i18n(brewerymod:ui.data.constants.yeast_resource_name)",
+            "icon": "/brewerymod/entities/food/yeast/yeast.png",
+            "stacks": 10
          },
 
-			"resource mushroom" : {
-            "name" : "mushroom",
-            "icon" : "/brewerymod/entities/food/mushroom/mushroom.png",
-            "stacks" : 1
+         "resource mushroom": {
+            "name": "i18n(brewerymod:ui.data.constants.mushroom_resource_name)",
+            "icon": "/brewerymod/entities/food/mushroom/mushroom.png",
+            "stacks": 10
          },
 
-         "resource cocoa_powder" : {
-            "name" : "cocoa_powder",
-            "icon" : "/brewerymod/entities/food/cocoa_powder/cocoa_powder.png",
-            "stacks" : 1
+         "resource cocoa_powder": {
+            "name": "i18n(brewerymod:ui.data.constants.cocoa_powder_resource_name)",
+            "icon": "/brewerymod/entities/food/cocoa_powder/cocoa_powder.png",
+            "stacks": 10
          },
-         
-         "resource sugar" : {
-            "name" : "sugar",
-            "icon" : "/brewerymod/entities/food/sugar/sugar.png",
-            "stacks" : 1
-         }       		 
+
+         "resource sugar": {
+            "name": "i18n(brewerymod:ui.data.constants.sugar_resource_name)",
+            "icon": "/brewerymod/entities/food/sugar/sugar.png",
+            "stacks": 10
+         }
       }
    }
 }

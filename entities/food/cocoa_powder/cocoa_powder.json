@@ -3,7 +3,7 @@
    "type": "entity",
    "components": {
       "item": {
-         "category" : "Cook's Ingredients",
+         "category" : "food",
          "stacks": 1,
          "max_stacks": 1
       },
@@ -30,14 +30,16 @@
          }
       }
    },
-   "stonehearth:net_worth": {
-      "value_in_gold": 30,
-      "rarity": "common",
-      "shop_info": {
-         "buyable": true,
-         "sellable": true,
-         "shopkeeper_level": 1,
-         "shopkeeper_type": "caravan"
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 7,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
       }
    }
 }

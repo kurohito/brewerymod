@@ -1,0 +1,46 @@
+{
+   "crops_by_kingdom" : {
+      "stonehearth:kingdoms:ascendancy" : [
+         {
+            "crop_type" : "brewerymod:crops:tomato_crop",
+            "quantity" : 10
+         },
+         {
+            "crop_type" : "brewerymod:crops:strawberry_crop",
+            "quantity" : 10
+         },
+         {
+         "crop_type" : "brewerymod:crops:watermelon_crop",
+            "quantity" : 10
+         },
+         {
+         "crop_type" : "brewerymod:crops:blueberry_crop",
+            "quantity" : 10
+         },
+         {
+         "crop_type" : "brewerymod:crops:grapes_crop",
+            "quantity" : 10
+         },
+         {
+         "crop_type" : "brewerymod:crops:cocoabeans_crop",
+            "quantity" : 10
+         },
+         {
+         "crop_type" : "brewerymod:crops:rice_crop",
+            "quantity" : 10
+         },
+         {
+         "crop_type" : "brewerymod:crops:garlic_crop",
+            "quantity" : 10
+         },
+         {
+         "crop_type" : "brewerymod:crops:sugarcane_crop",
+            "quantity" : 10
+         },
+         {
+         "crop_type" : "brewerymod:crops:apple_tree_crop",
+            "quantity" : 10
+         }        
+      ]
+   }
+}

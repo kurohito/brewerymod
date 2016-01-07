@@ -3,7 +3,7 @@
 		"type": "entity",
 		"components": {
 			"item": {
-         	"category" : "Tasty Beverage",
+         	"category" : "food",
 				"stacks" : 8,
 				"max_stacks" : 8
 			},

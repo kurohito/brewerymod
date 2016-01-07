@@ -5,7 +5,7 @@
       "item": {
          "category" : "food",
          "stacks" : 10,
-         "maxStacks" : 10
+         "max_stacks" : 10
       },
       "model_variants": {
          "default": {
@@ -43,7 +43,7 @@
          "stacks_per_serving": 3
       },
       "stonehearth:net_worth" : {
-         "value_in_gold" : 25,
+         "value_in_gold" : 15,
          "rarity" : "common",
          "shop_info" : {
             "buyable" : true,   
