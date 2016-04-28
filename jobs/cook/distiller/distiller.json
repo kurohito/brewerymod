@@ -1,39 +1,46 @@
 {
-   "mixins" : "file(distiller_ghost.json)",
+   "type": "entity",
+   "mixins": "file(distiller_ghost.json)",
    "components": {
-      "stonehearth:entity_forms" : {
-         "ghost_form" : "file(distiller_ghost.json)", 
-         "iconic_form" : "file(distiller_iconic.json)",
-         "placeable_on_ground" : true
-      },
-      "mob" : {
-         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 },
-         "region_origin" : { "x": 0.5, "y": 0, "z": 0.5 }
-      },
       "destination": {
          "region": [
             {
-               "min" : { "x" : -0.05, "y" : 1, "z" : 1 },
-               "max" : { "x" :  2.7, "y" : 0, "z" :  2.7 }
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 1, "y": 1, "z": 1 }
             }
          ]
       },
-      "region_collision_shape" : {
+      "region_collision_shape": {
          "region": [
             {
-               "min" : { "x" : -0.05, "y" : 1, "z" : 1 },
-               "max" : { "x" :  2.7, "y" : 0, "z" :  2.7 }
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 1, "y": 1, "z": 1 }
             }
          ]
       },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(distiller_iconic.json)",
+         "ghost_form": "file(distiller_ghost.json)",
+         "placeable_on_ground": true
+      },
       "stonehearth:workshop": {
-         "job_alias" : "stonehearth:jobs:cook"
-      } 
+         "job_alias": "stonehearth:jobs:cook"
+      }
    },
-   "entity_data" : {
-      "stonehearth:table" : {
-         "drop_effect" : "carry_putdown_on_table",
-         "drop_offset" : {"x" : 0, "y" : 0.2, "z" : 0.5 } 
+   "entity_data": {
+      "stonehearth:table": {
+         "drop_effect": "carry_putdown_on_table",
+         "drop_offset": { "x": -0.5, "y": 1, "z": -0.5 }
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 11,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
       }
    }
 }

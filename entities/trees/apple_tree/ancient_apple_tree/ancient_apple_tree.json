@@ -10,8 +10,8 @@
          }
       },
       "unit_info": {
-         "description": "i18n(brewerymod:entities.trees.ancient_apple_tree.description)",
-         "display_name": "i18n(brewerymod:entities.trees.ancient_apple_tree.display_name)"
+         "description": "i18n(brewerymod:entities.trees.apple_tree.ancient_apple_tree.description)",
+         "display_name": "i18n(brewerymod:entities.trees.apple_tree.ancient_apple_tree.display_name)"
       },
       "stonehearth:resource_node": {
          "resource": "brewerymod:cooking:apple",
