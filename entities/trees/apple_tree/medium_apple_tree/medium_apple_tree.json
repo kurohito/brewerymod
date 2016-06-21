@@ -20,9 +20,12 @@
          "description": "i18n(brewerymod:entities.trees.apple_tree.medium_apple_tree.description)",
          "display_name": "i18n(brewerymod:entities.trees.apple_tree.medium_apple_tree.display_name)"
       },
-      "stonehearth:resource_node": {
+      "stonehearth:renewable_resource_node": {
+         "category": "harvest",
          "resource": "brewerymod:cooking:apple",
-         "durability": 7
+         "renewal_time": "14h",
+         "unripe_description": "i18n(brewerymod:entities.trees.apple_tree.unripe_apple_tree.description)",
+         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect"
       },
       "mob": {
          "model_origin": {

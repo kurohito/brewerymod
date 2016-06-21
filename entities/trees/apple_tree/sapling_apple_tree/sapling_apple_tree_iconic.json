@@ -8,7 +8,7 @@
          "category": "plants"
       },
       "unit_info": {
-         "description": "Plant it in the earth and watch it grow."
+         "description": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_iconic.description)"
       },
       "stonehearth:commands": {
          "commands": [

@@ -2,13 +2,11 @@
    "data": {
       "commands": {
          "plant_tree": {
-            "plant_tree": {
                "display_name": "Plant Tree",
                "description": "Plant this tree in some dirt."
-            }
-         }
       }
-   },
+   }
+},
    "ui": {
       "buffs": {
          "blitzed": {
@@ -62,6 +60,9 @@
       }
    },
    "entities": {
+      "item_categories": {
+            "drinks": "Getränke"
+               },
       "crops": {
          "blueberry_crop": {
             "display_name": "Blueberries",
@@ -727,6 +728,9 @@
             "small_apple_tree": {
                "display_name": "Small Apple Tree",
                "description": "Slightly larger than a sapling."
+            },
+            "unripe_apple_tree": {
+               "description": "This tree still need some time for new apples"
             },
             "sapling_apple_tree": {
                "description": "Plant it in the earth and watch it grow.",

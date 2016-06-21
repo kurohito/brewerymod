@@ -19,10 +19,10 @@
          "hide_placement_ui": true
       },
       "unit_info": {
-         "description": "Plant it in the earth and watch it grow."
+         "description": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_iconic.description)"
       },
       "stonehearth:material": {
-         "tags": "plant tree"
+         "tags": "plant tree stockpile_plan"
       },
       "stonehearth:evolve": {
       },
