@@ -15,7 +15,7 @@
          "count" : 1
       },
       {
-         "uri" : "brewerymod:cooking:rice",
+         "uri" : "cookmod:crops:rice_harvest",
          "count" : 1
       }
    ],

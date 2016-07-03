@@ -20,7 +20,7 @@
          "icon": "file(yeast.png)"
       },
       "stonehearth:material": {
-         "tags": "resource yeast"
+         "tags": "resource yeast cooking_ingredient stockpile_cooking_ingredient"
       },
       "mob": {
          "model_origin": {

@@ -16,7 +16,7 @@
          "display_name": "i18n(brewerymod:entities.containers.empty_barrel.empty_barrel_ghost.display_name)"
       },
       "stonehearth:material": {
-         "tags": "wood furniture crafted"
+         "tags": "wood furniture crafted crate stockpile_furniture"
       },
       "mob": {
          "model_origin": {

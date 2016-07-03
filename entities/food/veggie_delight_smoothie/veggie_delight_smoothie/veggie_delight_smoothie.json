@@ -20,7 +20,7 @@
 			"icon" : "file(veggie_delight_smoothie.png)"
 		},
 		"stonehearth:material" : {
-			"tags" :  "resource food_container veggie_delight_smoothie"
+			"tags" :  "stockpile_prepared_food drink_container veggie_delight_smoothie"
 		},
 		"mob" : {
 			"model_origin" : { "x": 0, "y": 0, "z": 0.05 }
@@ -30,7 +30,7 @@
       	}
 		},
 		"entity_data" : {
-			"stonehearth:food_container" : {
+			"stonehearth:drink_container" : {
 			"effect": "fiddle",
 			"food": "brewerymod:cooking:veggie_delight_smoothie_serving",
 			"stacks_per_serving": 1

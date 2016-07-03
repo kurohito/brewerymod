@@ -30,7 +30,7 @@
          "display_name": "i18n(brewerymod:entities.food.apple.apple_basket.display_name)"
       },
       "stonehearth:material": {
-         "tags": "resource fruit food_container apple raw_food"
+         "tags": "resource fruit food_container apple stockpile_raw_food"
       },
       "mob": {
          "model_origin": {

@@ -30,7 +30,7 @@
          "icon" : "file(strawberry_basket.png)"
       },
       "stonehearth:material" : {
-         "tags" :  "resource vegetable food_container strawberry raw_food"
+         "tags" :  "resource vegetable food_container strawberry stockpile_raw_food"
       },
       "mob" : {
          "model_origin" : { "x": 0, "y": 0, "z": 0.05 }

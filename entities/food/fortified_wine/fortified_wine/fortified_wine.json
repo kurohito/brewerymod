@@ -20,7 +20,7 @@
 			"icon" : "file(fortified_wine.png)"
 		},
 		"stonehearth:material" : {
-			"tags" :  "resource food_container fortified_wine"
+			"tags" :  "stockpile_prepared_food drink_container fortified_wine"
 		},
 		"mob" : {
 			"model_origin" : { "x": 0, "y": 0, "z": 0.05 }
@@ -30,7 +30,7 @@
       	}
 		},
 		"entity_data" : {
-			"stonehearth:food_container" : {
+			"stonehearth:drink_container" : {
 			"effect": "fiddle",
 			"food": "brewerymod:cooking:fortified_wine_serving",
 			"stacks_per_serving": 1

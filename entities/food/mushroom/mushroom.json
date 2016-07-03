@@ -20,7 +20,7 @@
          "icon": "file(mushroom.png)"
       },
       "stonehearth:material": {
-         "tags": "resource mushroom raw_food cooking_ingredient"
+         "tags": "resource mushroom stockpile_raw_food cooking_ingredient"
       },
       "mob": {
          "model_origin": {

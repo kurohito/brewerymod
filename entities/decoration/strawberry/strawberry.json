@@ -6,7 +6,8 @@
       "stonehearth:entity_forms" : {
          "iconic_form" : "file(strawberry_iconic.json)",
          "ghost_form" : "file(strawberry_ghost.json)",
-         "placeable_on_ground" : true
+         "placeable_on_ground" : true,
+         "hide_undeploy_ui": true
       },      
       "stonehearth:material" : {
          "tags" :  "strawberry plant"

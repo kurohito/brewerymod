@@ -13,7 +13,7 @@
          "icon" : "file(rose_pot.png)"
       },
       "stonehearth:material" : {
-         "tags" : "decoration crafted"
+         "tags" : "decoration crafted clay stockpile_decoration"
       },
       "mob" : {
          "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 },

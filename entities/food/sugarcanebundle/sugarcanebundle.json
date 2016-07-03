@@ -8,7 +8,7 @@
          "max_stacks": 5
       },
       "stonehearth:material": {
-         "tags": "plant sugarcane grain cooking_ingredient"
+         "tags": "plant sugarcane grain cooking_ingredient stockpile_cooking_ingredient"
       },
       "model_variants": {
          "default": {

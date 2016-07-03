@@ -20,7 +20,7 @@
          "display_name": "i18n(brewerymod:entities.food.sugar.display_name)"
       },
       "stonehearth:material": {
-         "tags": "resource sugar"
+         "tags": "resource sugar cooking_ingredient stockpile_cooking_ingredient"
       },
       "mob": {
          "model_origin": {

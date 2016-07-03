@@ -20,7 +20,7 @@
 			"icon" : "file(watermelon_twist.png)"
 		},
 		"stonehearth:material" : {
-			"tags" :  "resource food_container watermelon_twist"
+			"tags" :  "stockpile_prepared_food drink_container watermelon_twist"
 		},
 		"mob" : {
 			"model_origin" : { "x": 0, "y": 0, "z": 0.05 }
@@ -30,7 +30,7 @@
       	}
 		},
 		"entity_data" : {
-			"stonehearth:food_container" : {
+			"stonehearth:drink_container" : {
 			"effect": "fiddle",
 			"food": "brewerymod:cooking:watermelon_twist_serving",
 			"stacks_per_serving": 1

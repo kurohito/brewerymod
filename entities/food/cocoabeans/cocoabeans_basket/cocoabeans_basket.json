@@ -30,7 +30,7 @@
          "icon" : "file(cocoabeans_basket.png)"
       },
       "stonehearth:material" : {
-         "tags" :  "resource vegetable food_container cocoabeans raw_food"
+         "tags" :  "resource vegetable food_container cocoabeans stockpile_raw_food"
       },
       "mob" : {
          "model_origin" : { "x": 0, "y": 0, "z": 0.05 }

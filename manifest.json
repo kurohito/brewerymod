@@ -33,9 +33,6 @@
 		"cooking:grapes": "file(entities/food/grapes/grapes_basket)",
 		"cooking:grapes_serving": "file(entities/food/grapes/grapes_serving)",
 
-		"cooking:rice": "file(entities/food/rice/rice_basket)",
-		"cooking:rice_serving": "file(entities/food/rice/rice_serving)",
-
 		"cooking:strawberry": "file(entities/food/strawberry/strawberry_basket)",
 		"cooking:strawberry_serving": "file(entities/food/strawberry/strawberry_serving)",
 
@@ -43,9 +40,6 @@
 
 		"cooking:tomato": "file(entities/food/tomato/tomato_basket)",
 		"cooking:tomato_serving": "file(entities/food/tomato/tomato_serving)",
-
-		"cooking:watermelon": "file(entities/food/watermelon/watermelon_basket)",
-		"cooking:watermelon_serving": "file(entities/food/watermelon/watermelon_serving)",
 		
 		"cooking:carrot_juice": "file(entities/food/carrot_juice/carrot_juice)",
 		"cooking:carrot_juice_serving": "file(entities/food/carrot_juice/carrot_juice_serving)",
@@ -126,11 +120,9 @@
 
 		"crops:tomato_crop"   : "file(entities/crops/tomato_crop)",
 		"crops:strawberry_crop"   : "file(entities/crops/strawberry_crop)",
-		"crops:watermelon_crop"   : "file(entities/crops/watermelon_crop)",
 		"crops:blueberry_crop"   : "file(entities/crops/blueberry_crop)",
 		"crops:grapes_crop"   : "file(entities/crops/grapes_crop)",
 		"crops:cocoabeans_crop"   : "file(entities/crops/cocoabeans_crop)",
-		"crops:rice_crop"   : "file(entities/crops/rice_crop)",
 		"crops:garlic_crop"   : "file(entities/crops/garlic_crop)",
 		"crops:sugarcane_crop"   : "file(entities/crops/sugarcane_crop)",
 		"crops:apple_tree_crop"   : "file(entities/crops/apple_tree_crop)",
@@ -157,24 +149,12 @@
 
     "mixintos": {
 
-		"stonehearth/services/server/farming/data/initial_crops.json": [
-            "file(mixins/initial_crops.json)"
-        ],
-		"stonehearth/jobs/cook/recipes/recipes.json" : [
-			"file(jobs/cook/recipes/recipes.json)"
-		],
-		"stonehearth/jobs/carpenter/recipes/recipes.json": [
-			"file(jobs/carpenter/recipes/recipes.json)"
-		],
-		"stonehearth/ui/data/constants.json" : [ 
-		"file(ui/data/constants.json)"
-		],
-		"stonehearth/scenarios/scenario_index.json": [
-            "file(mixins/scenario_index.json)"
-        ],
-        "stonehearth/data/commands/plant_tree/plant_tree.json": [
-        	"file(data/commands/plant_tree/plant_tree.json)"
-        ]
+		"stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
+		"stonehearth/jobs/cook/recipes/recipes.json" : 			       "file(jobs/cook/recipes/recipes.json)",
+		"stonehearth/jobs/carpenter/recipes/recipes.json":  	       "file(jobs/carpenter/recipes/recipes.json)",
+		"stonehearth/ui/data/constants.json" :                  	   "file(ui/data/constants.json)",
+		"stonehearth/scenarios/scenario_index.json":                   "file(mixins/scenario_index.json)",
+        "stonehearth/data/commands/plant_tree/plant_tree.json":        "file(data/commands/plant_tree/plant_tree.json)"
     },
 
     "overrides": {

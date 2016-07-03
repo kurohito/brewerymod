@@ -4,16 +4,14 @@
    "components": {
       "model_variants": {
          "default": {
-            "models": [
-               {
-                  "type": "one_of",
-                  "items": [
-                     "file(large_apple_tree.qb)",
-                     "file(large_apple_tree_2.qb)",
-                     "file(large_apple_tree_3.qb)"
-                  ]
-               }
-            ]
+            "models": [{
+               "type": "one_of",
+               "items": [
+                  "file(large_apple_tree.qb)",
+                  "file(large_apple_tree_2.qb)",
+                  "file(large_apple_tree_3.qb)"
+               ]
+            }]
          }
       },
       "unit_info": {
@@ -44,36 +42,38 @@
          ]
       },
       "destination": {
-         "region": [
-            {
-               "min": {
-                  "x": -3,
-                  "y": 0,
-                  "z": -3
-               },
-               "max": {
-                  "x": 4,
-                  "y": 1,
-                  "z": 4
-               }
+         "region": [{
+            "min": {
+               "x": -3,
+               "y": 0,
+               "z": -3
+            },
+            "max": {
+               "x": 4,
+               "y": 1,
+               "z": 4
             }
-         ]
+         }]
       },
       "region_collision_shape": {
-         "region": [
-            {
-               "min": {
-                  "x": -3,
-                  "y": 0,
-                  "z": -3
-               },
-               "max": {
-                  "x": 4,
-                  "y": 24,
-                  "z": 4
-               }
+         "region": [{
+            "min": {
+               "x": -3,
+               "y": 0,
+               "z": -3
+            },
+            "max": {
+               "x": 4,
+               "y": 24,
+               "z": 4
             }
-         ]
+         }]
+      },
+      "entity_data": {
+         "stonehearth:evolve_data": {
+            "next_stage": "brewerymod:trees:apple:ancient",
+            "evolve_time": "10d"
+         }
       }
    }
 }

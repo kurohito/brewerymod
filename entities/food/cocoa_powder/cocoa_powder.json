@@ -20,7 +20,7 @@
          "icon": "file(cocoa_powder.png)"
       },
       "stonehearth:material": {
-         "tags": "resource cocoa_powder"
+         "tags": "resource cocoa_powder cooking_ingredient stockpile_cooking_ingredient"
       },
       "mob": {
          "model_origin": {
