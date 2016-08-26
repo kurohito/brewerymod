@@ -32,16 +32,7 @@
          "scale": 0.13
       },
       "mob": {
-         "model_origin": {
-            "x": -0.05,
-            "y": 0,
-            "z": 0.05
-         }
-      },
-      "unit_info": {
-         "description": "i18n(brewerymod:entities.crops.apple_tree_crop.description)",
-         "icon": "file(apple_tree_crop.png)",
-         "display_name": "i18n(brewerymod:entities.crops.apple_tree_crop.display_name)"
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
       },
       "stonehearth:crop": {
          "resource_pairings": {
@@ -77,6 +68,13 @@
       },
       "stonehearth:material": {
          "tags": "crop apple_tree_sapling"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(brewerymod:entities.crops.apple_tree_crop.description)",
+         "icon": "file(apple_tree_crop.png)",
+         "display_name": "i18n(brewerymod:entities.crops.apple_tree_crop.display_name)"
       }
    }
 }

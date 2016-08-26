@@ -1,33 +1,46 @@
 {
-   "type" : "entity",
-   "mixins" : "file(empty_barrel_ghost.json)",
-   
+   "type": "entity",
+   "mixins": "file(empty_barrel_ghost.json)",
    "components": {
-      "stonehearth:storage" : {
-         "type" : "crate",
-         "auto_fill_from" : [ "vault" ],
-         "capacity" : 16
+      "stonehearth:storage": {
+         "type": "crate",
+         "auto_fill_from": [
+            "vault"
+         ],
+         "capacity": 16
       },
-      "stonehearth:entity_forms" : {
-         "iconic_form" : "file(empty_barrel_iconic.json)",
-         "ghost_form" : "file(empty_barrel_ghost.json)",
-         "placeable_on_ground" : true
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(empty_barrel_iconic.json)",
+         "ghost_form": "file(empty_barrel_ghost.json)",
+         "placeable_on_ground": true
       },
-      "destination" : {
-         "region" : [
+      "destination": {
+         "region": [
             {
-               "min" : { "x" :-1, "y" : 0, "z" : 1 },
-               "max" : { "x" : 1, "y" : 2, "z" : 3 }
+               "min": { "x": -1, "y": 0, "z": 1 },
+               "max": { "x": 1, "y": 2, "z": 3 }
             }
          ]
       },
-      "region_collision_shape" : {
-         "region" : [
+      "region_collision_shape": {
+         "region": [
             {
-               "min" : { "x" :-1, "y" : 0, "z" : 1 },
-               "max" : { "x" : 1, "y" : 2, "z" : 3 }
+               "min": { "x": -1, "y": 0, "z": 1 },
+               "max": { "x": 1, "y": 2, "z": 3 }
             }
          ]
-      }           
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
    }
 }

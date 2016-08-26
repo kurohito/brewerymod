@@ -1,11 +1,7 @@
 {
+   "mixins": "stonehearth:mixins:placed_object",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "description": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_ghost.description)",
-         "icon": "file(sapling_apple_tree.png)",
-         "display_name": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_ghost.display_name)"
-      },
       "render_info": {
          "scale": 1
       },
@@ -17,20 +13,20 @@
          }
       },
       "mob": {
-         "model_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-         },
-         "region_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-         },
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
          "align_to_grid": [
             "x",
             "z"
          ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_ghost.description)",
+         "icon": "file(sapling_apple_tree.png)",
+         "display_name": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_ghost.display_name)",
+         "category": "plants"
       }
    }
 }

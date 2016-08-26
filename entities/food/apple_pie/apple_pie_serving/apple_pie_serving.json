@@ -2,10 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "description": "i18n(brewerymod:entities.food.apple_pie.apple_pie_serving.description)",
-         "display_name": "i18n(brewerymod:entities.food.apple_pie.apple_pie_serving.display_name)"
-      },
       "stonehearth:material": {
          "tags": "food"
       },
@@ -25,6 +21,10 @@
          "default": {
             "satisfaction": 200
          }
+      },
+      "stonehearth:catalog": {
+         "description": "i18n(brewerymod:entities.food.apple_pie.apple_pie_serving.description)",
+         "display_name": "i18n(brewerymod:entities.food.apple_pie.apple_pie_serving.display_name)"
       }
    }
 }

@@ -1,0 +1,45 @@
+{
+	"type": "index",
+	"crops": {
+		"strawberry": {
+			"crop_type": "brewerymod:crops:strawberry_crop",
+			"ordinal": 10,
+			"level_requirement": 0
+		},
+		"garlic": {
+			"crop_type": "brewerymod:crops:garlic_crop",
+			"ordinal": 11,
+			"level_requirement": 0
+		},
+		"blueberry": {
+			"crop_type": "brewerymod:crops:blueberry_crop",
+			"ordinal": 12,
+			"level_requirement": 0
+		},
+		"grapes": {
+			"crop_type": "brewerymod:crops:grapes_crop",
+			"ordinal": 13,
+			"level_requirement": 0
+		},
+		"cocoabeans": {
+			"crop_type": "brewerymod:crops:cocoabeans_crop",
+			"ordinal": 14,
+			"level_requirement": 0
+		},
+		"sugarcane": {
+			"crop_type": "brewerymod:crops:sugarcane_crop",
+			"ordinal": 15,
+			"level_requirement": 0
+		},
+		"tomato": {
+			"crop_type": "brewerymod:crops:tomato_crop",
+			"ordinal": 16,
+			"level_requirement": 0
+		},
+		"apple_tree": {
+			"crop_type": "brewerymod:crops:apple_tree_crop",
+			"ordinal": 17,
+			"level_requirement": 0
+		}
+	}
+}

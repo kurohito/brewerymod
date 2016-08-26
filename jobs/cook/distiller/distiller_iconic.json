@@ -9,19 +9,20 @@
             ]
          }
       },
-      "mob" : {
-         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
       },
-      "item" : {
-         "category" : "workshops"
+      "stonehearth:material": {
+         "tags": "tool"
       },
-      "stonehearth:material" : {
-         "tags" : "tool"
-      },
-      "effect_list" : {
-         "effects" : [
-            "stonehearth:effects:talisman_glow"
-         ]
+      "effect_list": {
+         "default": "stonehearth:effects:treasure_glow"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "is_item": true,
+         "category": "workshops"
       }
    }
 }

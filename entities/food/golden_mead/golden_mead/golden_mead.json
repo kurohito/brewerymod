@@ -1,55 +1,49 @@
 {
-	"mixins": "stonehearth:mixins:item_properties",
-		"type": "entity",
-		"components": {
-			"item": {
-         	"category" : "food",
-				"stacks" : 8,
-				"max_stacks" : 8
-			},
-			"model_variants": {
-				"default": {
-				"models": [
-				"file(golden_mead.qb)"
-				]
-			}
-		},
-		"stonehearth:stacks_model_renderer": {},
-      "effect_list": {
-         "effects": [
-            "stonehearth:effects:treasure_glow"
-         ]
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(golden_mead.qb)"
+            ]
+         }
       },
-		"unit_info": {
-			"display_name": "i18n(brewerymod:entities.food.golden_mead.golden_mead.display_name)",
-			"description": "i18n(brewerymod:entities.food.golden_mead.golden_mead.description)",
-			"icon" : "file(golden_mead.png)"
-		},
-		"stonehearth:material" : {
-			"tags" :  "resource food_container golden_mead"
-		},
-		"mob" : {
-			"model_origin" : { "x": 0, "y": 0, "z": 0.05 }
-			},
-      "render_info" : {
-         "scale" : 0.045
-      	}
-		},
-		"entity_data" : {
-			"stonehearth:food_container" : {
-			"effect": "fiddle",
-			"food": "brewerymod:cooking:golden_mead_serving",
-			"stacks_per_serving": 1
-		},
-		"stonehearth:net_worth" : {
-			"value_in_gold" : 30,
-			"rarity" : "common",
-			"shop_info" : {
-			"buyable" : true,   
-			"sellable" : true,
-			"shopkeeper_level" : 1,
-			"shopkeeper_type" : "caravan"
-			}
-		}
-	}
+      "effect_list": {
+         "default": "stonehearth:effects:treasure_glow"
+      },
+      "stonehearth:material": {
+         "tags": "resource food_container golden_mead"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      },
+      "render_info": {
+         "scale": 0.045
+      }
+   },
+   "entity_data": {
+      "stonehearth:food_container": {
+         "effect": "fiddle",
+         "food": "brewerymod:cooking:golden_mead_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 30,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(brewerymod:entities.food.golden_mead.golden_mead.display_name)",
+         "description": "i18n(brewerymod:entities.food.golden_mead.golden_mead.description)",
+         "icon": "file(golden_mead.png)",
+         "is_item": true,
+         "category": "food"
+      }
+   }
 }

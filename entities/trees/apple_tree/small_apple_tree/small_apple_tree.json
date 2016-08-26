@@ -19,25 +19,13 @@
             ]
          }
       },
-      "unit_info": {
-         "description": "i18n(brewerymod:entities.trees.apple_tree.small_apple_tree.description)",
-         "display_name": "i18n(brewerymod:entities.trees.apple_tree.small_apple_tree.display_name)"
-      },
       "stonehearth:resource_node": {
          "resource": "stonehearth:resources:wood:oak_log",
          "durability": 3
       },
       "mob": {
-         "model_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-         },
-         "region_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-         },
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "region_origin": { "x": 0, "y": 0, "z": 0 },
          "align_to_grid": [
             "x",
             "z"
@@ -46,16 +34,8 @@
       "destination": {
          "region": [
             {
-               "min": {
-                  "x": -2,
-                  "y": 0,
-                  "z": -2
-               },
-               "max": {
-                  "x": 2,
-                  "y": 1,
-                  "z": 2
-               }
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 1, "z": 2 }
             }
          ]
       },
@@ -72,6 +52,10 @@
       "stonehearth:evolve_data": {
          "next_stage": "brewerymod:trees:apple:medium",
          "evolve_time": "3d"
+      },
+      "stonehearth:catalog": {
+         "description": "i18n(brewerymod:entities.trees.apple_tree.small_apple_tree.description)",
+         "display_name": "i18n(brewerymod:entities.trees.apple_tree.small_apple_tree.display_name)"
       }
    }
 }

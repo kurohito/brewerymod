@@ -2,12 +2,8 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(brewerymod:entities.food.golden_mead.golden_mead_serving.display_name)",
-         "description": "i18n(brewerymod:entities.food.golden_mead.golden_mead_serving.description)"
-      },      
-      "stonehearth:material" : {
-         "tags" : "food"
+      "stonehearth:material": {
+         "tags": "food"
       },
       "model_variants": {
          "default": {
@@ -17,20 +13,21 @@
          }
       }
    },
-   "stonehearth:stacks_model_renderer": {},
-      "effect_list": {
-         "effects": [
-            "stonehearth:effects:treasure_glow"
-         ]
+   "effect_list": {
+         "default": "stonehearth:effects:treasure_glow"
       },
-   "entity_data" : {
-      "stonehearth:food" : {
-         "stonehearth:sitting_on_chair" : {
-            "satisfaction" : 200
+   "entity_data": {
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 200
          },
-         "default" : {
-            "satisfaction" : 150
+         "default": {
+            "satisfaction": 150
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(brewerymod:entities.food.golden_mead.golden_mead_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.golden_mead.golden_mead_serving.description)"
       }
-   }   
+   }
 }

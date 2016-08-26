@@ -2,11 +2,6 @@
    "mixins": "stonehearth:mixins:food_decay",
    "type": "entity",
    "components": {
-      "item": {
-         "category": "food",
-         "stacks": 3,
-         "max_stacks": 3
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -24,20 +19,11 @@
             ]
          }
       },
-      "unit_info": {
-         "description": "i18n(brewerymod:entities.food.apple.apple_basket.description)",
-         "icon": "file(apple_basket.png)",
-         "display_name": "i18n(brewerymod:entities.food.apple.apple_basket.display_name)"
-      },
       "stonehearth:material": {
          "tags": "resource fruit food_container apple stockpile_raw_food"
       },
       "mob": {
-         "model_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0.05
-         }
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
       }
    },
    "entity_data": {
@@ -54,6 +40,13 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "description": "i18n(brewerymod:entities.food.apple.apple_basket.description)",
+         "icon": "file(apple_basket.png)",
+         "display_name": "i18n(brewerymod:entities.food.apple.apple_basket.display_name)",
+         "is_item": true,
+         "category": "food"
       }
    }
 }

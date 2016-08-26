@@ -1,30 +1,31 @@
 {
-   "type" : "entity",
-   "components" : {
-      "render_info" : {
-         "scale" : 0.2
+   "type": "entity",
+   "components": {
+      "render_info": {
+         "scale": 0.2
       },
-      "unit_info" : {
-         "display_name": "i18n(brewerymod:entities.plants.roses.display_name)", 
-         "description": "i18n(brewerymod:entities.plants.roses.description)"
-      },      
       "model_variants": {
          "default": {
-		      "models": [
-			      "file(../../decoration/roses/roses.qb)"
-		      ]
-   	   }
+            "models": [
+               "file(../../decoration/roses/roses.qb)"
+            ]
+         }
       },
       "stonehearth:resource_node": {
-         "task_group_name" : "stonehearth:task_group:harvest",
-         "harvest_overlay_effect" : "/stonehearth/data/effects/harvest_plant_overlay_effect",
-         "description" : "harvest_plant",
+         "task_group_name": "stonehearth:task_group:harvest",
+         "harvest_overlay_effect": "/stonehearth/data/effects/harvest_plant_overlay_effect",
+         "description": "harvest_plant",
          "resource": "brewerymod:furniture:rose_pot"
       },
-      "mob" : {
-         "model_origin" : { "x": 0, "y": 0, "z": 0 },
-         "mob_collision_type" : "clutter"
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 },
+         "mob_collision_type": "clutter"
       }
-	}
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(brewerymod:entities.plants.roses.display_name)",
+         "description": "i18n(brewerymod:entities.plants.roses.description)"
+      }
+   }
 }
-

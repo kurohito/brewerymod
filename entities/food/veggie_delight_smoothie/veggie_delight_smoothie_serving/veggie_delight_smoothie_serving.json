@@ -2,12 +2,8 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(brewerymod:entities.food.veggie_delight_smoothie.veggie_delight_smoothie_serving.display_name)",
-         "description": "i18n(brewerymod:entities.food.veggie_delight_smoothie.veggie_delight_smoothie_serving.description)"
-      },      
-      "stonehearth:material" : {
-         "tags" : "food"
+      "stonehearth:material": {
+         "tags": "drink"
       },
       "model_variants": {
          "default": {
@@ -17,15 +13,18 @@
          }
       }
    },
-   "entity_data" : {
-      "stonehearth:food" : {
-         "stonehearth:sitting_on_chair" : {
-            "satisfaction" : 140
+   "entity_data": {
+      "stonehearth:drink": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 140
          },
-         "default" : {
-            "satisfaction" : 100
+         "default": {
+            "satisfaction": 100
          }
-
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(brewerymod:entities.food.veggie_delight_smoothie.veggie_delight_smoothie_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.veggie_delight_smoothie.veggie_delight_smoothie_serving.description)"
       }
-   }   
+   }
 }

@@ -6,12 +6,12 @@
          "display_name": "i18n(brewerymod:entities.food.garlic.garlic_serving.display_name)",
          "description": "i18n(brewerymod:entities.food.garlic.garlic_serving.description)",
          "icon": "file(garlic_serving.png)"
-      },      
-      "item" : {
-         "category" : "food"
       },
-      "stonehearth:material" : {
-         "tags" : "food"
+      "item": {
+         "category": "food"
+      },
+      "stonehearth:material": {
+         "tags": "food"
       },
       "model_variants": {
          "default": {
@@ -21,14 +21,24 @@
          }
       }
    },
-   "entity_data" : {
-      "stonehearth:food" : {
-         "stonehearth:sitting_on_chair" : {
-            "satisfaction" : 5
+   "entity_data": {
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 5
          },
-         "default" : {
-            "satisfaction" : 2
+         "default": {
+            "satisfaction": 2
+         }
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
          }
       }
-   }   
+   }
 }

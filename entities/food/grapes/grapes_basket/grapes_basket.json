@@ -2,11 +2,6 @@
    "mixins": "stonehearth:mixins:food_decay",
    "type": "entity",
    "components": {
-      "item": {
-         "category" : "food",
-         "stacks" : 10,
-         "max_stacks" : 10
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -24,25 +19,20 @@
             ]
          }
       },
-      "unit_info": {
-         "display_name": "i18n(brewerymod:entities.food.grapes.grapes_basket.display_name)",
-         "description": "i18n(brewerymod:entities.food.grapes.grapes_basket.description)",
-         "icon" : "file(grapes_basket.png)"
+      "stonehearth:material": {
+         "tags": "resource vegetable food_container grapes stockpile_raw_food"
       },
-      "stonehearth:material" : {
-         "tags" :  "resource vegetable food_container grapes stockpile_raw_food"
-      },
-      "mob" : {
-         "model_origin" : { "x": 0, "y": 0, "z": 0.05 }
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
       }
    },
-   "entity_data" : {
-      "stonehearth:food_container" : {
+   "entity_data": {
+      "stonehearth:food_container": {
          "effect": "fiddle",
          "food": "brewerymod:cooking:grapes_serving",
          "stacks_per_serving": 5
       },
-       "stonehearth:net_worth": {
+      "stonehearth:net_worth": {
          "value_in_gold": 8,
          "rarity": "common",
          "shop_info": {
@@ -51,6 +41,13 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(brewerymod:entities.food.grapes.grapes_basket.display_name)",
+         "description": "i18n(brewerymod:entities.food.grapes.grapes_basket.description)",
+         "icon": "file(grapes_basket.png)",
+         "is_item": true,
+         "category": "food"
       }
    }
 }

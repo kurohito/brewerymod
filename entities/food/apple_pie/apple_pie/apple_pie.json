@@ -2,11 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "item": {
-         "category": "food",
-         "stacks": 4,
-         "max_stacks": 4
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -14,20 +9,11 @@
             ]
          }
       },
-      "unit_info": {
-         "description": "i18n(brewerymod:entities.food.apple_pie.apple_pie.description)",
-         "icon": "file(apple_pie.png)",
-         "display_name": "i18n(brewerymod:entities.food.apple_pie.apple_pie.display_name)"
-      },
       "stonehearth:material": {
          "tags": "resource food_container apple_pie stockpile_prepared_food"
       },
       "mob": {
-         "model_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0.05
-         }
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
       }
    },
    "entity_data": {
@@ -45,6 +31,13 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "description": "i18n(brewerymod:entities.food.apple_pie.apple_pie.description)",
+         "icon": "file(apple_pie.png)",
+         "display_name": "i18n(brewerymod:entities.food.apple_pie.apple_pie.display_name)",
+         "is_item": true,
+         "category": "food"
       }
    }
 }

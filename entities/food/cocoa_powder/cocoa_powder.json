@@ -2,11 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "item": {
-         "category" : "food",
-         "stacks": 1,
-         "max_stacks": 1
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -14,20 +9,11 @@
             ]
          }
       },
-      "unit_info": {
-         "display_name": "i18n(brewerymod:entities.food.cocoa_powder.display_name)",
-         "description": "i18n(brewerymod:entities.food.cocoa_powder.description)",
-         "icon": "file(cocoa_powder.png)"
-      },
       "stonehearth:material": {
          "tags": "resource cocoa_powder cooking_ingredient stockpile_cooking_ingredient"
       },
       "mob": {
-         "model_origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0.05
-         }
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
       }
    },
    "entity_data": {
@@ -40,6 +26,13 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(brewerymod:entities.food.cocoa_powder.display_name)",
+         "description": "i18n(brewerymod:entities.food.cocoa_powder.description)",
+         "icon": "file(cocoa_powder.png)",
+         "is_item": true,
+         "category": "food"
       }
    }
 }

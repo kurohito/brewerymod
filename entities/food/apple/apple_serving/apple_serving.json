@@ -2,14 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "description": "i18n(brewerymod:entities.food.apple.apple_serving.description)",
-         "icon": "file(berry_serving.png)",
-         "display_name": "i18n(brewerymod:entities.food.apple.apple_serving.display_name)"
-      },
-      "item": {
-         "category": "food"
-      },
       "stonehearth:material": {
          "tags": "food"
       },
@@ -29,7 +21,23 @@
          "default": {
             "satisfaction": 45
          }
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "description": "i18n(brewerymod:entities.food.apple.apple_serving.description)",
+         "icon": "file(apple_serving.png)",
+         "display_name": "i18n(brewerymod:entities.food.apple.apple_serving.display_name)",
+         "is_item": true,
+         "category": "food"
       }
    }
-
 }

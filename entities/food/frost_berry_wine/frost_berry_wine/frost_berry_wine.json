@@ -1,49 +1,46 @@
 {
-	"mixins": "stonehearth:mixins:item_properties",
-		"type": "entity",
-		"components": {
-			"item": {
-         	"category" : "food",
-				"stacks" : 8,
-				"max_stacks" : 8
-			},
-			"model_variants": {
-				"default": {
-				"models": [
-				"file(frost_berry_wine.qb)"
-				]
-			}
-		},
-		"unit_info": {
-			"display_name": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine.display_name)",
-			"description": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine.description)",
-			"icon" : "file(frost_berry_wine.png)"
-		},
-		"stonehearth:material" : {
-			"tags" :  "stockpile_prepared_food drink_container frost_berry_wine"
-		},
-		"mob" : {
-			"model_origin" : { "x": 0, "y": 0, "z": 0.05 }
-			},
-      "render_info" : {
-         "scale" : 0.045
-      	}
-		},
-		"entity_data" : {
-			"stonehearth:drink_container" : {
-			"effect": "fiddle",
-			"food": "brewerymod:cooking:frost_berry_wine_serving",
-			"stacks_per_serving": 1
-		},
-		"stonehearth:net_worth" : {
-			"value_in_gold" : 10,
-			"rarity" : "common",
-			"shop_info" : {
-			"buyable" : true,   
-			"sellable" : true,
-			"shopkeeper_level" : 1,
-			"shopkeeper_type" : "caravan"
-			}
-		}
-	}
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(frost_berry_wine.qb)"
+            ]
+         }
+      },
+      "stonehearth:material": {
+         "tags": "stockpile_drink drink_container frost_berry_wine"
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      },
+      "render_info": {
+         "scale": 0.045
+      }
+   },
+   "entity_data": {
+      "stonehearth:drink_container": {
+         "effect": "fiddle",
+         "drink": "brewerymod:cooking:frost_berry_wine_serving",
+         "stacks_per_serving": 1
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 10,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine.display_name)",
+         "description": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine.description)",
+         "icon": "file(frost_berry_wine.png)",
+         "is_item": true,
+         "category": "drink"
+      }
+   }
 }

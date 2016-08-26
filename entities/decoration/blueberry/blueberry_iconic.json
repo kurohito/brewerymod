@@ -2,11 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "item" : {
-         "category" : "plants",
-         "stacks" : 2,
-         "maxStacks" : 2
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -14,8 +9,14 @@
             ]
          }
       },
-      "mob" : {
-         "model_origin" : { "x": 0, "y": 0, "z": 0 }
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "is_item": true,
+         "category": "plants"
       }
    }
 }

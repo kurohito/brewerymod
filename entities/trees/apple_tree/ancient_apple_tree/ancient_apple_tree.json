@@ -9,10 +9,6 @@
             ]
          }
       },
-      "unit_info": {
-         "description": "i18n(brewerymod:entities.trees.apple_tree.ancient_apple_tree.description)",
-         "display_name": "i18n(brewerymod:entities.trees.apple_tree.ancient_apple_tree.display_name)"
-      },
       "stonehearth:renewable_resource_node": {
          "category": "harvest",
          "resource": "brewerymod:cooking:apple",
@@ -21,16 +17,8 @@
          "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect"
       },
       "mob": {
-         "model_origin": {
-            "x": -0.5,
-            "y": 0,
-            "z": 0.5
-         },
-         "region_origin": {
-            "x": 0.5,
-            "y": 0,
-            "z": 0.5
-         },
+         "model_origin": { "x": -0.5, "y": 0, "z": 0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
          "align_to_grid": [
             "x",
             "z"
@@ -39,34 +27,24 @@
       "destination": {
          "region": [
             {
-               "min": {
-                  "x": -4,
-                  "y": 0,
-                  "z": -4
-               },
-               "max": {
-                  "x": 5,
-                  "y": 1,
-                  "z": 5
-               }
+               "min": { "x": -4, "y": 0, "z": -4 },
+               "max": { "x": 5, "y": 1, "z": 5 }
             }
          ]
       },
       "region_collision_shape": {
          "region": [
             {
-               "min": {
-                  "x": -4,
-                  "y": 0,
-                  "z": -4
-               },
-               "max": {
-                  "x": 5,
-                  "y": 24,
-                  "z": 5
-               }
+               "min": { "x": -4, "y": 0, "z": -4 },
+               "max": { "x": 5, "y": 24, "z": 5 }
             }
          ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(brewerymod:entities.trees.apple_tree.ancient_apple_tree.description)",
+         "display_name": "i18n(brewerymod:entities.trees.apple_tree.ancient_apple_tree.display_name)"
       }
    }
 }

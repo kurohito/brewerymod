@@ -150,6 +150,7 @@
     "mixintos": {
 
 		"stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
+		"stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
 		"stonehearth/jobs/cook/recipes/recipes.json" : 			       "file(jobs/cook/recipes/recipes.json)",
 		"stonehearth/jobs/carpenter/recipes/recipes.json":  	       "file(jobs/carpenter/recipes/recipes.json)",
 		"stonehearth/ui/data/constants.json" :                  	   "file(ui/data/constants.json)",

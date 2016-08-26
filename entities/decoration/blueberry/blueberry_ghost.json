@@ -1,13 +1,9 @@
 {
+   "mixins": "stonehearth:mixins:placed_object",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(brewerymod:entities.plants.blueberry.display_name)",
-         "description": "i18n(brewerymod:entities.plants.blueberry.description)",
-         "icon" : "file(blueberry.png)"
-      },
-      "render_info" : {
-         "scale" : 0.2
+      "render_info": {
+         "scale": 0.2
       },
       "model_variants": {
          "default": {
@@ -16,9 +12,16 @@
             ]
          }
       },
-      "mob" : {
-         "model_origin" : { "x": 0, "y": 0, "z": 0 }
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(brewerymod:entities.plants.blueberry.display_name)",
+         "description": "i18n(brewerymod:entities.plants.blueberry.description)",
+         "icon": "file(blueberry.png)",
+         "category": "plants"
       }
    }
 }
- 

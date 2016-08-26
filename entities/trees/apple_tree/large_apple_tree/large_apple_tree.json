@@ -4,19 +4,17 @@
    "components": {
       "model_variants": {
          "default": {
-            "models": [{
-               "type": "one_of",
-               "items": [
-                  "file(large_apple_tree.qb)",
-                  "file(large_apple_tree_2.qb)",
-                  "file(large_apple_tree_3.qb)"
-               ]
-            }]
+            "models": [
+               {
+                  "type": "one_of",
+                  "items": [
+                     "file(large_apple_tree.qb)",
+                     "file(large_apple_tree_2.qb)",
+                     "file(large_apple_tree_3.qb)"
+                  ]
+               }
+            ]
          }
-      },
-      "unit_info": {
-         "description": "i18n(brewerymod:entities.trees.apple_tree.large_apple_tree.description)",
-         "display_name": "i18n(brewerymod:entities.trees.apple_tree.large_apple_tree.display_name)"
       },
       "stonehearth:renewable_resource_node": {
          "category": "harvest",
@@ -26,54 +24,40 @@
          "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect"
       },
       "mob": {
-         "model_origin": {
-            "x": -0.5,
-            "y": 0,
-            "z": 0.5
-         },
-         "region_origin": {
-            "x": 0.5,
-            "y": 0,
-            "z": 0.5
-         },
+         "model_origin": { "x": -0.5, "y": 0, "z": 0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
          "align_to_grid": [
             "x",
             "z"
          ]
       },
       "destination": {
-         "region": [{
-            "min": {
-               "x": -3,
-               "y": 0,
-               "z": -3
-            },
-            "max": {
-               "x": 4,
-               "y": 1,
-               "z": 4
+         "region": [
+            {
+               "min": { "x": -3, "y": 0, "z": -3 },
+               "max": { "x": 4, "y": 1, "z": 4 }
             }
-         }]
+         ]
       },
       "region_collision_shape": {
-         "region": [{
-            "min": {
-               "x": -3,
-               "y": 0,
-               "z": -3
-            },
-            "max": {
-               "x": 4,
-               "y": 24,
-               "z": 4
+         "region": [
+            {
+               "min": { "x": -3, "y": 0, "z": -3 },
+               "max": { "x": 4, "y": 24, "z": 4 }
             }
-         }]
+         ]
       },
       "entity_data": {
          "stonehearth:evolve_data": {
             "next_stage": "brewerymod:trees:apple:ancient",
             "evolve_time": "10d"
          }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(brewerymod:entities.trees.apple_tree.large_apple_tree.description)",
+         "display_name": "i18n(brewerymod:entities.trees.apple_tree.large_apple_tree.display_name)"
       }
    }
 }

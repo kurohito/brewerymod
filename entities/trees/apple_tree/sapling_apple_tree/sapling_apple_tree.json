@@ -24,8 +24,7 @@
       "stonehearth:material": {
          "tags": "plant tree stockpile_plan"
       },
-      "stonehearth:evolve": {
-      },
+      "stonehearth:evolve": {},
       "stonehearth:resource_node": {
          "resource": "stonehearth:resources:wood:oak_log",
          "durability": 2
@@ -33,16 +32,8 @@
       "destination": {
          "region": [
             {
-               "min": {
-                  "x": -2,
-                  "y": 0,
-                  "z": -2
-               },
-               "max": {
-                  "x": 2,
-                  "y": 1,
-                  "z": 2
-               }
+               "min": { "x": -2, "y": 0, "z": -2 },
+               "max": { "x": 2, "y": 1, "z": 2 }
             }
          ]
       },
@@ -59,6 +50,16 @@
       "stonehearth:evolve_data": {
          "next_stage": "brewerymod:trees:apple:small",
          "evolve_time": "1d"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
       }
    }
 }

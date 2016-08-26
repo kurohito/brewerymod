@@ -1,5 +1,5 @@
 {
-   "type": "entity", 
+   "type": "entity",
    "components": {
       "model_variants": {
          "default": {
@@ -26,61 +26,70 @@
             "models": [
                "file(grapes_crop_4.qb)"
             ]
-         }, 
+         },
          "grapes_12": {
             "models": [
                "file(grapes_crop_12.qb)"
             ]
          }
       },
-      "unit_info": {
-         "display_name": "i18n(brewerymod:entities.crops.grapes_crop.display_name)", 
-         "description": "i18n(brewerymod:entities.crops.grapes_crop.description)",
-         "icon" : "file(icon.png)"
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
       },
-      "mob" : {
-         "model_origin" : { "x": -0.05, "y": 0, "z": 0.05 }
-      },
-      "stonehearth:crop" : {
-         "resource_pairings" : {
+      "stonehearth:crop": {
+         "resource_pairings": {
             "grapes_4": "brewerymod:cooking:grapes",
             "grapes_12": ""
          },
-         "harvest_threshhold" : "grapes_4",
-         "plant_overlay_effect" : "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
-      }, 
-      "stonehearth:growing" : {
-         "growth_period" : "10h",
-         "growth_stages" : [
+         "harvest_threshhold": "grapes_4",
+         "plant_overlay_effect": "/stonehearth/data/effects/plant_crop_overlay_effect/plant_crop_overlay_effect.json"
+      },
+      "stonehearth:growing": {
+         "growth_period": "10h",
+         "growth_stages": [
             {
-               "model_name" : "grapes_1",
-               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.000.name)", 
+               "model_name": "grapes_1",
+               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.000.name)",
                "description": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.000.description)"
             },
             {
-               "model_name" : "grapes_2",
-               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.001.name)", 
+               "model_name": "grapes_2",
+               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.001.name)",
                "description": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.001.description)"
             },
             {
-               "model_name" : "grapes_3",
-               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.002.name)", 
+               "model_name": "grapes_3",
+               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.002.name)",
                "description": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.002.description)."
             },
             {
-               "model_name" : "grapes_4",
-               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.003.name)", 
+               "model_name": "grapes_4",
+               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.003.name)",
                "description": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.003.description)"
-            }, {}, {}, {}, {}, {}, {}, {},
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
             {
-               "model_name" : "grapes_12",
-               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.012.name)", 
+               "model_name": "grapes_12",
+               "name": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.012.name)",
                "description": "i18n(brewerymod:entities.crops.grapes_crop.growth_stage.012.description)"
             }
          ]
       },
-      "stonehearth:material" : {
-         "tags" :  "crop grapes"
+      "stonehearth:material": {
+         "tags": "crop grapes"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(brewerymod:entities.crops.grapes_crop.display_name)",
+         "description": "i18n(brewerymod:entities.crops.grapes_crop.description)",
+         "icon": "file(icon.png)"
       }
    }
 }
