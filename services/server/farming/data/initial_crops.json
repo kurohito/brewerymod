@@ -9,7 +9,8 @@
          "cocoabeans": true,
          "sugarcane": true,
          "tomato": true,
-         "apple_tree": true
+         "apple_tree": true,
+         "mushroom": true
       },
       "stonehearth:kingdoms:northern_alliance": {
          "strawberry": true,
@@ -19,7 +20,12 @@
          "cocoabeans": true,
          "sugarcane": true,
          "tomato": true,
-         "apple_tree": true
+         "apple_tree": true,
+         "mushroom": true
+      },
+      "rayyas_children:kingdoms:rayyas_children": {
+      },
+      "bastioneers:kingdoms:bastioneers": {
       }
    }
 }

@@ -123,6 +123,7 @@
 		"crops:garlic_crop": "file(entities/crops/garlic_crop)",
 		"crops:sugarcane_crop": "file(entities/crops/sugarcane_crop)",
 		"crops:apple_tree_crop": "file(entities/crops/apple_tree_crop)",
+		"crops:mushroom_crop": "file(entities/crops/mushroom_crop)",
 
 		"roses:plant": "file(entities/plants/roses)",
 
@@ -138,12 +139,23 @@
 		"trees:apple:large": "file(entities/trees/apple_tree/large_apple_tree)",
 		"trees:apple:medium": "file(entities/trees/apple_tree/medium_apple_tree)",
 		"trees:apple:sapling": "file(entities/trees/apple_tree/sapling_apple_tree)",
-		"trees:apple:small": "file(entities/trees/apple_tree/small_apple_tree)"
+		"trees:apple:small": "file(entities/trees/apple_tree/small_apple_tree)",
+
+		"consumables:seeds:apple_tree_seeds": "file(entities/consumables/seeds/apple_tree_seeds)",
+		"consumables:seeds:blueberry_seeds": "file(entities/consumables/seeds/blueberry_seeds)",
+		"consumables:seeds:cocoabeans_seeds": "file(entities/consumables/seeds/cocoabeans_seeds)",
+		"consumables:seeds:garlic_seeds": "file(entities/consumables/seeds/garlic_seeds)",
+		"consumables:seeds:grapes_seeds": "file(entities/consumables/seeds/grapes_seeds)",
+		"consumables:seeds:mushroom_seeds": "file(entities/consumables/seeds/mushroom_seeds)",
+		"consumables:seeds:strawberry_seeds": "file(entities/consumables/seeds/strawberry_seeds)",
+		"consumables:seeds:sugarcane_seeds": "file(entities/consumables/seeds/sugarcane_seeds)",
+		"consumables:seeds:tomato_seeds": "file(entities/consumables/seeds/tomato_seeds)"
+
 
 	},
 
 	"mixintos": {
-
+		"stonehearth/data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json": "file(data/gm/campaigns/trader/arcs/encounters/returning_crop_trader_encounter.json)",
 		"stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
 		"stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
 		"stonehearth/jobs/cook/recipes/recipes.json": "file(jobs/cook/recipes/recipes.json)",
@@ -154,8 +166,7 @@
 		"grove_biome/data/biome/grove_generation_data.json": "file(mixins/generation_data.json)",
 		"archipelago_biome/data/biome/archipelago_generation_data.json": "file(mixins/generation_data.json)",
 		"stonehearth/data/biome/temperate_generation_data.json": "file(mixins/generation_data.json)",
-		"stonehearth/data/biome/desert_generation_data.json": "file(mixins/generation_data.json)",
-		"stonehearth/data/commands/plant_tree/plant_tree.json": "file(data/commands/plant_tree/plant_tree.json)"
+		"stonehearth/data/biome/desert_generation_data.json": "file(mixins/generation_data.json)"
 	},
 
 	"overrides": {

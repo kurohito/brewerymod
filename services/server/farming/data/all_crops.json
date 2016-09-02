@@ -4,41 +4,46 @@
 		"strawberry": {
 			"crop_type": "brewerymod:crops:strawberry_crop",
 			"ordinal": 10,
-			"level_requirement": 0
+			"level_requirement": 2
 		},
 		"garlic": {
 			"crop_type": "brewerymod:crops:garlic_crop",
 			"ordinal": 11,
-			"level_requirement": 0
+			"level_requirement": 4
 		},
 		"blueberry": {
 			"crop_type": "brewerymod:crops:blueberry_crop",
 			"ordinal": 12,
-			"level_requirement": 0
+			"level_requirement": 1
 		},
 		"grapes": {
 			"crop_type": "brewerymod:crops:grapes_crop",
 			"ordinal": 13,
-			"level_requirement": 0
+			"level_requirement": 1
 		},
 		"cocoabeans": {
 			"crop_type": "brewerymod:crops:cocoabeans_crop",
 			"ordinal": 14,
-			"level_requirement": 0
+			"level_requirement": 1
 		},
 		"sugarcane": {
 			"crop_type": "brewerymod:crops:sugarcane_crop",
 			"ordinal": 15,
-			"level_requirement": 0
+			"level_requirement": 4
 		},
 		"tomato": {
 			"crop_type": "brewerymod:crops:tomato_crop",
 			"ordinal": 16,
-			"level_requirement": 0
+			"level_requirement": 2
 		},
 		"apple_tree": {
 			"crop_type": "brewerymod:crops:apple_tree_crop",
 			"ordinal": 17,
+			"level_requirement": 2
+		},
+		"mushroom": {
+			"crop_type": "brewerymod:crops:mushroom_crop",
+			"ordinal": 18,
 			"level_requirement": 0
 		}
 	}

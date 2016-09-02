@@ -1,0 +1,96 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(mushroom_4.qb)"
+            ]
+         },
+         "mushroom_1": {
+            "models": [
+               "file(mushroom_1.qb)"
+            ]
+         },
+         "mushroom_2": {
+            "models": [
+               "file(mushroom_2.qb)"
+            ]
+         },
+         "mushroom_3": {
+            "models": [
+               "file(mushroom_3.qb)"
+            ]
+         },
+         "mushroom_4": {
+            "models": [
+               "file(mushroom_4.qb)"
+            ]
+         },
+         "mushroom_12": {
+            "models": [
+               "file(mushroom_12.qb)"
+            ]
+         }
+      },
+      "render_info": {
+         "scale": 0.13
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:crop": {
+         "resource_pairings": {
+            "mushroom_4": "brewerymod:cooking:mushroom",
+            "mushroom_12": ""
+         },
+         "harvest_threshhold": "mushroom_4",
+         "plant_overlay_effect": "stonehearth:effects:plant_crop_overlay_effect"
+      },
+      "stonehearth:growing": {
+         "growth_period": "2d",
+         "growth_stages": [
+            {
+               "model_name": "mushroom_1",
+               "name": "i18n(brewerymod:entities.crops.mushroom_crop.growth_stage.000.name)",
+               "description": "i18n(brewerymod:entities.crops.mushroom_crop.growth_stage.000.description)"
+            },
+            {
+               "model_name": "mushroom_2",
+               "name": "i18n(brewerymod:entities.crops.mushroom_crop.growth_stage.001.name)",
+               "description": "i18n(brewerymod:entities.crops.mushroom_crop.growth_stage.001.description)"
+            },
+            {
+               "model_name": "mushroom_3",
+               "name": "i18n(brewerymod:entities.crops.mushroom_crop.growth_stage.002.name)",
+               "description": "i18n(brewerymod:entities.crops.mushroom_crop.growth_stage.002.description)"
+            },
+            {
+               "model_name": "mushroom_4",
+               "name": "i18n(brewerymod:entities.crops.mushroom_crop.growth_stage.003.name)",
+               "description": "i18n(brewerymod:entities.crops.mushroom_crop.growth_stage.003.description)"
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+               "model_name": "mushroom_12",
+               "name": "i18n(brewerymod:entities.crops.mushroom_crop.growth_stage.012.name)",
+               "description": "i18n(brewerymod:entities.crops.mushroom_crop.growth_stage.012.description)"
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(brewerymod:entities.crops.mushroom_crop.description)",
+         "display_name": "i18n(brewerymod:entities.crops.mushroom_crop.display_name)",
+         "icon": "file(mushroom_crop.png)",
+         "material_tags": "crop mushroom"
+      }
+   }
+}

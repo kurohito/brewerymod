@@ -1,0 +1,53 @@
+{
+   "script_info": {
+      "data": {
+         "rewards": {
+            "brewerymod:consumables:seeds:apple_tree_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "brewerymod:consumables:seeds:blueberry_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "brewerymod:consumables:seeds:cocoabeans_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "brewerymod:consumables:seeds:garlic_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "brewerymod:consumables:seeds:grapes_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "brewerymod:consumables:seeds:mushroom_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "brewerymod:consumables:seeds:strawberry_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "brewerymod:consumables:seeds:sugarcane_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            },
+            "brewerymod:consumables:seeds:tomato_seeds": {
+               "type": "object",
+               "min": 1,
+               "max": 1
+            }
+         }
+      }
+   }
+}

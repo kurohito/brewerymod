@@ -1,12 +1,4 @@
 {
-   "data": {
-      "commands": {
-         "plant_tree": {
-               "display_name": "Plant Tree",
-               "description": "Plant this tree in some dirt."
-      }
-   }
-},
    "ui": {
       "buffs": {
          "blitzed": {
@@ -63,6 +55,46 @@
       "item_categories": {
             "drink": "Drinks"
                },
+      "consumables": {
+         "seeds": {
+            "apple_tree_seeds": {
+               "display_name": "Apple Tree Seeds",
+               "description": "Learn to grow the fruity apple trees."
+            },
+            "blueberry_seeds": {
+               "display_name": "Blueberry Seeds",
+               "description": "Learn to grow blueberries."
+            },
+            "cocoabeans_seeds": {
+               "display_name": "Cocoabeans Seeds",
+               "description": "Learn to grow cocoabeans."
+            },
+            "garlic_seeds": {
+               "display_name": "Garlic Seeds",
+               "description": "Learn to grow garlics."
+            },
+            "grapes_seeds": {
+               "display_name": "Grapes Seeds",
+               "description": "Learn to grow grapes."
+            },
+            "mushroom_seeds": {
+               "display_name": "Mushroom Seeds",
+               "description": "Learn to grow mushrooms."
+            },
+            "strawberry_seeds": {
+               "display_name": "Strawberry Seeds",
+               "description": "Learn to grow strawberries."
+            },
+            "sugarcane_seeds": {
+               "display_name": "Sugarcane Seeds",
+               "description": "Learn to grow sugarcanes."
+            },
+            "tomato_seeds": {
+               "display_name": "Tomato Seeds",
+               "description": "Learn to grow tomatoes."
+            }
+         }
+      },
       "crops": {
          "blueberry_crop": {
             "display_name": "Blueberries",
@@ -165,36 +197,6 @@
                "012": {
                   "name": "Rotten Grapes",
                   "description": "Moldy and disgusting."
-               }
-            }
-         },
-         "rice_crop": {
-            "display_name": "Rice",
-            "description": "Slow growing grain.",
-            "growth_stage": {
-               "004": {
-                  "name": "Mature Rice",
-                  "description": "Ready for Harvest!!."
-               },
-               "001": {
-                  "name": "Rice Sprouts",
-                  "description": "Not usable yet!"
-               },
-               "000": {
-                  "name": "Rice Seedling",
-                  "description": "Rice seedling."
-               },
-               "012": {
-                  "name": "Rotten Rice",
-                  "description": "Moldy and disgusting."
-               },
-               "003": {
-                  "name": "Maturing Rice",
-                  "description": "Not quite ready yet."
-               },
-               "002": {
-                  "name": "Stubby rice",
-                  "description": "Small. Unripe"
                }
             }
          },
@@ -321,6 +323,32 @@
                "002": {
                   "name": "Apple Tree Sprout",
                   "description": "Reach for the sun, little sprout."
+               }
+            }
+         },
+         "mushroom_crop": {
+            "display_name": "Mushroom Sapling",
+            "description": "Its dark in the furnace ... so it has decided to show his hat!",
+            "growth_stage": {
+               "001": {
+                  "name": "Mushroom Seedling",
+                  "description": "It's just getting started."
+               },
+               "003": {
+                  "name": "Mushroom Sapling",
+                  "description": "Ready to be transferred to a bigger plot."
+               },
+               "000": {
+                  "name": "Mushroom Seed",
+                  "description": "Freshly planted mushroom seed"
+               },
+               "002": {
+                  "name": "Mushroom Sprout",
+                  "description": "Reach for the sun, little sprout."
+               },
+               "012": {
+                  "name": "Rotten Mushroom",
+                  "description": "Moldy and disgusting."
                }
             }
          }

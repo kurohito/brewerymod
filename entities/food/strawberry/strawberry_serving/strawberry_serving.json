@@ -25,10 +25,10 @@
       },
       "stonehearth:drink": {
          "stonehearth:sitting_on_chair": {
-            "satisfaction": 220
+            "satisfaction": 40
          },
          "default": {
-            "satisfaction": 200
+            "satisfaction": 35
          }
       },
       "stonehearth:net_worth": {

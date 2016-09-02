@@ -4,7 +4,7 @@
    "components": {
       "stonehearth:commands": {
          "commands": [
-            "file(/data/commands/plant_tree)"
+            "stonehearth:commands:plant_tree"
          ]
       },
       "model_variants": {
