@@ -9,9 +9,6 @@
       "item" : {
          "category" : "food"
       },
-      "stonehearth:material" : {
-         "tags" : "food"
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -24,6 +21,10 @@
       }
    },
    "entity_data" : {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
       "stonehearth:food" : {
          "stonehearth:sitting_on_chair" : {
             "satisfaction" : 200

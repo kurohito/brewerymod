@@ -9,21 +9,20 @@
             ]
          }
       },
-      "stonehearth:material": {
-         "tags": "stockpile_drink drink_container turnip_juice"
-      },
       "mob": {
          "model_origin": { "x": 0, "y": 0, "z": 0.05 }
       },
       "render_info": {
          "scale": 0.045
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 1
       }
    },
    "entity_data": {
       "stonehearth:drink_container": {
          "effect": "fiddle",
-         "drink": "brewerymod:cooking:turnip_juice_serving",
-         "stacks_per_serving": 1
+         "drink": "brewerymod:cooking:turnip_juice_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 12,
@@ -40,7 +39,8 @@
          "description": "i18n(brewerymod:entities.food.turnip_juice.turnip_juice.description)",
          "icon": "file(turnip_juice.png)",
          "is_item": true,
-         "category": "drink"
+         "category": "drink",
+         "material_tags": "stockpile_drink drink_container turnip_juice"
       }
    }
 }

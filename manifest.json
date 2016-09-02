@@ -1,15 +1,15 @@
 {
-    "info": {
-        "name": "brewerymod",
-        "version": 3
-    },
+	"info": {
+		"name": "brewerymod",
+		"version": 3
+	},
 
-    "default_locale" : "en",
+	"default_locale": "en",
 
-    "aliases": {
-		
+	"aliases": {
+
 		"cook:distiller": "file(jobs/cook/distiller/distiller.json)",
-		
+
 		"cooking:mead": "file(entities/food/mead/mead)",
 		"cooking:mead_serving": "file(entities/food/mead/mead_serving)",
 
@@ -40,31 +40,31 @@
 
 		"cooking:tomato": "file(entities/food/tomato/tomato_basket)",
 		"cooking:tomato_serving": "file(entities/food/tomato/tomato_serving)",
-		
+
 		"cooking:carrot_juice": "file(entities/food/carrot_juice/carrot_juice)",
 		"cooking:carrot_juice_serving": "file(entities/food/carrot_juice/carrot_juice_serving)",
-		
+
 		"cooking:corn_mead": "file(entities/food/corn_mead/corn_mead)",
 		"cooking:corn_mead_serving": "file(entities/food/corn_mead/corn_mead_serving)",
-		
+
 		"cooking:fortified_pine_wine": "file(entities/food/fortified_pine_wine/fortified_pine_wine)",
 		"cooking:fortified_pine_wine_serving": "file(entities/food/fortified_pine_wine/fortified_pine_wine_serving)",
-		
+
 		"cooking:frost_berry_wine": "file(entities/food/frost_berry_wine/frost_berry_wine)",
 		"cooking:frost_berry_wine_serving": "file(entities/food/frost_berry_wine/frost_berry_wine_serving)",
-		
+
 		"cooking:golden_mead": "file(entities/food/golden_mead/golden_mead)",
 		"cooking:golden_mead_serving": "file(entities/food/golden_mead/golden_mead_serving)",
-		
+
 		"cooking:pumpkin_spice_mead": "file(entities/food/pumpkin_spice_mead/pumpkin_spice_mead)",
 		"cooking:pumpkin_spice_mead_serving": "file(entities/food/pumpkin_spice_mead/pumpkin_spice_mead_serving)",
-		
+
 		"cooking:turnip_juice": "file(entities/food/turnip_juice/turnip_juice)",
 		"cooking:turnip_juice_serving": "file(entities/food/turnip_juice/turnip_juice_serving)",
 
 		"cooking:blueberry_milkshake": "file(entities/food/blueberry_milkshake/blueberry_milkshake)",
 		"cooking:blueberry_milkshake_serving": "file(entities/food/blueberry_milkshake/blueberry_milkshake_serving)",
-		
+
 		"cooking:blueberry_wine": "file(entities/food/blueberry_wine/blueberry_wine)",
 		"cooking:blueberry_wine_serving": "file(entities/food/blueberry_wine/blueberry_wine_serving)",
 
@@ -110,59 +110,59 @@
 		"cooking:apple_pie": "file(entities/food/apple_pie/apple_pie)",
 		"cooking:apple_pie_serving": "file(entities/food/apple_pie/apple_pie_serving)",
 
-		"containers:empty_barrel"    : "file(entities/containers/empty_barrel)",
-		"mushroom:plant" : "file(entities/plants/mushroom)",
+		"containers:empty_barrel": "file(entities/containers/empty_barrel)",
 
-		"rose_pot": "file(entities/furniture/rose_pot)",
 		"furniture:rose_pot": "file(entities/furniture/rose_pot)",
-		"allium_pot": "file(entities/furniture/allium_pot)",
 		"furniture:allium_pot": "file(entities/furniture/allium_pot)",
 
-		"crops:tomato_crop"   : "file(entities/crops/tomato_crop)",
-		"crops:strawberry_crop"   : "file(entities/crops/strawberry_crop)",
-		"crops:blueberry_crop"   : "file(entities/crops/blueberry_crop)",
-		"crops:grapes_crop"   : "file(entities/crops/grapes_crop)",
-		"crops:cocoabeans_crop"   : "file(entities/crops/cocoabeans_crop)",
-		"crops:garlic_crop"   : "file(entities/crops/garlic_crop)",
-		"crops:sugarcane_crop"   : "file(entities/crops/sugarcane_crop)",
-		"crops:apple_tree_crop"   : "file(entities/crops/apple_tree_crop)",
+		"crops:tomato_crop": "file(entities/crops/tomato_crop)",
+		"crops:strawberry_crop": "file(entities/crops/strawberry_crop)",
+		"crops:blueberry_crop": "file(entities/crops/blueberry_crop)",
+		"crops:grapes_crop": "file(entities/crops/grapes_crop)",
+		"crops:cocoabeans_crop": "file(entities/crops/cocoabeans_crop)",
+		"crops:garlic_crop": "file(entities/crops/garlic_crop)",
+		"crops:sugarcane_crop": "file(entities/crops/sugarcane_crop)",
+		"crops:apple_tree_crop": "file(entities/crops/apple_tree_crop)",
 
-		"roses": "file(entities/decoration/roses)",
-    	"roses:plant" : "file(entities/plants/roses)",
-	
-		"allium": "file(entities/decoration/allium)",
-    	"allium:plant" : "file(entities/plants/allium)",
-	
-		"blueberry": "file(entities/decoration/blueberry)",
-    	"blueberry:plant" : "file(entities/plants/blueberry)",
-	
-		"strawberry": "file(entities/decoration/strawberry)",
-    	"strawberry:plant" : "file(entities/plants/strawberry)",
+		"roses:plant": "file(entities/plants/roses)",
 
-    	"trees:apple:ancient": "file(entities/trees/apple_tree/ancient_apple_tree)",
-      	"trees:apple:large": "file(entities/trees/apple_tree/large_apple_tree)",
-      	"trees:apple:medium": "file(entities/trees/apple_tree/medium_apple_tree)",
-      	"trees:apple:sapling": "file(entities/trees/apple_tree/sapling_apple_tree)",
-      	"trees:apple:small": "file(entities/trees/apple_tree/small_apple_tree)"
+		"allium:plant": "file(entities/plants/allium)",
 
-    },
+		"blueberry:plant": "file(entities/plants/blueberry)",
 
-    "mixintos": {
+		"strawberry:plant": "file(entities/plants/strawberry)",
+
+		"mushroom:plant": "file(entities/plants/mushroom)",
+
+		"trees:apple:ancient": "file(entities/trees/apple_tree/ancient_apple_tree)",
+		"trees:apple:large": "file(entities/trees/apple_tree/large_apple_tree)",
+		"trees:apple:medium": "file(entities/trees/apple_tree/medium_apple_tree)",
+		"trees:apple:sapling": "file(entities/trees/apple_tree/sapling_apple_tree)",
+		"trees:apple:small": "file(entities/trees/apple_tree/small_apple_tree)"
+
+	},
+
+	"mixintos": {
 
 		"stonehearth/services/server/farming/data/initial_crops.json": "file(services/server/farming/data/initial_crops.json)",
 		"stonehearth/services/server/farming/data/all_crops.json": "file(services/server/farming/data/all_crops.json)",
-		"stonehearth/jobs/cook/recipes/recipes.json" : 			       "file(jobs/cook/recipes/recipes.json)",
-		"stonehearth/jobs/carpenter/recipes/recipes.json":  	       "file(jobs/carpenter/recipes/recipes.json)",
-		"stonehearth/ui/data/constants.json" :                  	   "file(ui/data/constants.json)",
-		"stonehearth/scenarios/scenario_index.json":                   "file(mixins/scenario_index.json)",
-        "stonehearth/data/commands/plant_tree/plant_tree.json":        "file(data/commands/plant_tree/plant_tree.json)"
-    },
+		"stonehearth/jobs/cook/recipes/recipes.json": "file(jobs/cook/recipes/recipes.json)",
+		"stonehearth/jobs/carpenter/recipes/recipes.json": "file(jobs/carpenter/recipes/recipes.json)",
+		"stonehearth/ui/data/constants.json": "file(ui/data/constants.json)",
+		"anorien_biome/data/biome/anorien_generation_data.json": "file(mixins/generation_data.json)",
+		"canyon_biome/data/biome/canyon_generation_data.json": "file(mixins/generation_data.json)",
+		"grove_biome/data/biome/grove_generation_data.json": "file(mixins/generation_data.json)",
+		"archipelago_biome/data/biome/archipelago_generation_data.json": "file(mixins/generation_data.json)",
+		"stonehearth/data/biome/temperate_generation_data.json": "file(mixins/generation_data.json)",
+		"stonehearth/data/biome/desert_generation_data.json": "file(mixins/generation_data.json)",
+		"stonehearth/data/commands/plant_tree/plant_tree.json": "file(data/commands/plant_tree/plant_tree.json)"
+	},
 
-    "overrides": {
+	"overrides": {
 
-    	"stonehearth/jobs/cook/recipes/corn_bread_recipe.json" : "brewerymod/jobs/cook/recipes/corn_bread_recipe.json",
-    	"stonehearth/jobs/cook/recipes/peasant_bread_recipe.json" : "brewerymod/jobs/cook/recipes/peasant_bread_recipe.json"
+		"stonehearth/jobs/cook/recipes/corn_bread_recipe.json": "brewerymod/jobs/cook/recipes/corn_bread_recipe.json",
+		"stonehearth/jobs/cook/recipes/peasant_bread_recipe.json": "brewerymod/jobs/cook/recipes/peasant_bread_recipe.json"
 
-    }
-	
+	}
+
 }

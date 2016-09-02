@@ -1,0 +1,101 @@
+{
+   "landscape": {
+      "placement_table": {
+         "brewerymod:allium:plant": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.2,
+               "exclusion_radius": 12
+            }
+         },
+         "brewerymod:mushroom:plant": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 3,
+               "item_density": 0.2,
+               "exclusion_radius": 10
+            }
+         },
+         "brewerymod:roses:plant": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 2,
+               "item_density": 0.3,
+               "exclusion_radius": 14
+            }
+         },
+         "brewerymod:blueberry:plant": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 4,
+               "item_density": 0.1,
+               "exclusion_radius": 5
+            }
+         },
+         "brewerymod:strawberry:plant": {
+            "placement_type": "dense",
+            "parameters": {
+               "grid_multiple": 4,
+               "item_density": 0.1,
+               "exclusion_radius": 9
+            }
+         }
+      },
+      "scattered": {
+         "plants": {
+            "__comment": "for example, a small probability with a large density would be more clustered than a large probability with small density.",
+            "weights": {
+               "plains": {
+                  "1": {
+                     "brewerymod:allium:plant": 3,
+                     "brewerymod:mushroom:plant": 2,
+                     "brewerymod:roses:plant": 3,
+                     "brewerymod:blueberry:plant": 1,
+                     "brewerymod:strawberry:plant": 1
+                  }
+               },
+               "foothills": {
+                  "1": {
+                     "brewerymod:allium:plant": 5,
+                     "brewerymod:mushroom:plant": 3,
+                     "brewerymod:roses:plant": 1,
+                     "brewerymod:blueberry:plant": 1,
+                     "brewerymod:strawberry:plant": 1
+                  },
+                  "2": {
+                     "brewerymod:allium:plant": 2,
+                     "brewerymod:mushroom:plant": 3,
+                     "brewerymod:roses:plant": 1,
+                     "brewerymod:blueberry:plant": 1,
+                     "brewerymod:strawberry:plant": 1
+                  }
+               },
+               "mountains": {
+                  "1": {
+                     "brewerymod:allium:plant": 2,
+                     "brewerymod:mushroom:plant": 3,
+                     "brewerymod:roses:plant": 1,
+                     "brewerymod:blueberry:plant": 1,
+                     "brewerymod:strawberry:plant": 1
+                  },
+                  "2": {
+                     "brewerymod:allium:plant": 2,
+                     "brewerymod:mushroom:plant": 5,
+                     "brewerymod:roses:plant": 1,
+                     "brewerymod:blueberry:plant": 1,
+                     "brewerymod:strawberry:plant": 1
+                  },
+                  "3": {
+                     "brewerymod:allium:plant": 2,
+                     "brewerymod:mushroom:plant": 2,
+                     "brewerymod:roses:plant": 1,
+                     "brewerymod:blueberry:plant": 1,
+                     "brewerymod:strawberry:plant": 1
+                  }
+               }
+            }
+         }
+      }
+   }
+}

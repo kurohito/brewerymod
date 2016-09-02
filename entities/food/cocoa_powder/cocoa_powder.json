@@ -9,9 +9,6 @@
             ]
          }
       },
-      "stonehearth:material": {
-         "tags": "resource cocoa_powder cooking_ingredient stockpile_cooking_ingredient"
-      },
       "mob": {
          "model_origin": { "x": 0, "y": 0, "z": 0.05 }
       }
@@ -32,7 +29,8 @@
          "description": "i18n(brewerymod:entities.food.cocoa_powder.description)",
          "icon": "file(cocoa_powder.png)",
          "is_item": true,
-         "category": "food"
+         "category": "food",
+         "material_tags": "resource cocoa_powder cooking_ingredient stockpile_cooking_ingredient"
       }
    }
 }

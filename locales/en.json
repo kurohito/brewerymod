@@ -61,7 +61,7 @@
    },
    "entities": {
       "item_categories": {
-            "drinks": "Getränke"
+            "drink": "Drinks"
                },
       "crops": {
          "blueberry_crop": {
@@ -692,23 +692,28 @@
       "plants": {
          "allium": {
             "display_name": "Wild Allium",
-            "description": "A harvestable wild flower"
+            "description": "A harvestable wild flower",
+            "unripe_description": "Unripe Allium"
          },
          "blueberry": {
             "display_name": "Wild Blueberries",
-            "description": "Harvestable wild blueberries"
+            "description": "Harvestable wild blueberries",
+            "unripe_description": "Unripe Blueberries"
          },
          "mushroom": {
             "display_name": "Wild Mushroom",
-            "description": "A harvestable wild mushroom"
+            "description": "A harvestable wild mushroom",
+            "unripe_description": "Unripe Mushroom"
          },
          "roses": {
             "display_name": "Wild Roses",
-            "description": "A harvestable wild flower"
+            "description": "A harvestable wild flower",
+            "unripe_description": "Unripe Roses"
          },
          "strawberry": {
             "display_name": "Wild Strawberries",
-            "description": "Harvestable wild strawberries"
+            "description": "Harvestable wild strawberries",
+            "unripe_description": "Unripe Strawberries"
          }
       },
       "trees": {

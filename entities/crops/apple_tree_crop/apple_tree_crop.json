@@ -65,16 +65,14 @@
                "description": "i18n(brewerymod:entities.crops.apple_tree_crop.growth_stage.003.description)"
             }
          ]
-      },
-      "stonehearth:material": {
-         "tags": "crop apple_tree_sapling"
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
          "description": "i18n(brewerymod:entities.crops.apple_tree_crop.description)",
+         "display_name": "i18n(brewerymod:entities.crops.apple_tree_crop.display_name)",
          "icon": "file(apple_tree_crop.png)",
-         "display_name": "i18n(brewerymod:entities.crops.apple_tree_crop.display_name)"
+         "material_tags": "crop apple_tree_sapling"
       }
    }
 }

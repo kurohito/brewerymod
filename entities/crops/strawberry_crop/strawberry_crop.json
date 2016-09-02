@@ -80,16 +80,14 @@
                "description": "i18n(brewerymod:entities.crops.strawberry_crop.growth_stage.012.description)."
             }
          ]
-      },
-      "stonehearth:material": {
-         "tags": "crop strawberry"
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
          "display_name": "i18n(brewerymod:entities.crops.strawberry_crop.display_name)",
          "description": "i18n(brewerymod:entities.crops.strawberry_crop.description)",
-         "icon": "file(icon.png)"
+         "icon": "file(icon.png)",
+         "material_tags": "crop strawberry"
       }
    }
 }

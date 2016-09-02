@@ -1,31 +1,38 @@
 {
    "type": "entity",
+   "mixins": "file(strawberry_ghost.json)",
    "components": {
-      "render_info": {
-         "scale": 0.2
-      },
       "model_variants": {
-         "default": {
+         "depleted": {
             "models": [
-               "file(../../decoration/strawberry/strawberry.qb)"
+               "file(strawberry_empty.qb)"
             ]
          }
       },
-      "stonehearth:resource_node": {
-         "task_group_name": "stonehearth:task_group:harvest",
-         "harvest_overlay_effect": "/stonehearth/data/effects/harvest_plant_overlay_effect",
-         "description": "harvest_plant",
-         "resource": "brewerymod:cooking:strawberry"
+      "stonehearth:renewable_resource_node": {
+         "category": "harvest",
+         "resource": "brewerymod:cooking:strawberry",
+         "renewal_time": "12h",
+         "unripe_description": "i18n(brewerymod:entities.plants.strawberry.unripe_description)",
+         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect"
       },
-      "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 },
-         "mob_collision_type": "clutter"
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(strawberry_iconic.json)",
+         "ghost_form": "file(strawberry_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": true
       }
    },
    "entity_data": {
-      "stonehearth:catalog": {
-         "display_name": "i18n(brewerymod:entities.plants.strawberry.display_name)",
-         "description": "i18n(brewerymod:entities.plants.strawberry.description)"
+      "stonehearth:net_worth": {
+         "value_in_gold": 1,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
       }
    }
 }

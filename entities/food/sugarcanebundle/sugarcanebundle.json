@@ -2,9 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "stonehearth:material": {
-         "tags": "plant sugarcane grain cooking_ingredient stockpile_cooking_ingredient"
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -32,7 +29,8 @@
          "description": "i18n(brewerymod:entities.food.sugarcanebundle.description)",
          "icon": "file(sugarcanebundle.png)",
          "is_item": true,
-         "category": "food"
+         "category": "food",
+         "material_tags": "plant sugarcane grain cooking_ingredient stockpile_cooking_ingredient"
       }
    }
 }

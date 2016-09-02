@@ -19,18 +19,17 @@
             ]
          }
       },
-      "stonehearth:material": {
-         "tags": "resource vegetable food_container grapes stockpile_raw_food"
-      },
       "mob": {
          "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 5
       }
    },
    "entity_data": {
       "stonehearth:food_container": {
          "effect": "fiddle",
-         "food": "brewerymod:cooking:grapes_serving",
-         "stacks_per_serving": 5
+         "food": "brewerymod:cooking:grapes_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 8,
@@ -47,7 +46,8 @@
          "description": "i18n(brewerymod:entities.food.grapes.grapes_basket.description)",
          "icon": "file(grapes_basket.png)",
          "is_item": true,
-         "category": "food"
+         "category": "food",
+         "material_tags": "resource vegetable food_container grapes stockpile_raw_food"
       }
    }
 }

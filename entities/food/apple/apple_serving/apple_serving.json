@@ -2,9 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "stonehearth:material": {
-         "tags": "food"
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -14,6 +11,10 @@
       }
    },
    "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
             "satisfaction": 50
@@ -36,8 +37,8 @@
          "description": "i18n(brewerymod:entities.food.apple.apple_serving.description)",
          "icon": "file(apple_serving.png)",
          "display_name": "i18n(brewerymod:entities.food.apple.apple_serving.display_name)",
-         "is_item": true,
-         "category": "food"
+         "category": "food",
+         "material_tags": "food"
       }
    }
 }

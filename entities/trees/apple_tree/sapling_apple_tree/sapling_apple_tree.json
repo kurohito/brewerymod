@@ -18,9 +18,6 @@
          "placeable_on_ground": true,
          "hide_placement_ui": true
       },
-      "unit_info": {
-         "description": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_iconic.description)"
-      },
       "stonehearth:material": {
          "tags": "plant tree stockpile_plan"
       },
@@ -60,6 +57,9 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "description": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_iconic.description)"
       }
    }
 }

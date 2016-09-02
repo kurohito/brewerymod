@@ -2,10 +2,8 @@
    "mixins": "stonehearth:mixins:food_decay",
    "type": "entity",
    "components": {
-      "item": {
-         "category" : "food",
-         "stacks" : 3,
-         "max_stacks" : 3
+       "stonehearth:stacks": {
+         "max_stacks": 1
       },
       "model_variants": {
          "default": {
@@ -29,8 +27,17 @@
    "entity_data" : {
       "stonehearth:food_container" : {
          "effect": "fiddle",
-         "food": "extendedfarming:food:blueberry:amazing_blueberry_serving",
-         "stacks_per_serving": 1
+         "food": "extendedfarming:food:blueberry:amazing_blueberry_serving"
       }      
+   },
+   "stonehearth:catalog": {
+         "display_name": "i18n(brewerymod:entities.food.blueberry.amazing_blueberry_basket.display_name)",
+         "description": "i18n(brewerymod:entities.food.blueberry.amazing_blueberry_basket.description)",
+         "icon": "file(amazing_blueberry_basket.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": "food_container fruit blueberry vegetarian stockpile_raw_food"
+      }
    }
+}
 }

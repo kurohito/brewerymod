@@ -2,9 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "stonehearth:material": {
-         "tags": "food"
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -14,6 +11,10 @@
       }
    },
    "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
             "satisfaction": 140
@@ -24,7 +25,9 @@
       },
       "stonehearth:catalog": {
          "display_name": "i18n(brewerymod:entities.food.pumpkin_spice_mead.pumpkin_spice_mead_serving.display_name)",
-         "description": "i18n(brewerymod:entities.food.pumpkin_spice_mead.pumpkin_spice_mead_serving.description)"
+         "description": "i18n(brewerymod:entities.food.pumpkin_spice_mead.pumpkin_spice_mead_serving.description)",
+         "category": "food",
+         "material_tags": "food"
       }
    }
 }

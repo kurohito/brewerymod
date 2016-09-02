@@ -9,9 +9,6 @@
             ]
          }
       },
-      "stonehearth:material": {
-         "tags": "resource sugar cooking_ingredient stockpile_cooking_ingredient"
-      },
       "mob": {
          "model_origin": { "x": 0, "y": 0, "z": 0.05 }
       }
@@ -32,7 +29,8 @@
          "icon": "file(sugar.png)",
          "display_name": "i18n(brewerymod:entities.food.sugar.display_name)",
          "is_item": true,
-         "category": "food"
+         "category": "food",
+         "material_tags": "resource sugar cooking_ingredient stockpile_cooking_ingredient"
       }
    }
 }

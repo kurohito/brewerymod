@@ -1,31 +1,38 @@
 {
-   "type": "entity",
-   "components": {
-      "render_info": {
-         "scale": 0.2
-      },
-      "model_variants": {
-         "default": {
-            "models": [
-               "file(../../decoration/allium/allium.qb)"
-            ]
-         }
-      },
-      "stonehearth:resource_node": {
-         "task_group_name": "stonehearth:task_group:harvest",
-         "harvest_overlay_effect": "/stonehearth/data/effects/harvest_plant_overlay_effect",
-         "description": "harvest_plant",
-         "resource": "brewerymod:furniture:allium_pot"
-      },
-      "mob": {
-         "model_origin": { "x": 0, "y": 0, "z": 0 },
-         "mob_collision_type": "clutter"
-      }
-   },
-   "entity_data": {
-      "stonehearth:catalog": {
-         "display_name": "i18n(brewerymod:entities.plants.allium.display_name)",
-         "description": "i18n(brewerymod:entities.plants.allium.description)"
-      }
-   }
+	"type": "entity",
+	"mixins": "file(allium_ghost.json)",
+	"components": {
+		"model_variants": {
+			"depleted": {
+				"models": [
+					"file(allium_empty.qb)"
+				]
+			}
+		},
+		"stonehearth:renewable_resource_node": {
+			"task_group_name": "stonehearth:task_group:harvest",
+			"resource": "brewerymod:furniture:allium_pot",
+			"renewal_time": "90h",
+			"unripe_description": "i18n(brewerymod:entities.plants.allium.unripe_description)",
+			"harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect"
+		},
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(allium_iconic.json)",
+         "ghost_form": "file(allium_ghost.json)",
+         "placeable_on_ground": true,
+         "hide_undeploy_ui": true
+      	}
+   	},
+	"entity_data": {
+		"stonehearth:net_worth": {
+			"value_in_gold": 1,
+			"rarity": "common",
+			"shop_info": {
+				"buyable": false,
+				"sellable": true,
+				"shopkeeper_level": 1,
+				"shopkeeper_type": "caravan"
+			}
+		}
+	}
 }

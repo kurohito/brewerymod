@@ -2,17 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(brewerymod:entities.food.cocoabeans.cocoabeans_serving.display_name)",
-         "description": "i18n(brewerymod:entities.food.cocoabeans.cocoabeans_serving.description)",
-         "icon": "file(cocoabeans_serving.png)"
-      },
-      "item": {
-         "category": "food"
-      },
-      "stonehearth:material": {
-         "tags": "food"
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -22,6 +11,10 @@
       }
    },
    "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": true
+      },
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
             "satisfaction": 2
@@ -39,6 +32,12 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(brewerymod:entities.food.cocoabeans.cocoabeans_serving.display_name)",
+         "description": "i18n(brewerymod:entities.food.cocoabeans.cocoabeans_serving.description)",
+         "category": "food",
+         "material_tags": "food"
       }
    }
 }

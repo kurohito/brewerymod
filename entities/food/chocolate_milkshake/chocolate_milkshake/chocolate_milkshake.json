@@ -9,21 +9,20 @@
             ]
          }
       },
-      "stonehearth:material": {
-         "tags": "refined drink_container chocolate_milkshake"
-      },
       "mob": {
          "model_origin": { "x": 0, "y": 0, "z": 0.05 }
       },
       "render_info": {
          "scale": 0.045
+      },
+      "stonehearth:stacks": {
+         "max_stacks": 1
       }
    },
    "entity_data": {
       "stonehearth:drink_container": {
          "effect": "fiddle",
-         "food": "brewerymod:cooking:chocolate_milkshake_serving",
-         "stacks_per_serving": 1
+         "food": "brewerymod:cooking:chocolate_milkshake_serving"
       },
       "stonehearth:net_worth": {
          "value_in_gold": 9,
@@ -40,7 +39,8 @@
          "description": "i18n(brewerymod:entities.food.chocolate_milkshake.chocolate_milkshake.description)",
          "icon": "file(chocolate_milkshake.png)",
          "is_item": true,
-         "category": "drink"
+         "category": "drink",
+         "material_tags": "refined drink_container chocolate_milkshake"
       }
    }
 }

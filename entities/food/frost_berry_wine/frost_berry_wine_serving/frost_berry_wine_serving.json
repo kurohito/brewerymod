@@ -2,9 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "stonehearth:material": {
-         "tags": "drink"
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -14,6 +11,10 @@
       }
    },
    "entity_data": {
+      "stonehearth:item": {
+         "category": "drink",
+         "destroy_on_uncarry": true
+      },
       "stonehearth:drink": {
          "stonehearth:sitting_on_chair": {
             "satisfaction": 240
@@ -24,7 +25,9 @@
       },
       "stonehearth:catalog": {
          "display_name": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine_serving.display_name)",
-         "description": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine_serving.description)"
+         "description": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine_serving.description)",
+         "category": "drink",
+         "material_tags": "drink"
       }
    }
 }
