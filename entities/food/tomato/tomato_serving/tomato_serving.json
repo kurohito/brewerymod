@@ -12,7 +12,7 @@
    },
    "entity_data": {
       "stonehearth:item": {
-         "category": "food",
+         "category": "food, drink",
          "destroy_on_uncarry": true
       },
       "stonehearth:food": {
@@ -21,6 +21,14 @@
          },
          "default": {
             "satisfaction": 30
+         }
+      },
+      "stonehearth:drink": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 40
+         },
+         "default": {
+            "satisfaction": 35
          }
       },
       "stonehearth:net_worth": {
@@ -37,8 +45,8 @@
          "display_name": "i18n(brewerymod:entities.food.tomato.tomato_serving.display_name)",
          "description": "i18n(brewerymod:entities.food.tomato.tomato_serving.description).",
          "icon": "file(tomato_serving.png)",
-         "category": "food",
-         "material_tags": "food"
+         "category": "food, drink",
+         "material_tags": "food, drink"
       }
    }
 }

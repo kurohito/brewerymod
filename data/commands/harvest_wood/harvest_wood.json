@@ -1,0 +1,16 @@
+{
+   "type" : "command",
+
+   "name": "harvest_wood",
+   "tooltip" : "i18n(brewerymod:data.commands.harvest_wood.tooltip)",
+   "display_name": "i18n(brewerymod:data.commands.harvest_wood.display_name)",
+   "description" : "i18n(brewerymod:data.commands.harvest_wood.description)",
+   "default_enabled": true,
+   "ordinal": 5,  
+   "icon": "file(harvest_wood.png)",
+   "action": "call",
+   "function": "stonehearth:permanently_harvest_entity",
+   "args": [
+      "{{self}}"
+   ]
+}

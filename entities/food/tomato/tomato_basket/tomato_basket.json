@@ -31,6 +31,10 @@
          "effect": "fiddle",
          "food": "brewerymod:cooking:tomato_serving"
       },
+      "stonehearth:drink_container": {
+         "effect": "fiddle",
+         "drink": "brewerymod:cooking:tomato_serving"
+      },
       "stonehearth:net_worth": {
          "value_in_gold": 6,
          "rarity": "common",
@@ -46,8 +50,8 @@
          "description": "i18n(brewerymod:entities.food.tomato.tomato_basket.description)",
          "icon": "file(tomato_basket.png)",
          "is_item": true,
-         "category": "food",
-         "material_tags": "resource vegetable food_container tomato stockpile_raw_food"
+         "category": "food, drink",
+         "material_tags": "resource vegetable food_container tomato drink_container"
       }
    }
 }

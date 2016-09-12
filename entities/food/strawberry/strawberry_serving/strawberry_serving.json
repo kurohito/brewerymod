@@ -12,7 +12,7 @@
    },
    "entity_data": {
       "stonehearth:item": {
-         "category": "food",
+         "category": "food, drink",
          "destroy_on_uncarry": true
       },
       "stonehearth:food": {
@@ -45,8 +45,8 @@
          "display_name": "i18n(brewerymod:entities.food.strawberry.strawberry_serving.display_name)",
          "description": "i18n(brewerymod:entities.food.strawberry.strawberry_serving.description)",
          "icon": "file(strawberry_serving.png)",
-         "category": "food",
-         "material_tags": "food"
+         "category": "food, drink",
+         "material_tags": "food, drink"
       }
    }
 }

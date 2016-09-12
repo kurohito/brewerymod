@@ -2,6 +2,11 @@
    "mixins": "stonehearth:mixins:tree",
    "type": "entity",
    "components": {
+      "stonehearth:commands": {
+         "commands": [
+            "file(/data/commands/harvest_wood)"
+         ]
+      },
       "model_variants": {
          "default": {
             "models": [
@@ -19,9 +24,34 @@
       "stonehearth:renewable_resource_node": {
          "category": "harvest",
          "resource": "brewerymod:cooking:apple",
-         "renewal_time": "14h",
+         "renewal_time": "15h",
          "unripe_description": "i18n(brewerymod:entities.trees.apple_tree.unripe_apple_tree.description)",
-         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect"
+         "harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
+         "resource_loot_table": {
+         	"entries": {
+				"default": {
+						"num_rolls": {
+                  			"min": 0,
+                  			"max": 2
+               		},
+					"items": {
+						"apple": {
+							"uri": "brewerymod:cooking:apple",
+							"weight": 2
+							},
+						"log": {
+							"uri": "stonehearth:resources:wood:oak_log",
+							"weight": 1.5
+							}
+						}
+					}
+				}
+			}
+		},
+      "stonehearth:resource_node": {
+         "resource": "stonehearth:resources:wood:oak_log",
+         "command": "harvest_wood",
+         "durability": 4
       },
       "mob": {
          "model_origin": { "x": -0.5, "y": 0, "z": 0.5 },
