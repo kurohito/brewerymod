@@ -23,6 +23,14 @@
             "satisfaction": 45
          }
       },
+      "stonehearth:drink": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 14
+         },
+         "default": {
+            "satisfaction": 7
+         }
+      },
       "stonehearth:net_worth": {
          "value_in_gold": 1,
          "rarity": "common",
@@ -38,7 +46,7 @@
          "icon": "file(apple_serving.png)",
          "display_name": "i18n(brewerymod:entities.food.apple.apple_serving.display_name)",
          "category": "food",
-         "material_tags": "food"
+         "material_tags": "food, drink"
       }
    }
 }

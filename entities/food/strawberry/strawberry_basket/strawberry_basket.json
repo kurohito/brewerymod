@@ -50,7 +50,7 @@
          "description": "i18n(brewerymod:entities.food.strawberry.strawberry_basket.description)",
          "icon": "file(strawberry_basket.png)",
          "is_item": true,
-         "category": "food, drink",
+         "category": "food",
          "material_tags": "food_container raw_food fruit strawberry vegetarian stockpile_raw_food drink_container"
       }
    }

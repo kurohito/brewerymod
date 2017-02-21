@@ -21,6 +21,9 @@
       },
       "mob": {
          "model_origin": { "x": 0, "y": 0, "z": 0.05 }
+      },
+       "stonehearth:stacks": {
+         "max_stacks": 5
       }
    },
    "entity_data": {
@@ -28,8 +31,12 @@
          "effect": "fiddle",
          "food": "brewerymod:cooking:apple_serving"
       },
+      "stonehearth:drink_container": {
+         "effect": "fiddle",
+         "drink": "brewerymod:cooking:apple_serving"
+      },
       "stonehearth:net_worth": {
-         "value_in_gold": 25,
+         "value_in_gold": 5,
          "rarity": "common",
          "shop_info": {
             "buyable": true,
@@ -44,7 +51,7 @@
          "display_name": "i18n(brewerymod:entities.food.apple.apple_basket.display_name)",
          "is_item": true,
          "category": "food",
-         "material_tags": "resource fruit food_container apple stockpile_raw_food"
+         "material_tags": "fruit food_container apple stockpile_raw_food vegetarian drink_container"
       }
    }
 }

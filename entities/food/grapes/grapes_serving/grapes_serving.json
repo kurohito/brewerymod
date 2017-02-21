@@ -12,7 +12,7 @@
    },
    "entity_data": {
       "stonehearth:item": {
-         "category": "food, drink",
+         "category": "food",
          "destroy_on_uncarry": true
       },
       "stonehearth:food": {
@@ -45,7 +45,7 @@
          "display_name": "i18n(brewerymod:entities.food.grapes.grapes_serving.display_name)",
          "description": "i18n(brewerymod:entities.food.grapes.grapes_serving.description)",
          "icon": "file(grapes_serving.png)",
-         "category": "food, drink",
+         "category": "food",
          "material_tags": "food, drink"
       }
    }

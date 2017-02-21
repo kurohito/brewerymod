@@ -40,7 +40,7 @@
          "icon": "file(fortified_wine.png)",
          "is_item": true,
          "category": "drink",
-         "material_tags": "stockpile_prepared_food drink_container fortified_wine"
+         "material_tags": "stockpile_drink drink_container fortified_wine"
       }
    }
 }

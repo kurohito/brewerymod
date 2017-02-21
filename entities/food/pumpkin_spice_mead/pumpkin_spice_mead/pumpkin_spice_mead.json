@@ -20,7 +20,7 @@
       }
    },
    "entity_data": {
-      "stonehearth:food_container": {
+      "stonehearth:drink_container": {
          "effect": "fiddle",
          "food": "brewerymod:cooking:pumpkin_spice_mead_serving"
       },
@@ -40,7 +40,7 @@
          "icon": "file(pumpkin_spice_mead.png)",
          "is_item": true,
          "category": "food",
-         "material_tags": "resource food_container pumpkin_spice_mead"
+         "material_tags": "resource drink_container pumpkin_spice_mead"
       }
    }
 }

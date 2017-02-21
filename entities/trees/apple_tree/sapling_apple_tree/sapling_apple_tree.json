@@ -5,21 +5,11 @@
       "file(sapling_apple_tree_ghost.json)"
    ],
    "components": {
-      "model_variants": {
-         "default": {
-            "models": [
-               "file(sapling_apple_tree.qb)"
-            ]
-         }
-      },
       "stonehearth:entity_forms": {
          "iconic_form": "file(sapling_apple_tree_iconic.json)",
          "ghost_form": "file(sapling_apple_tree_ghost.json)",
          "placeable_on_ground": true,
          "hide_placement_ui": true
-      },
-      "stonehearth:material": {
-         "tags": "plant tree stockpile_plan"
       },
       "stonehearth:evolve": {},
       "stonehearth:resource_node": {
@@ -59,7 +49,9 @@
          }
       },
       "stonehearth:catalog": {
-         "description": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_iconic.description)"
+         "description": "i18n(brewerymod:entities.trees.apple_tree.sapling_apple_tree.sapling_apple_tree_iconic.description)",
+         "category": "plants",
+         "material_tags": "plant tree stockpile_plant"
       }
    }
 }
