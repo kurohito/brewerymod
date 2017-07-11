@@ -51,7 +51,7 @@
          "icon": "file(tomato_basket.png)",
          "is_item": true,
          "category": "food, drink",
-         "material_tags": "resource vegetable food_container tomato drink_container"
+         "material_tags": "food_container raw_food vegetable tomato vegetarian stockpile_raw_food drink_container"
       }
    }
 }
