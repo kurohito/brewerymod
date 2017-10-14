@@ -21,7 +21,8 @@
          },
          "default": {
             "satisfaction": 200
-         }
+         },
+         "quality": 3
       },
       "stonehearth:catalog": {
          "display_name": "i18n(brewerymod:entities.food.frost_berry_wine.frost_berry_wine_serving.display_name)",

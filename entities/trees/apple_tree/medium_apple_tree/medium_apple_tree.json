@@ -23,6 +23,7 @@
       },
       "stonehearth:renewable_resource_node": {
          "category": "harvest",
+         "show_autoharvest_ui": true,
          "resource": "brewerymod:cooking:apple",
          "renewal_time": "15h",
          "unripe_description": "i18n(brewerymod:entities.trees.apple_tree.unripe_apple_tree.description)",

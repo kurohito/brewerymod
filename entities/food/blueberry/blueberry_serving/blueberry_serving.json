@@ -15,13 +15,15 @@
          "category": "food",
          "destroy_on_uncarry": true
       },
+      "stonehearth:activity_name": "eating_berries",
       "stonehearth:food": {
          "stonehearth:sitting_on_chair": {
             "satisfaction": 40
          },
          "default": {
             "satisfaction": 35
-         }
+         },
+         "quality": 3
       },
       "stonehearth:drink": {
          "stonehearth:sitting_on_chair": {
@@ -29,7 +31,8 @@
          },
          "default": {
             "satisfaction": 35
-         }
+         },
+         "quality": 3
       },
       "stonehearth:net_worth": {
          "value_in_gold": 1,

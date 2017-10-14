@@ -21,7 +21,8 @@
          },
          "default": {
             "satisfaction": 1
-         }
+         },
+         "quality": 3
       },
       "stonehearth:net_worth": {
          "value_in_gold": 1,

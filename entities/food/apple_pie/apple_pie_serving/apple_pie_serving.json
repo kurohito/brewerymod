@@ -21,7 +21,8 @@
          },
          "default": {
             "satisfaction": 200
-         }
+         },
+         "quality": 6
       },
       "stonehearth:catalog": {
          "description": "i18n(brewerymod:entities.food.apple_pie.apple_pie_serving.description)",

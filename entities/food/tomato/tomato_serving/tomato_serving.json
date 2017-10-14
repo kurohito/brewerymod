@@ -21,7 +21,8 @@
          },
          "default": {
             "satisfaction": 30
-         }
+         },
+         "quality": 3
       },
       "stonehearth:drink": {
          "stonehearth:sitting_on_chair": {
@@ -29,7 +30,8 @@
          },
          "default": {
             "satisfaction": 35
-         }
+         },
+         "quality": 3
       },
       "stonehearth:net_worth": {
          "value_in_gold": 1,

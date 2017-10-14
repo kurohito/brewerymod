@@ -21,7 +21,8 @@
          },
          "default": {
             "satisfaction": 100
-         }
+         },
+         "quality": 5
       },
       "stonehearth:catalog": {
          "display_name": "i18n(brewerymod:entities.food.chocolate_milkshake.chocolate_milkshake_serving.display_name)",

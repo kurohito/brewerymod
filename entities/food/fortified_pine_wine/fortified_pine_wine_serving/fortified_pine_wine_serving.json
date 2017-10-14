@@ -21,7 +21,8 @@
          },
          "default": {
             "satisfaction": 100
-         }
+         },
+         "quality": 4
       },
       "stonehearth:catalog": {
          "description": "i18n(brewerymod:entities.food.fortified_pine_wine.fortified_pine_wine_serving.description)",

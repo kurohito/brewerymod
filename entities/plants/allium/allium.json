@@ -11,10 +11,11 @@
 		},
 		"stonehearth:renewable_resource_node": {
 			"task_group_name": "stonehearth:task_group:harvest",
+			"show_autoharvest_ui": true,
 			"resource": "brewerymod:furniture:allium_pot",
 			"renewal_time": "90h",
 			"unripe_description": "i18n(brewerymod:entities.plants.allium.unripe_description)",
-			"harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect"
+			"harvest_overlay_effect": "stonehearth:effects:harvest_plant_overlay_effect",
 		},
       "stonehearth:entity_forms": {
          "iconic_form": "file(allium_iconic.json)",

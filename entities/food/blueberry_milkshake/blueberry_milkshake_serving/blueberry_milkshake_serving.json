@@ -21,7 +21,8 @@
          },
          "default": {
             "satisfaction": 200
-         }
+         },
+         "quality": 6
       },
       "stonehearth:catalog": {
          "display_name": "i18n(brewerymod:entities.food.blueberry_milkshake.blueberry_milkshake_serving.display_name)",

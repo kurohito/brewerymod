@@ -11,6 +11,7 @@
       },
       "stonehearth:renewable_resource_node": {
          "category": "harvest",
+         "show_autoharvest_ui": true,
          "resource": "brewerymod:cooking:strawberry",
          "renewal_time": "12h",
          "unripe_description": "i18n(brewerymod:entities.plants.strawberry.unripe_description)",

@@ -21,7 +21,8 @@
          },
          "default": {
             "satisfaction": 20
-         }
+         },
+         "quality": 3
       },
       "stonehearth:catalog": {
          "display_name": "i18n(brewerymod:entities.food.turnip_juice.turnip_juice_serving.display_name)",

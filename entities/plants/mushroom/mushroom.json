@@ -11,6 +11,7 @@
       },
       "stonehearth:renewable_resource_node": {
          "category": "harvest",
+         "show_autoharvest_ui": true,
          "resource": "brewerymod:cooking:mushroom",
          "renewal_time": "41h",
          "unripe_description": "i18n(brewerymod:entities.plants.mushroom.unripe_description)",
